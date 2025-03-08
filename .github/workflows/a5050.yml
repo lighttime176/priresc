@@ -32,7 +32,7 @@ jobs:
       run: cd abcd/py/5050 && ls
     - name: Run python code
       run: |
-        python a5050.py
+        python abcd/py/5050/a5050.py
       env:
         APP_ID: ${{ secrets.APP_ID }}
         ydyp: ${{ secrets.ydyp }}
