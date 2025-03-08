@@ -31,7 +31,7 @@ jobs:
     - run: pip install -r requirements.txt
     - name: Run python code
       run: |
-        python a1416.py
+        python abcd/py/a1416.py
       env:
         APP_ID: ${{ secrets.APP_ID }}
         ydyp: ${{ secrets.ydyp }}
