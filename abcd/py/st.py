@@ -464,27 +464,6 @@ def f4(tab,browser):
     logger.info(f'----大米小米{masked_phone}----：{response.json()}')
     browser.quit()  # 关闭浏览器
 
-def g4(tab,browser):
-    tab.get('https://login.sina.com.cn/signup/signup?entry=blog&srcuid=2037345837&src=blogicp')
-    ele = tab.ele('css=#phone-form > div:nth-child(3) > div.ipt > input')
-    ele.input(phonenum)
-    ele = tab.ele('css=#phone-form > div:nth-child(4) > div.ipt > input')
-    ele.input('abcd1234!aa')
-    ele = tab.ele('css=#phone-form > div.info_list.clearfix.fav_tags > div.ipt.checklst > label:nth-child(5) > input')
-    ele.click()
-    tab.listen.start(targets='https://login.sina.com.cn/signup/ajspn')
-    ele = tab.ele('css=#phone-form > div:nth-child(6) > div.ipt.active > a > span')
-    time.sleep(2)
-    ele.click()
-
-    try:
-        res = tab.listen.wait(timeout=10).response
-        res = res.body
-        logger.info(f'----手机新浪{masked_phone}----：{res}')
-    except:
-        logger.info('手机新浪注册失败')
-        res = {"statusCode": -1}
-    browser.quit()  # 关闭浏览器
 def h4(tab,browser):
     tab.get('https://www.hikvision.com/cn/all-forms/Project-consultation/')
     ele = tab.ele('css=#txtContactPhone')
@@ -1202,7 +1181,7 @@ def f8(tab, browser):
     s = ""
     for i in result['probability']:
         s += result['charsets'][i.index(max(i))]
-    logger.info(s)
+    #logger.info(s)
     ele = tab.ele('css=#imageCode')
 
     ele.input(s)
@@ -1309,7 +1288,7 @@ def i8(tab, browser):
             return slide_track
 
         distance = result["target"][0] + 12
-        logger.info(distance)
+        #logger.info(distance)
         tab.actions.hold(ele)
         temp_track = 0
         temp_time = 0
@@ -2152,7 +2131,7 @@ def b10(tab, browser):
       s = ""
       for i in result['probability']:
           s += result['charsets'][i.index(max(i))]
-      logger.info(s)
+      #logger.info(s)
       inputele.clear()
       inputele.input(s)
       sendele.click()
@@ -2223,7 +2202,7 @@ def c10(tab, browser):
       s = ""
       for i in result['probability']:
           s += result['charsets'][i.index(max(i))]
-      logger.info(s)
+      #logger.info(s)
       inputele.clear()
       inputele.input(s)
       sendele.click()
@@ -2954,7 +2933,6 @@ if __name__ == '__main__':
     safe_execute(d4)
     safe_execute(e4)
     safe_execute(f4)
-    safe_execute(g4)
     safe_execute(h4)
     safe_execute(i4)
     safe_execute(j4)
