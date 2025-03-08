@@ -9,7 +9,7 @@ import json
 import sys
 from datetime import datetime
 # 全局变量
-phonenum = '15190365050'
+phonenum = '15073141416'
 masked_phone = phonenum
 log_filename = 'st.log'
 
@@ -247,26 +247,26 @@ def juren(tab, browser):
     browser.quit()  # 关闭浏览器
 
 def kzxy(tab,browser):
-  tab.get('https://ci.cn/grzx#/mobile')
-  time.sleep(0.5)
-  sr_ele = tab.ele('css=body > oi-import').shadow_root
-  #logger.info(sr_ele)
-  sr_ele = tab.ele('css=ci-m-2').shadow_root
-  #logger.info(sr_ele)
-  ele = sr_ele.ele('css=#phone')
-  time.sleep(0.5)
-  ele.input(phonenum)
-  tab.listen.start(targets='/phoneCode')  # 开始监听，指定获取包含该文本的数据包
-  ele = sr_ele.ele('css=div > div > div > form > div:nth-child(3) > div > button')
-  time.sleep(0.5)
-  ele.click()
-  try:
+    tab.get('https://ci.cn/grzx#/mobile')
+    time.sleep(0.5)
+    sr_ele = tab.ele('css=body > oi-import').shadow_root
+    #logger.info(sr_ele)
+    sr_ele = tab.ele('css=ci-m-2').shadow_root
+    #logger.info(sr_ele)
+    ele = sr_ele.ele('css=#phone')
+    time.sleep(0.5)
+    ele.input(phonenum)
+    tab.listen.start(targets='/phoneCode')  # 开始监听，指定获取包含该文本的数据包
+    ele = sr_ele.ele('css=div > div > div > form > div:nth-child(3) > div > button')
+    time.sleep(0.5)
+    ele.click()
+    try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
       logger.info(f'----孔子学院{masked_phone}----：{res}')
-  except:
+    except:
       logger.info('孔子学院注册失败')
-  browser.quit()  # 关闭浏览器
+    browser.quit()  # 关闭浏览器
 
 def nfby(tab, browser):
     tab.get('https://www.cnppump.ltd/#/CN/login/tel')
@@ -1079,7 +1079,8 @@ def d8(tab, browser):
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        logger.info(f'----丽芙家居{masked_phone}----：{res}')
+        if res['Status'] == 1:
+            logger.info(f'----丽芙家居{masked_phone}----：{res}')
     except:
         logger.info('丽芙家居注册失败')
         res = {"Status": 2}
@@ -1093,7 +1094,8 @@ def d8(tab, browser):
         try:
             res = tab.listen.wait(timeout=10).response
             res = res.body
-            logger.info(f'----丽芙家居{masked_phone}----：{res}')
+            if res['Status'] == 1:
+                logger.info(f'----丽芙家居{masked_phone}----：{res}')
         except:
             logger.info('丽芙家居注册失败')
             res = {"Status": 2}
@@ -1142,7 +1144,7 @@ def e8(tab, browser):
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        if res['result'] != 'error':
+        if res['result'] == 'ok':
           logger.info(f'----穷游网{masked_phone}----：{res}')
     except:
         logger.info('穷游网注册失败')
@@ -1159,7 +1161,8 @@ def e8(tab, browser):
         try:
             res = tab.listen.wait(timeout=10).response
             res = res.body
-            logger.info(f'----穷游网{masked_phone}----：{res}')
+            if res['result'] == 'ok':
+                logger.info(f'----穷游网{masked_phone}----：{res}')
         except:
             logger.info('穷游网注册失败')
             res = {"result": 'error'}
@@ -1456,7 +1459,8 @@ def j8(tab, browser):
         try:
             res = tab.listen.wait(timeout=10).response
             res = res.body
-            logger.info(f'----zol{masked_phone}----：{res}')
+            if res['info'] == 'ok':
+                logger.info(f'----zol{masked_phone}----：{res}')
         except:
             logger.info('zol注册失败')
             res = {"info": 'error'}
@@ -2662,36 +2666,6 @@ def c11(tab, browser):
 
   browser.quit()  # 关闭浏览器
 
-
-def d11(tab, browser):
-  url = 'https://dxs-new.u2.hep.com.cn/login'
-  phoneele = 'css=#emailRegister_identify'
-  sendele = 'css=#emailRegister > div:nth-child(2) > div > div > div > div > div > div.authing-ant-col.authing-ant-col-8.authing-ant-col-offset-1 > button > span'
-  target = '/sms/send'
-  name = '大学生在线'
-  
-  tab.get(url)
-  ele = tab.ele('css=#root > section > div.guardContainer > div > div > div > div > div:nth-child(2) > div.g2-tips-line > span > button > span')
-  ele.click()
-  ele = tab.ele('css=#rc-tabs-1-tab-phone-code')
-  ele.click()
-  ele = tab.ele(phoneele)
-  ele.input(phonenum)
-  ele = tab.ele(sendele)
-  tab.listen.start(targets=target)
-  ele.click()
-  
-  try:
-      res = tab.listen.wait(timeout=10).response
-      res = res.body
-      logger.info(f'----{name}{masked_phone}----：{res}')
-  except:
-      logger.info(f'{name}注册失败')
-      res = {"statusCode": -1}
-
-  browser.quit()  # 关闭浏览器
-
-
 def e11(tab, browser):
   url = 'https://club.yonghongtech.com/member.php?mod=register'
   phoneele = 'css=#phone_reg'
@@ -2879,50 +2853,6 @@ def c12(tab, browser):
 
   browser.quit()  # 关闭浏览器
 
-def e12(tab, browser):
-  def char(imgele,inputele,sendele,range,picname):
-      inputele.clear()
-      imgele.get_screenshot(name=picname)
-      ocr = ddddocr.DdddOcr(show_ad=False)
-      image = open(picname, "rb").read()
-      ocr.set_ranges(range)
-      result = ocr.classification(image, probability=True)
-      s = ""
-      for i in result['probability']:
-          s += result['charsets'][i.index(max(i))]
-      #logger.info(s)
-      inputele.clear()
-      inputele.input(s)
-      sendele.click()
-  tab.get('https://m.ydl.com/login')
-  ele = tab.ele('css=#agree_agreement')
-  ele.click()
-  ele = tab.ele('css=#number')
-  
-  ele.input(phonenum)
-  
-  imgele = tab.ele('css=#loginCaptcha')
-  inputele = tab.ele('css=#captcha')
-  sendele = tab.ele('css=body > div > div > div:nth-child(2) > div:nth-child(3)')
-  range = 6
-  picname = 'xl.png'
-  
-  char(imgele,inputele,sendele,range,picname)
-  ele = tab.ele('css=#sendChkCode')
-  logger.info(f'----心理{masked_phone}----：{ele.text}')
-  
-  
-  file_path = picname
-  
-  if os.path.exists(file_path):  # 先检查文件是否存在
-      os.remove(file_path)
-  else:
-      pass
-
-
-  browser.quit()  # 关闭浏览器
-
-
 def create_browser():
     """创建一个新的浏览器实例"""
     co = ChromiumOptions().auto_port()
@@ -3065,12 +2995,10 @@ if __name__ == '__main__':
     safe_execute(i10)
     safe_execute(j10)
     safe_execute(c11)
-    safe_execute(d11)
     safe_execute(e11)
     safe_execute(f11)
     safe_execute(g11)
     safe_execute(h11)
     safe_execute(c12)
-    safe_execute(e12)
 
     clear()
