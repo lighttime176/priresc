@@ -5397,7 +5397,7 @@ class BeijingFormatter(logging.Formatter):
         dt = datetime.fromtimestamp(record.created, beijing_tz)
         return dt.strftime(datefmt or "%Y-%m-%d %H:%M:%S")
 
-def setup_logger(log_filename='app.log', log_level=logging.DEBUG):
+def setup_logger(log_filename='5050.log', log_level=logging.DEBUG):
     """
     设置日志记录器，支持输出到控制台和文件，确保中文字符正常显示，时间强制使用北京时间。
 
