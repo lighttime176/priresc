@@ -106,3 +106,81 @@ Arguments: {'locator': 'css=#sendChkCode', 'index': 1, 'timeout': 10}
 Version: 4.1.0.17
 2025-03-08 13:51:00 - INFO - Deleted: .\xl.png
 2025-03-08 13:51:00 - INFO - All PNG images deleted.
+2025-03-08 13:59:32 - INFO - ----阿里云15073141416----：{'success': True}
+2025-03-08 13:59:43 - INFO - ----雪球15073141416----：{'success': True}
+2025-03-08 13:59:50 - INFO - ----巨量15073141416---- ：{'description': '', 'error_code': 0, 'mobile_ticket': 'mobile_ticket_AFDQG3DU236GH4TYCW42D54Z4MNGNXTJ'}
+2025-03-08 13:59:59 - INFO - ----兔喜15073141416---- ：{'result': {'isRisk': 0}, 'message': '操作成功', 'status': True, 'statusCode': '200'}
+2025-03-08 14:00:57 - INFO - 执行 tyyp 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=#tab-pw > span', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-08 14:01:05 - INFO - ----水滴筹15073141416---- ：{'code': 0, 'msg': None, 'data': None}
+2025-03-08 14:01:17 - INFO - ----豆包15073141416----：{'data': {'log_id': '20250308140117E286B81FCE5715C8606D', 'mobile': '150******16', 'mobile_ticket': 'mobile_ticket_P5SHZAK89FGGBSMYQG2AWMD7UYSB2C66', 'retry_time': 60}, 'message': 'success'}
+2025-03-08 14:01:27 - INFO - ----webcsdn学院15073141416----：{'code': '0', 'subCode': '1017', 'message': '成功发送验证码', 'status': True}
+2025-03-08 14:01:36 - INFO - ----火山引擎15073141416---- ：{'ResponseMetadata': {'RequestId': '20250308140135FBC9739D450C74EEA17A'}}
+2025-03-08 14:01:44 - INFO - ----巨人网络15073141416---- ：{'success': True, 'msg': '', 'data': []}
+2025-03-08 14:01:53 - INFO - ----孔子学院15073141416----：{'msg': '操作成功', 'code': 200}
+2025-03-08 14:02:05 - INFO - ----南方泵业15073141416----：{'Data': None, 'Code': 0, 'Message': '2500092A4D562013A9E8FF60D61E7462'}
+2025-03-08 14:02:22 - INFO - ----移动云盘15073141416---- ：{'success': True, 'code': '0', 'message': 'OK', 'data': {'result': {'resultCode': '0', 'resultDesc': '请求成功'}, 'mode': '0', 'regFlag': None, 'remainGetTimes': 5, 'verifyCode': None, 'objNumber': None, 'random': '7f4ebwKA'}}
+2025-03-08 14:02:31 - INFO - ----易车15073141416----：59s后重新发送
+2025-03-08 14:02:38 - INFO - ----233乐园15073141416----：验证码倒计时发送验证码s
+2025-03-08 14:02:49 - INFO - ----q医疗15073141416----：{'data': {'code': '400'}, 'count': 0}
+2025-03-08 14:03:05 - INFO - 网易云游戏注册失败
+2025-03-08 14:03:16 - INFO - ----九游网15073141416----：验证码剩余时间重新获取(58s)
+2025-03-08 14:03:25 - INFO - ----右糖15073141416----：{'status': 200, 'message': 'success'}
+2025-03-08 14:03:31 - INFO - ----大米小米15073141416----：{'status': 200, 'code': 0, 'data': True, 'message': '查询数据成功.'}
+2025-03-08 14:03:48 - INFO - 手机新浪注册失败
+2025-03-08 14:03:53 - INFO - ----海康威视15073141416----：{'code': '000000', 'data': {'code': 200, 'message': 'success', 'data': '{code=0, message=null, result=1058232225094307840}'}, 'message': None}
+2025-03-08 14:04:00 - INFO - ----网易数字15073141416----：{'success': True, 'msg': '验证码已发送'}
+2025-03-08 14:04:08 - INFO - ----跨境15073141416----：{'code': 500, 'msg': '短信发送失败，请稍后再试~', 'data': [], 'meta': {}}
+2025-03-08 14:04:16 - INFO - ----acfun15073141416----：{'result': 100001014, 'error_msg': '操作太快, 稍后再试'}
+2025-03-08 14:04:24 - INFO - ----包月ai15073141416----：{'code': 100, 'msg': 'success', 'data': {}}
+2025-03-08 14:04:31 - INFO - ----氢图15073141416----：{'code': 0, 'message': None, 'result': None}
+2025-03-08 14:04:42 - INFO - ----溪流15073141416----：{'code': 500, 'msg': '服务器内部错误，请稍后再试。'}
+2025-03-08 14:04:52 - INFO - ----演图网15073141416----：{'code': '000000', 'msg': 'Message sent successfully'}
+2025-03-08 14:05:05 - INFO - ----笔灵ai15073141416----：{'code': 1, 'msg': '验证码发送成功'}
+2025-03-08 14:05:14 - INFO - ----豆豆游戏15073141416----：{'code': 0, 'error_code': 0, 'error_message': '', 'payload': {}}
+2025-03-08 14:05:22 - INFO - ----九马15073141416----：{'code': 200, 'message': '发送成功', 'data': ''}
+2025-03-08 14:05:39 - INFO - ----活动汪15073141416----：{'status_code': 9, 'status_message': '发送失败........'}
+2025-03-08 14:05:49 - INFO - ----派克配音15073141416----：{'code': 1, 'info': '发送成功', 'data': {}}
+2025-03-08 14:05:59 - INFO - ----美即云15073141416----：{'code': 502, 'msg': ''}
+2025-03-08 14:06:09 - INFO - ----诗词15073141416----：{'status': 'ok'}
+2025-03-08 14:06:19 - INFO - ----超级文档15073141416----：59 秒后可重试
+2025-03-08 14:06:29 - INFO - ----考拉15073141416----：{'content': {'data': {'resultCode': 100, 'smsToken': 'idc_1FA547BB4F47446BDAA5E10A3B3078C67', 'processFinished': True}, 'status': 0, 'success': True}, 'hasError': False}
+2025-03-08 14:06:46 - INFO - ----交大云15073141416----：150****1416
+2025-03-08 14:06:53 - INFO - ----八法云----：{'code': 0, 'message': 'OK', 'data': {'code': 3}}
+2025-03-08 14:07:05 - INFO - ----返利网15073141416---- ：jQuery1830025067305069161883_1741414016957({"info":"succes","data":"15073141416","status":1})
+2025-03-08 14:07:05 - INFO - 返利网5次验证码错误
+2025-03-08 14:07:13 - INFO - ----丽芙家居15073141416----：{'Result': True, 'Status': 1, 'Message': '手机验证码已发送至尾号1416手机，请注意查收', 'InnerData': {'retCode': 1, 'rm': 1}, 'CK': []}
+2025-03-08 14:07:17 - INFO - ----穷游网15073141416----：{'error_code': 0, 'result': 'ok', 'data': {'mobile': '86-15073141416'}}
+2025-03-08 14:07:29 - INFO - QZui
+2025-03-08 14:07:30 - INFO - ----海尔15073141416----：{'result': 'SUCCESS', 'resultCode': '0', 'resultMsg': 'success', 'data': 'SUCCESS'}
+2025-03-08 14:07:30 - INFO - success
+2025-03-08 14:07:37 - INFO - 164
+2025-03-08 14:07:40 - INFO - ----todesk15073141416----：{'statusCode': 200, 'data': {'challengeToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjE1MDczMTQxNDE2IiwidXNhZ2UiOjEsIm5vdW5jZSI6IjEiLCJpYXQiOjE3NDE0MTQwNjAsImV4cCI6MTc0MTQxNDM2MH0.44U6XadW-yhoD1JMfwB09V5WO7ZwKq2Np68wpC6aelk'}}
+2025-03-08 14:07:49 - INFO - ----zol15073141416----：{'info': 'ok', 'msg': '动态密码发送成功'}
+2025-03-08 14:08:03 - INFO - ----索尼中国15073141416----：{'resultData': {'registerToken': 'PuACNPsd6pvAWV+H3P382kx2TMvbknDUQCWQnTmzN7c='}, 'resultMsg': [{'code': '00', 'message': '成功'}]}
+2025-03-08 14:08:10 - INFO - ----爱乐奇15073141416----：suss
+2025-03-08 14:08:16 - INFO - ----花生同15073141416----：{'success': True, 'code': '00000', 'lang': None, 'error': None, 'errorHK': None, 'data': None}
+2025-03-08 14:08:32 - INFO - ----包图15073141416----：{'status': 1, 'msg': '亲，验证码发送成功'}
+2025-03-08 14:08:42 - INFO - ----莫言ai15073141416----：{'code': 200, 'msg': '成功', 'data': []}
+2025-03-08 14:08:55 - INFO - ----慕客15073141416----：{'code': 0, 'message': '成功', 'payload': {'captchaVerifyResult': False}}
+2025-03-08 14:09:07 - INFO - ----广告狂人15073141416----：{'msg': '操作成功', 'code': '10000'}
+2025-03-08 14:09:20 - INFO - ----spai15073141416----：{'error': 2005, 'msg': '操作失败,请稍后重试', 'data': None, 'total': 0}
+2025-03-08 14:09:27 - INFO - 655
+2025-03-08 14:09:28 - INFO - ----云群15073141416----：{'status': 200, 'msg': 'CODE_SEND_SUCCESS'}
+2025-03-08 14:09:35 - INFO - kyaa
+2025-03-08 14:09:36 - INFO - ----云码15073141416----：<pre>string(43) "{"msg":"发送成功","code":200,"data":[]}"
+</pre>
+2025-03-08 14:09:56 - INFO - ----嘉立创15073141416----：{'success': True, 'code': 200}
+2025-03-08 14:10:13 - INFO - ----电子发烧友15073141416----：{'status': 'successed', 'error_code': 0, 'data': {'account': '15073141416'}}
+2025-03-08 14:10:27 - INFO - ----团结15073141416----：{'success': True, 'data': '150731414161741414226', 'message': None, 'ErrorCode': 0}
+2025-03-08 14:10:40 - INFO - ----站库15073141416----：{'result': True}
+2025-03-08 14:10:51 - INFO - ----医疗器械15073141416----：{'code': '1', 'data': None, 'msg': '验证码已发送！'}
+2025-03-08 14:11:01 - INFO - ----永洪15073141416----：{'code': 200, 'data': 'smssuccess'}
+2025-03-08 14:11:07 - INFO - ----深信服15073141416----：{'code': 0, 'msg': 'success', 'rows': 'success'}
+2025-03-08 14:11:18 - INFO - ----磨刀15073141416----：{'success': '验证码发送成功'}
+2025-03-08 14:11:24 - INFO - ----逗逗游戏伙伴15073141416----：{'code': 0, 'error_code': 0, 'error_message': '', 'payload': {}}
+2025-03-08 14:11:36 - INFO - ----云书网15073141416----：{'code': '0', 'gitVersion': {'git.branch': 'origin/online', 'git.commit.id': '9493803b7f97740d60bed02d3a23f781f35c4156'}, 'message': '短信发送成功', 'trace': '689fd04d4f7c4cbc'}
+2025-03-08 14:11:37 - INFO - All PNG images deleted.
