@@ -30,10 +30,10 @@ jobs:
         cache: 'pip' # caching pip dependencies
     - run: pip install -r requirements.txt
     - name: Change directory and run command
-      run: cd abcd/py/5050 && ls
+      run: cd abcd/py && ls
     - name: Run python code
       run: |
-        python abcd/py/5050/a5050.py
+        python abcd/py/a5050.py
       env:
         APP_ID: ${{ secrets.APP_ID }}
         ydyp: ${{ secrets.ydyp }}
