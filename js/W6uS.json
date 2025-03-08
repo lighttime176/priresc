@@ -1,0 +1,9 @@
+{
+    "files.autoGuessEncoding": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.fontSize": 16
+}

@@ -1,0 +1,3390 @@
+{ "helplocation" : "wavelet",
+    "locale" : "en",
+    "helptargets" : 
+    { "AcousticSceneRecognitionUsingLateFusionExample" : 
+      [ 
+        { "path" : "ug\/acoustic-scene-recognition-using-late-fusion.html",
+          "page_format" : "doc_center" } ],
+      "AdaptiveApproximationusingOrthogonalMatchingPursuitExample" : 
+      [ 
+        { "path" : "ref\/wmpalg.html#mw_b9397ef6-1094-4d90-a6dc-0345d54082e2",
+          "page_format" : "doc_center" } ],
+      "AddLabelDefinitionExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.addlabeldefinitions.html#mw_be6546c4-cbe0-4857-b3f6-426a9e00417c",
+          "page_format" : "doc_center" } ],
+      "AddMemberExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.addmembers.html#mw_16de1648-311c-4d99-86b6-b7b89ed37a14",
+          "page_format" : "doc_center" } ],
+      "AddPrimalLiftingStepExample" : 
+      [ 
+        { "path" : "ref\/addlift.html#mw_96ab9ff8-286b-4168-bbaa-4940a5bca834",
+          "page_format" : "doc_center" } ],
+      "AddWaveletFamiliesExample" : 
+      [ 
+        { "path" : "ref\/wavemngr.html#mw_e58fcbf8-3685-4837-ac0d-3faf9b5be480",
+          "page_format" : "doc_center" } ],
+      "AddingBiorthogonalWaveletFiltersExample" : 
+      [ 
+        { "path" : "ref\/biorwavf.html#mw_b64e2fd3-480b-4d36-9df7-cfbde3ea15fa",
+          "page_format" : "doc_center" } ],
+      "AddingQuadratureMirrorAndBiorthogonalWaveletFiltersExample" : 
+      [ 
+        { "path" : "ug\/add-quadrature-mirror-and-biorthogonal-wavelet-filters.html",
+          "page_format" : "doc_center" } ],
+      "AdjustMorseWaveletParametersExample" : 
+      [ 
+        { "path" : "ref\/wavelettimefrequencyanalyzer-app.html#mw_b868ca1f-31b2-4feb-866e-8669a01bc665",
+          "page_format" : "doc_center" } ],
+      "AdjustScalogramFrequencyAxisScaleExample" : 
+      [ 
+        { "path" : "ref\/wavelettimefrequencyanalyzer-app.html#mw_9ea4b627-1f45-4922-963a-e8c30d4c1d58",
+          "page_format" : "doc_center" } ],
+      "AirCompFaultWaveletScatteringExample" : 
+      [ 
+        { "path" : "ug\/air-compressor-fault-detection-using-wavelet-scattering.html",
+          "page_format" : "doc_center" } ],
+      "AnalyticWaveletsUsingtheDualTreeWaveletTransformExample" : 
+      [ 
+        { "path" : "ug\/analytic-wavelets-using-the-dual-tree-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "ApplyGainsToWaveletSubbandsAndReconstructImageExample" : 
+      [ 
+        { "path" : "ref\/waverec2.html#mw_9cb78027-218f-4ebc-a1a1-c75b47bbbe2e",
+          "page_format" : "doc_center" } ],
+      "ApplyScatteringDecompositionFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.html#mw_cfe5c068-bca8-4c2f-8643-2034b4cedebe",
+          "page_format" : "doc_center" } ],
+      "ApplyThresholdForImageDenoisingExample" : 
+      [ 
+        { "path" : "ref\/wbmpen.html#mw_91571f78-30db-4a6c-8d06-5b688755f90f",
+          "page_format" : "doc_center" } ],
+      "ApplyThresholdForSignalDenoisingExample" : 
+      [ 
+        { "path" : "ref\/wbmpen.html#mw_87000823-dfc4-4915-bbb0-cc7a4a9eb80c",
+          "page_format" : "doc_center" } ],
+      "ApproximateDataByReducingCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/mlptrecon.html#bvk_05l",
+          "page_format" : "doc_center" } ],
+      "ApproximationQualityMetricsExample" : 
+      [ 
+        { "path" : "ref\/measerr.html#bviiig0",
+          "page_format" : "doc_center" } ],
+      "ApproximationsOfBiorthogonalWaveletsExample" : 
+      [ 
+        { "path" : "ref\/wavefun.html#mw_37d64c60-f93f-48e2-9418-b687fb407c6c",
+          "page_format" : "doc_center" } ],
+      "ArbitraryExtensionsExample" : 
+      [ 
+        { "path" : "ug\/dealing-with-border-distortion.html#mw_55a5110b-a353-46b7-a027-07867584ade9",
+          "page_format" : "doc_center" } ],
+      "Automatic1DDenoisingExample" : 
+      [ 
+        { "path" : "ref\/wden.html#mw_963f1df7-a578-4004-86ba-1e8427112c70",
+          "page_format" : "doc_center" } ],
+      "AvailableWaveletswithParametersExample" : 
+      [ 
+        { "path" : "ref\/cwtftinfo2.html#bt1o3wz-2",
+          "page_format" : "doc_center" } ],
+      "BORDER_DIST" : 
+      [ 
+        { "path" : "ug\/dealing-with-border-distortion.html",
+          "page_format" : "doc_center" } ],
+      "BasicMathematicalOperationsAppliedToLaurentPolynomialsExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.html#mw_98065cc6-830f-4cfa-b27e-59ee57517e78",
+          "page_format" : "doc_center" } ],
+      "BasisPursuitApproximationOfSignalExample" : 
+      [ 
+        { "path" : "ref\/sensingdictionary.basispursuit.html#mw_be7494d5-65d2-4522-9ac7-bdf817da0d97",
+          "page_format" : "doc_center" } ],
+      "BasisWaveletsExample" : 
+      [ 
+        { "path" : "ref\/idualtree3.html#bvkk913-2",
+          "page_format" : "doc_center" } ],
+      "BestLocalizedDaubechiesWaveletExample" : 
+      [ 
+        { "path" : "ref\/blscalf.html#mw_d9ecfeff-33e3-4741-bde5-7e9ce1d063fd",
+          "page_format" : "doc_center" } ],
+      "BestWaveletPacketTreeExample" : 
+      [ 
+        { "path" : "ref\/wptree.besttree.html#mw_11a293f0-692d-4c4d-a126-83a171103a46",
+          "page_format" : "doc_center" } ],
+      "BiasedvsUnbiasedEstimatorsWaveletVarianceExample" : 
+      [ 
+        { "path" : "ref\/modwtvar.html#buytgl4-1",
+          "page_format" : "doc_center" } ],
+      "Bior22WaveletViaLiftingExample" : 
+      [ 
+        { "path" : "ug\/lifting-method-for-constructing-wavelets.html#bs9imz6",
+          "page_format" : "doc_center" } ],
+      "BiorthogonalSplineWaveletFilterExample" : 
+      [ 
+        { "path" : "ref\/biorwavf.html#mw_752e2c48-dc38-4937-9a4a-a9a6ce581bcd",
+          "page_format" : "doc_center" } ],
+      "BiorthogonalWaveletFromLiftingExample" : 
+      [ 
+        { "path" : "ref\/bswfun.html#buo1ltz",
+          "page_format" : "doc_center" } ],
+      "BiorthogonalWaveletImageReconstructionExample" : 
+      [ 
+        { "path" : "gs\/image-reconstruction-with-biorthogonal-wavelets.html",
+          "page_format" : "doc_center" } ],
+      "BiorthogonalWavfExample" : 
+      [ 
+        { "path" : "ref\/biorfilt.html#mw_d4a491af-eb35-4a3c-97c0-c1c2d80fc68e",
+          "page_format" : "doc_center" } ],
+      "BiorthogonalityTestOfDWTFilterBankExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.isbiorthogonal.html#mw_2ddde3d1-2daa-4d52-9aca-1f88b36e2ffc",
+          "page_format" : "doc_center" } ],
+      "BoundaryEffectsAndTheConeOfInfluenceExample" : 
+      [ 
+        { "path" : "ug\/boundary-effects-and-the-cone-of-influence.html",
+          "page_format" : "doc_center" } ],
+      "BoundaryEffectsShearletsExample" : 
+      [ 
+        { "path" : "ug\/boundary-effects-in-real-valued-bandlimited-shearlet-systems.html",
+          "page_format" : "doc_center" } ],
+      "BoundaryHandlingAndFrequencyRangeExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.freqz.html#mw_0fef1af5-8f05-4f55-9ed1-47e6b45d5f9d",
+          "page_format" : "doc_center" } ],
+      "BrownianNoiseSingularitySpectrumExample" : 
+      [ 
+        { "path" : "ref\/dwtleader.html#bvegawz-2",
+          "page_format" : "doc_center" } ],
+      "BuildWaveletPacketTreeExample" : 
+      [ 
+        { "path" : "ref\/cfs2wpt.html#bu_by0s",
+          "page_format" : "doc_center" } ],
+      "CF1D_GUI" : 
+      [ 
+        { "path" : "gs\/one-dimensional-selection-of-wavelet-coefficients-using-the-graphical-interface.html",
+          "page_format" : "doc_center" } ],
+      "CF2D_GUI" : 
+      [ 
+        { "path" : "gs\/two-dimensional-selection-of-wavelet-coefficients-using-the-graphical-interface.html",
+          "page_format" : "doc_center" } ],
+      "COMP_DENO_METHODS" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#f8-22161",
+          "page_format" : "doc_center" } ],
+      "COMP_DENO_STRA" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#f8-22161",
+          "page_format" : "doc_center" } ],
+      "COMP_PROCEDURE" : 
+      [ 
+        { "path" : "ug\/wavelet-data-compression.html",
+          "page_format" : "doc_center" } ],
+      "COMP_SCORES" : 
+      [ 
+        { "path" : "ug\/wavelet-data-compression.html#f8-80423",
+          "page_format" : "doc_center" } ],
+      "CUDACodeFromCWTExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_6a602304-3548-4949-be64-87bc43b4b074",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ug\/cuda-code-from-cwt.html",
+          "group" : "wavelet_ug",
+          "page_format" : "doc_center" } ],
+      "CWTAndInverseCWTExample" : 
+      [ 
+        { "path" : "gs\/continuous-wavelet-transform-and-inverse-continuous-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "CWTCoefficientModuliAndMaximaLinesExample" : 
+      [ 
+        { "path" : "ref\/localmax.html#bvc8eh5-1",
+          "page_format" : "doc_center" } ],
+      "CWTFT2_GUI" : 
+      [ 
+        { "path" : "ug\/2-d-continuous-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "CWTFilterBankScalesExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.scales.html#mw_c0612066-61d8-45b2-804d-d4879c8ebfe7",
+          "page_format" : "doc_center" } ],
+      "CWTFrequencyLimitsExample" : 
+      [ 
+        { "path" : "ref\/cwtlayer.html#mw_120a8be5-c90f-4cf2-97a5-b75b9f001e22",
+          "page_format" : "doc_center" } ],
+      "CWTTimeFrequencyExample" : 
+      [ 
+        { "path" : "ug\/cwt-based-time-frequency-analysis.html",
+          "page_format" : "doc_center" } ],
+      "CWTdefaultOfSpeechSignalExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#bvb0t7_",
+          "page_format" : "doc_center" } ],
+      "CWTofComplexExponentialsExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_ae84b041-f038-4c11-bf1a-6058481e25a8",
+          "page_format" : "doc_center" } ],
+      "CWTofKobeEarthquakeDataExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#bvb0t8f-1_1",
+          "page_format" : "doc_center" } ],
+      "CWTofSpeechSignalUsingMorletWaveletExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#bvb0t8e-1",
+          "page_format" : "doc_center" } ],
+      "CW_COLMODE" : 
+      [ 
+        { "path" : "ug\/general-features.html#f1-124910",
+          "page_format" : "doc_center" } ],
+      "CW_CONTDISC1" : 
+      [ 
+        { "path" : "gs\/continuous-wavelet-transform-and-scale-based-analysis.html#CW_CONTDISC1",
+          "page_format" : "doc_center" } ],
+      "CW_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/importing-and-exporting-information.html",
+          "page_format" : "doc_center" } ],
+      "CenterFrequenciesOfTheConstantQTransformExample" : 
+      [ 
+        { "path" : "ref\/cqt.html#mw_f9991d24-2eba-4246-8cdb-a7fbdaf1396b",
+          "page_format" : "doc_center" } ],
+      "ChangeBoundaryExtensionModeExample" : 
+      [ 
+        { "path" : "ref\/idwpt.html#mw_740836ee-a3ea-4412-8396-781a0e751ab6",
+          "page_format" : "doc_center" } ],
+      "ChangeDecompositionCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/chgwdeccfs.html#mw_b7116ab2-f230-47ba-9e7d-ca53989468d0",
+          "page_format" : "doc_center" } ],
+      "ChangeDefaultFrequencyAxisLabelsExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_00e6791c-2525-4b09-9206-f20674403b99",
+          "page_format" : "doc_center" } ],
+      "ChangeOptimalityFactorForWeakOrthogonalMatchingPursuitExample" : 
+      [ 
+        { "path" : "ref\/wmpalg.html#mw_6f81e4f1-7baa-4b40-96d5-40babc42efd9",
+          "page_format" : "doc_center" } ],
+      "ChangeScalogramColorationExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_81dc2164-1d40-4ea3-950d-01f8a480da43",
+          "page_format" : "doc_center" } ],
+      "ChangingTheTimeBandwidthExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_32f9408a-9a51-44af-902c-dbd0d7c6c359",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/cwtfilterbank.html#mw_112e429b-9031-47f5-9009-c3444d47a159",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "ChirpForSynchrosqueezingConceptualTopicExample" : 
+      [ 
+        { "path" : "gs\/wavelet-synchrosqueezing.html#bu9scy5",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-1" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e35900",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-10" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e36062",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-11" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e36119",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-12" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e36144",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-2" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e35918",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-3" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e35928",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-4" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e35948",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-5" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e35959",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-6" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e35977",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-8" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e36016",
+          "page_format" : "doc_center" } ],
+      "ClassificationECGSignalsDeepLearningSimulinkExample-9" : 
+      [ 
+        { "path" : "ug\/code-generation-for-a-deep-learning-simulink-model-to-classify-ecg-signals.html#d124e36030",
+          "page_format" : "doc_center" } ],
+      "ClassifyECGSignalsOnRasPiExample" : 
+      [ 
+        { "path" : "ug\/deploy-signal-classifier-using-wavelets-and-deep-learning-on-raspberry-pi.html",
+          "page_format" : "doc_center" } ],
+      "ClassifyECGSignalsUsingDAGNetworkDeployedToFPGAExample" : 
+      [ 
+        { "path" : "ug\/classify-ecg-signals-using-dag-network-deployed-to-fpga.html",
+          "page_format" : "doc_center" } ],
+      "Cluster1DMultisignalExample" : 
+      [ 
+        { "path" : "ref\/mdwtcluster.html#mw_ec3fece9-25ba-443d-8cc4-bbeef04a9b80",
+          "page_format" : "doc_center" } ],
+      "CodeGenerationForFaultDetectionUsingWaveletAndRNNExample" : 
+      [ 
+        { "path" : "ug\/deep-learning-code-generation-on-arm-for-fault-detection-using-wavelet-scattering-and-recurrent-neural-networks.html",
+          "page_format" : "doc_center" } ],
+      "CoefficientOrderin3DWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/wavedec3.html#mw_96e26ac8-d045-4fbc-b7a7-7b067e5b531e",
+          "page_format" : "doc_center" } ],
+      "Coefficientsfrom1DComplexDualTreeWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dddtreecfs.html#bt3r02n-2",
+          "page_format" : "doc_center" } ],
+      "CoifletWaveletFilterExample" : 
+      [ 
+        { "path" : "ref\/coifwavf.html#mw_14bc1e98-0640-4762-a010-f14bc8f51332",
+          "page_format" : "doc_center" } ],
+      "CompareCWTWithCwtLayerAndFilterBankExample" : 
+      [ 
+        { "path" : "ref\/cwtlayer.html#mw_8f6a8d21-440c-43d9-9030-0a09ba7fce3d",
+          "page_format" : "doc_center" } ],
+      "CompareDWTAndMODWTDenoisingBlockySignalExample" : 
+      [ 
+        { "path" : "ref\/wden.html#mw_b51515d2-a5d2-45f5-804f-f38b32491597",
+          "page_format" : "doc_center" } ],
+      "CompareDWTAndMODWTDenoisingExample" : 
+      [ 
+        { "path" : "ref\/wden.html#mw_32b16ab0-328a-480d-b6bf-9c6b592224c8",
+          "page_format" : "doc_center" } ],
+      "CompareDenoisedSignalsExample" : 
+      [ 
+        { "path" : "ref\/wdenoise.html#mw_403545ca-de44-4ada-8f11-1f92d5b7ae43",
+          "page_format" : "doc_center" } ],
+      "CompareIsotropicandAnisotropicWaveletsExample" : 
+      [ 
+        { "path" : "ref\/cwtft2.html#bt1oic3-2",
+          "page_format" : "doc_center" } ],
+      "CompareLiftingSchemeFiltersExample" : 
+      [ 
+        { "path" : "ref\/liftingscheme.ls2filt.html#mw_d4f7ac7a-be80-4b35-ae0b-ffd7bc41778e",
+          "page_format" : "doc_center" } ],
+      "CompareMODWTMRAAndEMDDecompositionsExample" : 
+      [ 
+        { "path" : "ref\/signalmultiresolutionanalyzer-app.html#mw_e236a5fe-cbd9-4e1c-9c86-8082a7f2dc54",
+          "page_format" : "doc_center" } ],
+      "CompareModwtLayerOutputWithModwtAndModwtmraOutputsExample" : 
+      [ 
+        { "path" : "ref\/modwtlayer.html#mw_5331ff22-0f2a-42e6-ab6f-554eeeadb346",
+          "page_format" : "doc_center" } ],
+      "CompareScatteringAndScalogramCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.scatteringtransform.html#mw_bd0bfd53-3ea8-4c7b-a9fc-857be959bd5d",
+          "page_format" : "doc_center" } ],
+      "CompareThresholdedAndNonthresholdedCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/mlptdenoise.html#bvlvu_x",
+          "page_format" : "doc_center" } ],
+      "Comparewaverec3andidwt3Example" : 
+      [ 
+        { "path" : "ref\/waverec3.html#mw_383fa8d8-bb4d-4eeb-896d-eb05c9b3cc57",
+          "page_format" : "doc_center" } ],
+      "ComparingMODWTandMODWTMRAExample" : 
+      [ 
+        { "path" : "gs\/comparing-modwt-and-modwtmra.html",
+          "group" : "wavelet_gs",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/modwt.html#mw_fb46bf5c-f36b-44d5-bc60-78f3cdcdf2e7",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/modwtlayer.html#mw_ff3a8128-ebc9-4dd0-bc15-c17ffc2afb31",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/modwtmra.html#mw_6d004016-5688-4ce4-ab86-887d5146f39c",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "ComplexDualTreeWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dddtree.html#btynuxn-2",
+          "page_format" : "doc_center" } ],
+      "ComplexDualTreeWvltTxdddtree2Example" : 
+      [ 
+        { "path" : "ref\/dddtree2.html#bt0hi5m-3",
+          "page_format" : "doc_center" } ],
+      "ComplexMorletWaveletExample" : 
+      [ 
+        { "path" : "ref\/cmorwavf.html#mw_1cb2a96b-52c6-401f-ac2e-a80161603def",
+          "page_format" : "doc_center" } ],
+      "ComplexShannonWaveletExample" : 
+      [ 
+        { "path" : "ref\/shanwavf.html#buo46vs",
+          "page_format" : "doc_center" } ],
+      "CompressImageUsingBirgeMassartStrategyExample" : 
+      [ 
+        { "path" : "ref\/wdcbm2.html#mw_8bf89e0c-89aa-4106-8243-8553864679d4",
+          "page_format" : "doc_center" } ],
+      "CompressMultisignalExample" : 
+      [ 
+        { "path" : "ref\/mswcmp.html#mw_64b72185-f18a-405e-b3f9-63fff75ad146",
+          "page_format" : "doc_center" } ],
+      "CompressSignalAndGenerateScriptExample" : 
+      [ 
+        { "path" : "ref\/waveletsignalanalyzer-app.html#mw_7aaa0329-4b83-4ea8-820b-6d4b1248bc0a",
+          "page_format" : "doc_center" } ],
+      "CompressSignalUsingBirgMassartStrategyExample" : 
+      [ 
+        { "path" : "ref\/wdcbm.html#mw_d9789a10-fddf-4071-a30f-6cd76894e3a3",
+          "page_format" : "doc_center" } ],
+      "CompressionAndUncompressionOfAGrayscaleImageExample" : 
+      [ 
+        { "path" : "ref\/wcompress.html#mw_d8a1727f-45a3-4a78-9c88-29d859b5cef9",
+          "page_format" : "doc_center" } ],
+      "CompressionAndUncompressionOfATruecolorImageExample" : 
+      [ 
+        { "path" : "ref\/wcompress.html#mw_e5896b22-cf6f-4c01-9602-13bddb9e8100",
+          "page_format" : "doc_center" } ],
+      "ComputeFourFiltersExample" : 
+      [ 
+        { "path" : "ref\/wfilters.html#mw_8a182d64-655f-4375-9b69-4f3a51a1e9c2",
+          "page_format" : "doc_center" } ],
+      "ComputeHilbertSpectrumOfVibrationSignalExample" : 
+      [ 
+        { "path" : "ref\/hht.html#mw_025b9602-e0a8-4b16-9224-21b3b95eb156",
+          "page_format" : "doc_center" } ],
+      "ComputeHilbertSpectrumParametersOfSignalExample" : 
+      [ 
+        { "path" : "ref\/hht.html#mw_29f88450-d3e0-4612-a04a-a102c316e338",
+          "page_format" : "doc_center" } ],
+      "ComputeIntrinsicModeFunctionsOfVibrationSignalExample" : 
+      [ 
+        { "path" : "ref\/emd.html#mw_6dfb7ae7-6d4f-4dbb-838e-d42637beaf25",
+          "page_format" : "doc_center" } ],
+      "ComputeOrthogonalWaveletFilterSetOfScalingFilterExample" : 
+      [ 
+        { "path" : "ref\/orthfilt.html#mw_2721a73f-00fc-44bf-af78-2518d24c733c",
+          "page_format" : "doc_center" } ],
+      "ConcatenateTwoSensingDictionariesExample" : 
+      [ 
+        { "path" : "ref\/sensingdictionary.horzcat.html#mw_dbe7a8ec-d826-401c-90f8-7f5e273886de",
+          "page_format" : "doc_center" } ],
+      "ConfidenceIntervalsForCorrelationExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buvyph2",
+          "page_format" : "doc_center" } ],
+      "ConfidenceIntervalsWith099CoverageProbabilityExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buvyq7t",
+          "page_format" : "doc_center" } ],
+      "ConstantQTransformOfAnAudioSignalExample" : 
+      [ 
+        { "path" : "ref\/cqt.html#mw_b9b54c4d-aef7-44e7-b6dd-569d198f6c04",
+          "page_format" : "doc_center" } ],
+      "ConstantQTransformUsingDefaultValuesExample" : 
+      [ 
+        { "path" : "ref\/cqt.html#mw_2ecaa6d8-6e9d-4cce-b11e-27c1cf0f727e",
+          "page_format" : "doc_center" } ],
+      "ConstructCWTFilterBankWithPeakMagnitudeAtNyquistExample" : 
+      [ 
+        { "path" : "ref\/cwtfreqbounds.html#mw_30d08af1-fedd-40a0-8406-bec3d86e62d1",
+          "page_format" : "doc_center" } ],
+      "ContinuousWaveletAnalysisExample" : 
+      [ 
+        { "path" : "gs\/continuous-wavelet-analysis.html",
+          "page_format" : "doc_center" } ],
+      "ContinuousWaveletFilterBankExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.html#mw_aae97113-11c3-4752-bef2-6b0bb73a7c36",
+          "page_format" : "doc_center" } ],
+      "ContinuousWaveletTransformUsingAFilterBankExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.wt.html#mw_73efdd1f-37d1-4464-a80e-d918cbaf0e9f",
+          "page_format" : "doc_center" } ],
+      "ControllingThePhaseOfAQuadratureMirrorFilterExample" : 
+      [ 
+        { "path" : "ref\/qmf.html#mw_f6eaccef-baee-4da7-aa13-1a4225d2cf06",
+          "page_format" : "doc_center" } ],
+      "ConvertDepthPositionToNodeIndexExample" : 
+      [ 
+        { "path" : "ref\/depo2ind.html#mw_6167a1e5-ee90-407b-ae0b-c7fe5026313a",
+          "page_format" : "doc_center" } ],
+      "ConvertScalesToFrequenciesExample" : 
+      [ 
+        { "path" : "ref\/centfrq.html#mw_bf4a80e5-e01f-46b2-a99f-305f82bcb811",
+          "page_format" : "doc_center" } ],
+      "CorrelationWithReflectionBoundaryConditionsExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buvyw06",
+          "page_format" : "doc_center" } ],
+      "CountLabelValuesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.countlabelvalues.html#mw_ab7adb57-3d18-4db8-92e4-c78ba21447b9",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/labeledsignalset.createdatastores.html#mw_9237a57d-d950-476f-8d01-135b7b905f87",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/labeledsignalset.html#mw_50794a82-afd2-4b64-ad28-b3ff6ce778a3",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/signallabeldefinition.html#mw_4c168f92-c135-4c3d-a5b8-05eafd3f03f3",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "CountWhaleLabelValuesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.countlabelvalues.html#mw_993b6c48-1f3c-4a0c-86f4-2e76a34a99ed",
+          "page_format" : "doc_center" } ],
+      "CrackIdentificationFromAccelerometerDataExample" : 
+      [ 
+        { "path" : "ug\/crack-identification-from-accelerometer-data.html",
+          "page_format" : "doc_center" } ],
+      "CreateAnEnergyPreservingShearletSystemExample" : 
+      [ 
+        { "path" : "ref\/shearletsystem.html#mw_28581b7f-659f-497d-b005-cc12af5b3cbb",
+          "page_format" : "doc_center" } ],
+      "CreateComplexGaussianWaveletExample" : 
+      [ 
+        { "path" : "ref\/cgauwavf.html#mw_1935740a-8692-491b-9510-c47c24133fc8",
+          "page_format" : "doc_center" } ],
+      "CreateDWTFilterBankUsingCustomFiltersExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.html#mw_5660c0ee-afd0-4690-8145-4556550e2e26",
+          "page_format" : "doc_center" } ],
+      "CreateDatastoresExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.createdatastores.html#mw_ad821a3e-bac4-4850-94da-9bd7eb10e9d5",
+          "page_format" : "doc_center" } ],
+      "CreateGaussianWaveletExample" : 
+      [ 
+        { "path" : "ref\/gauswavf.html#mw_259a4512-b19a-4e64-9fa4-3b57bc5e4f1d",
+          "page_format" : "doc_center" } ],
+      "CreateLaurentMatrixExample" : 
+      [ 
+        { "path" : "ref\/laurentmatrix.html#mw_60515231-ee43-4c17-8336-38e721bad292",
+          "page_format" : "doc_center" } ],
+      "CreateLiftingSchemeExample" : 
+      [ 
+        { "path" : "ref\/liftingscheme.html#mw_1109cbda-b3a1-4282-90bd-698ce75b5ef3",
+          "page_format" : "doc_center" } ],
+      "CreateLiftingSchemeFromFiltersExample" : 
+      [ 
+        { "path" : "ref\/filt2ls.html#mw_c1d0a1b7-e1d1-483c-aab6-38d51277e264",
+          "page_format" : "doc_center" } ],
+      "CreateLiftingSchemeUsingCustomLowpassFilterExample" : 
+      [ 
+        { "path" : "ref\/liftingscheme.html#mw_83129cc1-ee51-44fa-9870-1c99b6ce475d",
+          "page_format" : "doc_center" } ],
+      "CreateLiftingSchemeWithLiftwaveExample" : 
+      [ 
+        { "path" : "ref\/liftwave.html#mw_5ccdc266-e3c0-4e0e-8017-f3dc6ed1d99b",
+          "page_format" : "doc_center" } ],
+      "CreateLiftingSchemeWithUserSpecifiedLiftingStepsExample" : 
+      [ 
+        { "path" : "ref\/liftingstep.html#mw_037eba54-d900-4a07-992b-7fac49876f3c",
+          "page_format" : "doc_center" } ],
+      "CreateMexicanHatWaveletExample" : 
+      [ 
+        { "path" : "ref\/mexihat.html#mw_f6b13a49-5992-42a4-bd59-8b61de55d58d",
+          "page_format" : "doc_center" } ],
+      "CreateNTREEObjectExample" : 
+      [ 
+        { "path" : "ref\/ntree.html#mw_f39efb8d-d9ef-425a-9caf-68cf925f5c9c",
+          "page_format" : "doc_center" } ],
+      "CreateSensingDictionaryExample" : 
+      [ 
+        { "path" : "ref\/sensingdictionary.html#mw_463ff485-312f-4ef6-a914-3987d8929c26",
+          "page_format" : "doc_center" } ],
+      "CreateWaveletForContinuousWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/pat2cwav.html#mw_ab3d49c6-83bf-4900-8f66-904ed461e6eb",
+          "page_format" : "doc_center" } ],
+      "CreateWaveletPacketTreeExample" : 
+      [ 
+        { "path" : "ref\/wptree.html#mw_286435f1-bba7-4290-a932-a2e870a3323e",
+          "page_format" : "doc_center" } ],
+      "CriticallySampledWaveletPacketAnalysisExample" : 
+      [ 
+        { "path" : "gs\/wavelet-packet-analysis.html",
+          "page_format" : "doc_center" } ],
+      "CrossCorrelation90Example" : 
+      [ 
+        { "path" : "ref\/modwtxcorr.html#bu0byr1-1",
+          "page_format" : "doc_center" } ],
+      "CrossCorrelationSequenceExample" : 
+      [ 
+        { "path" : "ref\/modwtxcorr.html#buv3zo3",
+          "page_format" : "doc_center" } ],
+      "CrossCorrelationSequenceWithFejerKorovkinWaveletExample" : 
+      [ 
+        { "path" : "ref\/modwtxcorr.html#buv3z6l",
+          "page_format" : "doc_center" } ],
+      "CrossCorrelationWithReflectionBoundaryExample" : 
+      [ 
+        { "path" : "ref\/modwtxcorr.html#bu0bys3",
+          "page_format" : "doc_center" } ],
+      "CrossWignerVilleDistributionOfChirpsExample" : 
+      [ 
+        { "path" : "ref\/xwvd.html#mw_3b09a3a0-983e-47b7-9298-e3612b21e51f",
+          "page_format" : "doc_center" } ],
+      "CrossWignerVilleDistributionOfSinusoidsExample" : 
+      [ 
+        { "path" : "ref\/xwvd.html#mw_4804e5cd-a710-46dd-a674-4b36fdf6a7f4",
+          "page_format" : "doc_center" } ],
+      "DCARCFaultAnalysisUsingWaveletTransformAndDeepLearningExample" : 
+      [ 
+        { "path" : "ug\/anomaly-detection-using-autoencoder-and-wavelets.html",
+          "page_format" : "doc_center" } ],
+      "DCWTWithMorletWaveletExample" : 
+      [ 
+        { "path" : "ref\/cwtft2.html#bt1o15b-4",
+          "page_format" : "doc_center" } ],
+      "DDualTreeComplexWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dualtree2.html#mw_4e5d7c5a-5658-4180-b320-4c27c4b9cbec",
+          "page_format" : "doc_center" } ],
+      "DDualTreeTransformOfMRIDataExample" : 
+      [ 
+        { "path" : "ref\/dualtree3.html#bvk891p",
+          "page_format" : "doc_center" } ],
+      "DENO_BASIS" : 
+      [ 
+        { "path" : "ug\/multivariate-wavelet-denoising-using-the-wavelet-analyzer-app.html#DENO_BASIS",
+          "page_format" : "doc_center" } ],
+      "DENO_NOISSTRUCT" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#f8-22207",
+          "page_format" : "doc_center" } ],
+      "DENO_PROCEDURE" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html",
+          "page_format" : "doc_center" } ],
+      "DENO_SOFTHARD" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#f8-22146",
+          "page_format" : "doc_center" } ],
+      "DENS_EST" : 
+      [ 
+        { "path" : "gs\/one-dimensional-wavelet-density-estimation.html",
+          "page_format" : "doc_center" } ],
+      "DMUSDExchangeRatesByScaleExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buu9xkh-2",
+          "page_format" : "doc_center" } ],
+      "DTAndDDWaveletTransformsUsingFilterNamesAndFiltersExample" : 
+      [ 
+        { "path" : "ref\/dtfilters.html#mw_00cc7753-51c1-4746-8f7a-5bcac9c6f91c",
+          "page_format" : "doc_center" } ],
+      "DTCWTFirstLevelBiorthogonalFiltersExample" : 
+      [ 
+        { "path" : "ref\/qbiorthfilt.html#mw_cd053905-fa56-4fc6-b692-9e5647df70a8",
+          "page_format" : "doc_center" } ],
+      "DW1D_COMP_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#DW1D_COMP_GUI",
+          "page_format" : "doc_center" } ],
+      "DW1D_DECOMPOS" : 
+      [ 
+        { "path" : "gs\/discrete-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "DW1D_DENO_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#DW1D_DENO_GUI",
+          "page_format" : "doc_center" } ],
+      "DW1D_DISPMODE" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#DW1D_DISPMODE",
+          "page_format" : "doc_center" } ],
+      "DW1D_GENERAL" : 
+      [ 
+        { "path" : "gs\/discrete-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "DW1D_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#f4-997037",
+          "page_format" : "doc_center" } ],
+      "DW1D_INACTION" : 
+      [ 
+        { "path" : "gs\/analysis-with-the-discrete-wavelets.html#DW1D_INACTION",
+          "page_format" : "doc_center" } ],
+      "DW1D_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#f4-1000344",
+          "page_format" : "doc_center" } ],
+      "DW1D_MOREDISP" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#f4-997037",
+          "page_format" : "doc_center" } ],
+      "DW1D_STAT_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#DW1D_STAT_GUI",
+          "page_format" : "doc_center" } ],
+      "DW2D_COMP_GUI" : 
+      [ 
+        { "path" : "ug\/2-d-wavelet-analysis-using-the-wavelet-analyzer-app.html#DW2D_COMP_GUI",
+          "page_format" : "doc_center" } ],
+      "DW2D_FULLSIZE" : 
+      [ 
+        { "path" : "ug\/wavelet-2-d-tool-features.html",
+          "page_format" : "doc_center" } ],
+      "DW2D_GUI" : 
+      [ 
+        { "path" : "ug\/2-d-wavelet-analysis-using-the-wavelet-analyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "DW2D_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/importing-and-exporting-2-d-information-from-the-wavelet-analyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "DW2D_SELECT" : 
+      [ 
+        { "path" : "ug\/2-d-wavelet-analysis-using-the-wavelet-analyzer-app.html#DW2D_SELECT",
+          "page_format" : "doc_center" } ],
+      "DW2D_WORKING" : 
+      [ 
+        { "path" : "gs\/wavelets-working-with-images.html",
+          "page_format" : "doc_center" } ],
+      "DW3D_GUI" : 
+      [ 
+        { "path" : "ug\/three-dimensional-discrete-wavelet-analysis.html#f4-1115920",
+          "page_format" : "doc_center" } ],
+      "DWT2DOfImageExample" : 
+      [ 
+        { "path" : "ref\/dwt2.html#mw_955ee201-cf75-4ec1-be8e-c77b79d7ae9d",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankFiltersExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.filters.html#mw_eb11f2e4-6a40-48cf-a753-7ac79784f76a",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankFrameBoundsExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.framebounds.html#mw_efe4abd6-70cd-49bf-9186-0ee8cd4a26dc",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankFrequencyResponsesExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.freqz.html#mw_372893df-3897-4b92-80a8-122301f79d1a",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankPassbandsExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.dwtpassbands.html#mw_66e28208-a5fa-41b9-9e7a-45f7fe79505d",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankPowerBandwidthExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.powerbw.html#mw_bb4f9989-b01f-409b-9efa-b7bf49e9fb37",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankQualityFactorExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.qfactor.html#mw_57217e6f-d10d-4375-8cc1-b7f055f569e2",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankScalingFunctionsExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.scalingfunctions.html#mw_4897890e-2cfd-4611-a4f3-f00d0cb15c28",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankWaveletTimeSupportsExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.waveletsupport.html#mw_658b60b3-919e-4921-b4e7-6d43a6cfdc56",
+          "page_format" : "doc_center" } ],
+      "DWTFilterBankWaveletsExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.wavelets.html#mw_9b40c08a-f68e-450d-b208-20831579adef",
+          "page_format" : "doc_center" } ],
+      "DWTUsingWaveletNameExample" : 
+      [ 
+        { "path" : "ref\/dwt.html#mw_8364b09b-8176-45c4-b065-7ab3ff614412",
+          "page_format" : "doc_center" } ],
+      "DWTUsingWaveletandScalingFiltersExample" : 
+      [ 
+        { "path" : "ref\/dwt.html#mw_2aa07de3-b507-42d5-94e4-3360c63b6652",
+          "page_format" : "doc_center" } ],
+      "DWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/wavedec3.html#mw_97c4619d-b0be-47eb-b32e-430955bf8c53",
+          "page_format" : "doc_center" } ],
+      "DWaveletTransformUsingSpecifiedDecompAndReconstrucFiltsExample" : 
+      [ 
+        { "path" : "ref\/wavedec3.html#mw_9e6869c1-d4bd-465d-b994-8c3f117aceb6",
+          "page_format" : "doc_center" } ],
+      "DYNV_HIST" : 
+      [ 
+        { "path" : "ug\/general-features.html#DYNV_HIST",
+          "page_format" : "doc_center" } ],
+      "DYNV_INFO" : 
+      [ 
+        { "path" : "ug\/general-features.html#f1-123293",
+          "page_format" : "doc_center" } ],
+      "DYNV_ZAXE" : 
+      [ 
+        { "path" : "ug\/general-features.html#f1-132995",
+          "page_format" : "doc_center" } ],
+      "DYNV_ZOOM" : 
+      [ 
+        { "path" : "ug\/general-features.html#DYNV_ZOOM",
+          "page_format" : "doc_center" } ],
+      "DaubechiesExtremalPhaseScalingFilterWithSpecifiedSumExample" : 
+      [ 
+        { "path" : "ref\/dbaux.html#mw_a1fd9965-4ed6-40d5-bc47-24207dd01e8a",
+          "page_format" : "doc_center" } ],
+      "DecayHighestFrequencyWaveletInCWTFBToSpecificValueExample" : 
+      [ 
+        { "path" : "ref\/cwtfreqbounds.html#mw_b78360c4-71ba-4773-94ff-3e4946e7ca08",
+          "page_format" : "doc_center" } ],
+      "DecomposeMultisignalsExample" : 
+      [ 
+        { "path" : "ref\/mdwtdec.html#mw_74c03ee7-1cf4-489d-a432-c2c57bea1411",
+          "page_format" : "doc_center" } ],
+      "DecompositionStructureExample" : 
+      [ 
+        { "path" : "ref\/wavedec2.html#mw_ecc0ca02-3480-44e2-b67f-2940c3ede41f",
+          "page_format" : "doc_center" } ],
+      "DeepLearningContinuousWaveletTransformOfECGSignalExample" : 
+      [ 
+        { "path" : "ref\/dlcwt.html#mw_474758b6-fda7-489b-b553-b27cf0e2b9b6",
+          "page_format" : "doc_center" } ],
+      "DeepLearningContinuousWaveletTransformOfMultisignalExample" : 
+      [ 
+        { "path" : "ref\/dlcwt.html#mw_70caa521-dc1e-4595-91ff-8e3217a4cb8f",
+          "page_format" : "doc_center" } ],
+      "DeepLearningMaximalOverlapDiscreteWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dlmodwt.html#mw_ae804afb-46bb-4076-b031-86ac8307737b",
+          "page_format" : "doc_center" } ],
+      "DefaultGlobalThresholdforWaveletDenoisingExample" : 
+      [ 
+        { "path" : "ref\/ddencmp.html#bty1d8q-1",
+          "page_format" : "doc_center" } ],
+      "DefaultGlobalThresholdforWaveletPacketCompressionExample" : 
+      [ 
+        { "path" : "ref\/ddencmp.html#bty1d8q-2",
+          "page_format" : "doc_center" } ],
+      "DefaultvsGaussianConfIntervalsExample" : 
+      [ 
+        { "path" : "ref\/modwtvar.html#buytgl3-1",
+          "page_format" : "doc_center" } ],
+      "DegreeOfLaurentPolynomialsExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.degree.html#mw_c502c2ff-635f-4201-b7eb-9a4bd35bd737",
+          "page_format" : "doc_center" } ],
+      "DeleteElementaryLiftingStepsExample" : 
+      [ 
+        { "path" : "ref\/liftingscheme.deletelift.html#mw_73e21af5-eefd-4e97-b3b6-cc37344a93d0",
+          "page_format" : "doc_center" } ],
+      "DemonstrateWaveletPropertiesExample" : 
+      [ 
+        { "path" : "ref\/liftingscheme.html#mw_a275e21c-1063-40aa-b234-d7033e759edc",
+          "page_format" : "doc_center" } ],
+      "Denoise1DSignalUsingDefaultGlobalThreshExample" : 
+      [ 
+        { "path" : "ref\/wdencmp.html#mw_ce25f202-3ef8-45bb-b1c6-ee312a4dbb2c",
+          "page_format" : "doc_center" } ],
+      "DenoiseASignalWithTheWaveletSignalDenoiserExample" : 
+      [ 
+        { "path" : "ug\/denoise-a-signal-with-the-wavelet-signal-denoiser.html",
+          "page_format" : "doc_center" } ],
+      "DenoiseColorImageExample" : 
+      [ 
+        { "path" : "ref\/wdenoise2.html#mw_cf5b1a39-28c3-4fb1-9468-c105a5f6bb5f",
+          "page_format" : "doc_center" } ],
+      "DenoiseGrayscaleImageUsingDefaultSettingsExample" : 
+      [ 
+        { "path" : "ref\/wdenoise2.html#mw_3a51cabd-e6ec-46e9-9273-7deec283575a",
+          "page_format" : "doc_center" } ],
+      "DenoiseImageUsingDefaultGlobalThresholdExample" : 
+      [ 
+        { "path" : "ref\/wdencmp.html#mw_4d887b8e-1ebf-43b3-9356-43b01ef1a88f",
+          "page_format" : "doc_center" } ],
+      "DenoiseImageUsingSpecificSubbandExample" : 
+      [ 
+        { "path" : "ref\/wdenoise2.html#mw_b642e94b-2dcd-447b-8869-586deaa5aa5f",
+          "page_format" : "doc_center" } ],
+      "DenoiseMultivariateSignalExample" : 
+      [ 
+        { "path" : "ref\/wmulden.html#mw_6843cf94-90b3-4f20-8d99-2e5cb400cca6",
+          "page_format" : "doc_center" } ],
+      "DenoiseSignalUsingDefaultSettingsExample" : 
+      [ 
+        { "path" : "ref\/waveletsignaldenoiser-app.html#mw_35220398-57a8-4f6e-896d-1d1fc3ca69a4",
+          "page_format" : "doc_center" } ],
+      "DenoiseSignalUsingGeneratedCCodeExample" : 
+      [ 
+        { "path" : "ug\/denoise-signal-using-generated-c-code.html",
+          "page_format" : "doc_center" } ],
+      "DenoiseTimetableUsingBlockthresholdingExample" : 
+      [ 
+        { "path" : "ref\/wdenoise.html#mw_ebf17f52-d62d-43b8-9482-76fbad38dbc6",
+          "page_format" : "doc_center" } ],
+      "DenoiseUsingMultiscaleLocalPolynomialTransformExample" : 
+      [ 
+        { "path" : "ref\/mlptdenoise.html#bvkoo2z-7",
+          "page_format" : "doc_center" } ],
+      "DenoisingBlocksSignalWithHaarWaveletExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btidrru-2",
+          "page_format" : "doc_center" } ],
+      "DenoisingBlocksSignalWithHardThresholdingExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btie883",
+          "page_format" : "doc_center" } ],
+      "DeployAndRunSignalClassOnNVIDIAJetsonUsingCWTAndDLExample" : 
+      [ 
+        { "path" : "ug\/deploy-signal-classifier-on-nvidia-jetson-using-wavelet-analysis-and-deep-learning.html",
+          "page_format" : "doc_center" } ],
+      "DepthAndPositionInWaveletPacketTreeExample" : 
+      [ 
+        { "path" : "ref\/ind2depo.html#bu_byyy",
+          "page_format" : "doc_center" } ],
+      "DetailCoefficientsFor1DSignalExample" : 
+      [ 
+        { "path" : "ref\/detcoef.html#mw_aee12ef6-1805-4b7f-b021-987d41d04582",
+          "page_format" : "doc_center" } ],
+      "DetectAndLocalizeHighFrequencyContentExample" : 
+      [ 
+        { "path" : "ref\/mlptrecon.html#bvlble1",
+          "page_format" : "doc_center" } ],
+      "DetectAnomaliesUsingWaveletScatteringWithAutoencodersExample" : 
+      [ 
+        { "path" : "ug\/detect-anomalies-using-wavelet-scattering-with-autoencoders.html",
+          "page_format" : "doc_center" } ],
+      "DetectNumberOfChangePointsExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btigb6u",
+          "page_format" : "doc_center" } ],
+      "DetectVarianceChangePointsExample" : 
+      [ 
+        { "path" : "ref\/wvarchg.html#mw_5f58410b-d5d7-47ea-9aec-98b5b237fd39",
+          "page_format" : "doc_center" } ],
+      "DetermineCenterFrequencyExample" : 
+      [ 
+        { "path" : "ref\/centfrq.html#mw_07d51f95-451b-42a3-af7b-952a0138b4e9",
+          "page_format" : "doc_center" } ],
+      "DetermineWaveletSemiMajorAxisExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.filterbank.html#mw_2cb9e62c-f05e-4157-b650-ee5a5043d2b4",
+          "page_format" : "doc_center" } ],
+      "DiscreteWaveletTransformFilterBankWithDefaultValuesExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.html#mw_5304b473-26cd-4548-a2d1-9971d92b14f6",
+          "page_format" : "doc_center" } ],
+      "DisplayAndChangeSignalExtensionModeExample" : 
+      [ 
+        { "path" : "ref\/dwtmode.html#mw_7aa5662b-dc33-40e6-9bdc-6ed40f324b87",
+          "page_format" : "doc_center" } ],
+      "DisplayLaurentMatrixExample" : 
+      [ 
+        { "path" : "ref\/laurentmatrix.dispmat.html#mw_e2b8a495-4953-422b-868a-53985c31b912",
+          "page_format" : "doc_center" } ],
+      "DisplayLiftingSchemeExample" : 
+      [ 
+        { "path" : "ref\/displs.html#mw_8a6058c5-588e-4b95-833a-536bd97b9386",
+          "page_format" : "doc_center" } ],
+      "DisplayLiftingSchemePropertiesExample" : 
+      [ 
+        { "path" : "ref\/liftingscheme.disp.html#mw_04790a06-319e-4724-ac45-2843654c16e8",
+          "page_format" : "doc_center" } ],
+      "DisplaytheExpressionforthe2DFourierTransformExample" : 
+      [ 
+        { "path" : "ref\/cwtftinfo2.html#bt1o343-2",
+          "page_format" : "doc_center" } ],
+      "DistributionOfAnalysisCoefficientsInWaveletTreeStructureExample" : 
+      [ 
+        { "path" : "ref\/dddtreecfs.html#mw_024685b3-0fa1-49ca-9b4b-673fc540d863",
+          "page_format" : "doc_center" } ],
+      "DistributionOfEnergyAcrossScalesExample" : 
+      [ 
+        { "path" : "ref\/dualtree.html#mw_2526947d-18f9-4b0d-b93b-98330a8bd650",
+          "page_format" : "doc_center" } ],
+      "DoubleDensityWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dddtree.html#btzrv1a-2",
+          "page_format" : "doc_center" } ],
+      "DoubleDensityWvltTxdddtree2Example" : 
+      [ 
+        { "path" : "ref\/dddtree2.html#bt0ecvx-7",
+          "page_format" : "doc_center" } ],
+      "DualTreeComplexWaveletTransformsExample" : 
+      [ 
+        { "path" : "ug\/dual-tree-complex-wavelet-transforms.html",
+          "page_format" : "doc_center" } ],
+      "DyadicDownsamplingOfLaurentMatrixExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.dyaddown.html#mw_8b1d9eee-409c-4e33-992c-d108933a9340",
+          "page_format" : "doc_center" } ],
+      "DyadicDownsamplingOfLaurentPolynomialExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.dyaddown.html#mw_8485b847-9536-42e2-98d1-945f0812354e",
+          "page_format" : "doc_center" } ],
+      "DyadicUpsamplingOfLaurentMatrixExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.dyadup.html#mw_c516737c-8610-46c9-96b3-406b36d9629d",
+          "page_format" : "doc_center" } ],
+      "DyadicUpsamplingOfLaurentPolynomialExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.dyadup.html#mw_56cd1e6b-8a55-4091-8b38-85cb4f743681",
+          "page_format" : "doc_center" } ],
+      "ECGAndDeepLearningExample" : 
+      [ 
+        { "path" : "ug\/classify-time-series-using-wavelet-analysis-and-deep-learning.html",
+          "page_format" : "doc_center" } ],
+      "ECGWaveletTimeScatteringExample" : 
+      [ 
+        { "path" : "ug\/ecg-signal-classification-using-wavelet-time-scattering.html",
+          "page_format" : "doc_center" } ],
+      "EDEN_BINS" : 
+      [ 
+        { "path" : "gs\/one-dimensional-wavelet-density-estimation.html#EDEN_BINS",
+          "page_format" : "doc_center" } ],
+      "EDEN_GUI" : 
+      [ 
+        { "path" : "gs\/one-dimensional-wavelet-density-estimation.html",
+          "page_format" : "doc_center" } ],
+      "EDEN_LOADSAVE" : 
+      [ 
+        { "path" : "gs\/one-dimensional-wavelet-density-estimation.html#f4-1021704",
+          "page_format" : "doc_center" } ],
+      "EEGDataTFMapExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-convolutional-network-for-eeg-data-classification.html",
+          "page_format" : "doc_center" } ],
+      "EXT_MODE" : 
+      [ 
+        { "path" : "ug\/dealing-with-border-distortion.html",
+          "page_format" : "doc_center" } ],
+      "EditLabelDefinitionExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.editlabeldefinition.html#mw_473f522e-64fe-41aa-94ac-008d9d366e92",
+          "page_format" : "doc_center" } ],
+      "EffectOfBandwidthParameterOnMorletWaveletShapeExample" : 
+      [ 
+        { "path" : "ref\/cmorwavf.html#mw_54409b4a-e81b-4a05-8829-6fcac15db405",
+          "page_format" : "doc_center" } ],
+      "EffectOfParameterValuesOnMorseShapeExample" : 
+      [ 
+        { "path" : "ug\/morse-wavelets.html#bvetosc-1",
+          "page_format" : "doc_center" } ],
+      "EffectOfWaveletSupportExample" : 
+      [ 
+        { "path" : "gs\/effect-of-wavelet-support-on-noisy-data.html",
+          "page_format" : "doc_center" } ],
+      "ElectricityConsumptionAnalysisUsingMatchingPursuitExample" : 
+      [ 
+        { "path" : "ug\/matching-pursuit-command-line.html#btdg96p",
+          "page_format" : "doc_center" } ],
+      "EmpiricalWaveletTransformExample" : 
+      [ 
+        { "path" : "ug\/empirical-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "EmpiricalWaveletTransformOfECGSignalExample" : 
+      [ 
+        { "path" : "ref\/ewt.html#mw_d6c1b6d8-c0c6-4834-b82e-17cd8d9d729e",
+          "page_format" : "doc_center" } ],
+      "EnergyOf2DWaveletDecompositionExample" : 
+      [ 
+        { "path" : "ref\/wenergy2.html#mw_743e78cb-6a67-4a47-8eda-5f5bdd628140",
+          "page_format" : "doc_center" } ],
+      "EnergyOfWaveletDecompositionsExample" : 
+      [ 
+        { "path" : "ref\/wenergy.html#mw_83ba85d2-92bd-46a2-a6f8-db66929f376f",
+          "page_format" : "doc_center" } ],
+      "EstimateNoiseStandardDeviationinThePresenceofOutliersExample" : 
+      [ 
+        { "path" : "ref\/wnoisest.html#mw_ba5866cc-f042-4132-bcfd-11027ba74d10",
+          "page_format" : "doc_center" } ],
+      "EuclideanDivisionOfLaurentPolynomialsExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.euclid.html#mw_de1dc505-b7df-4857-b20c-5d1b5493d2a3",
+          "page_format" : "doc_center" } ],
+      "ExampleAudioSignalWithDecreasingChirpsExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_4a44647a-7f05-4b91-af20-e89e54e41897",
+          "page_format" : "doc_center" } ],
+      "ExampleBatsignalExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_ba421233-e956-402d-a4c5-45854c7f3482",
+          "page_format" : "doc_center" } ],
+      "ExampleECGSignalExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_a76bed2e-edd0-4662-b2dc-0d45c876060c",
+          "page_format" : "doc_center" } ],
+      "ExampleEarthquakeVibrationExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_c16cc551-8bb3-465b-a8ea-cc412ff95130",
+          "page_format" : "doc_center" } ],
+      "ExampleHilbertSpectrumOfVibrationSignalExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_d729eea3-3cd3-4acd-88c7-2a23035b7c3c",
+          "page_format" : "doc_center" } ],
+      "ExampleKobeEarthquakeDataExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_fab447d8-9bd3-404b-b7ea-f389d00d5e2a",
+          "page_format" : "doc_center" } ],
+      "ExampleMRAOfAudioSignalExample" : 
+      [ 
+        { "path" : "ug\/tunable-q-factor-wavelet-transform.html#mw_a9c9c2cf-0c24-464d-bd97-cbec42a29fe3",
+          "page_format" : "doc_center" } ],
+      "ExampleOtoacousticEmissionExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_898c20c6-303f-499c-83ef-3b693540e813",
+          "page_format" : "doc_center" } ],
+      "ExamplePersistenceSpectrumOfTransientSignalExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_24079cfa-4c2e-47b2-b12d-079fbb4bd49a",
+          "page_format" : "doc_center" } ],
+      "ExamplePulsesAndOscillationsExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_573536ad-0763-4c48-8976-56e1ceaee230",
+          "page_format" : "doc_center" } ],
+      "ExampleRockMusicExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_6e954282-67ef-498e-acda-9f2ec94a0dd6",
+          "page_format" : "doc_center" } ],
+      "ExampleSpeechSignalsExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_57afb60f-78b3-4b43-b5bf-fbc1c94a6dc1",
+          "page_format" : "doc_center" } ],
+      "ExampleSubsynchronousOscillationInPowerSystemsExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_1deed836-dd23-4d13-80fb-23b446ee057d",
+          "page_format" : "doc_center" } ],
+      "ExampleSyntheticSeismicDataExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_4e21ffae-d419-4ad0-a8a0-cc7da54218ad",
+          "page_format" : "doc_center" } ],
+      "ExampleWhaleSongExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-gallery.html#mw_b7069d58-4108-48d0-9d5f-a5007f54cddc",
+          "page_format" : "doc_center" } ],
+      "ExtendInt8DataExample" : 
+      [ 
+        { "path" : "ref\/wextend.html#mw_3d57a610-c369-43a0-a8b7-1862b57c8aac",
+          "page_format" : "doc_center" } ],
+      "ExtendUint8DataExample" : 
+      [ 
+        { "path" : "ref\/wextend.html#mw_d739bfd5-3302-421a-8782-5acf8af15bc3",
+          "page_format" : "doc_center" } ],
+      "ExtendedPseudocolorMatrixScalingExample" : 
+      [ 
+        { "path" : "ref\/wcodemat.html#mw_8e06feee-1743-49ee-9c2f-427d42ff919c",
+          "page_format" : "doc_center" } ],
+      "ExtensionToImageDenoisingExample" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#mw_7df56444-1976-40c0-bfb5-525ed90c56b3",
+          "page_format" : "doc_center" } ],
+      "ExtractAndDisplay2DStationaryWaveletDecompositionExample" : 
+      [ 
+        { "path" : "ref\/swt2.html#mw_ca46f28e-53b4-477e-9dc7-bc7ce64d21ba",
+          "page_format" : "doc_center" } ],
+      "ExtractAndVisualizeSubmatrixExample" : 
+      [ 
+        { "path" : "ref\/sensingdictionary.subdict.html#mw_884d9a0c-cc6e-46b3-9245-9b8bdb9c176f",
+          "page_format" : "doc_center" } ],
+      "ExtractDetailCoefficientsFromImageExample" : 
+      [ 
+        { "path" : "ref\/detcoef2.html#mw_b8a8ae04-f498-4bb4-8aff-920250595144",
+          "page_format" : "doc_center" } ],
+      "ExtractDiagonalFeaturesfromImageExample" : 
+      [ 
+        { "path" : "ref\/dddtreecfs.html#bt3r1k_-4",
+          "page_format" : "doc_center" } ],
+      "ExtractFromVectorAndMatrixExample" : 
+      [ 
+        { "path" : "ref\/wkeep.html#mw_f32885d3-467b-454a-9e3d-0c6445deba6a",
+          "page_format" : "doc_center" } ],
+      "ExtremalPhaseExample" : 
+      [ 
+        { "path" : "gs\/extremal-phase-wavelet.html",
+          "group" : "wavelet_gs",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/dbaux.html#mw_2fdc7396-86d8-44ae-be6b-e6f357328379",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/symaux.html#mw_98f34a92-105a-4b12-beec-c2ea52c54f7a",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "FaultDetectScatteringRNNExample" : 
+      [ 
+        { "path" : "ug\/fault-detection-using-wavelet-scattering-and-recurrent-deep-networks.html",
+          "page_format" : "doc_center" } ],
+      "FejerKorovkinFiltersExample" : 
+      [ 
+        { "path" : "ref\/fejerkorovkin.html#buv7eso",
+          "page_format" : "doc_center" } ],
+      "FilterBankTimeDomainWaveletsExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.wavelets.html#mw_c659ed31-b775-48f9-b328-53bb482de4a5",
+          "page_format" : "doc_center" } ],
+      "FiltersAssociatedWithLaurentPolynomialsExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.lp2filters.html#mw_6d70026d-8b07-4ed7-b54b-39029c7fec46",
+          "page_format" : "doc_center" } ],
+      "FiltersforComplexDualTreeWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dtfilters.html#btz4uti-7",
+          "page_format" : "doc_center" } ],
+      "FiltersforDoubleDensityWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dtfilters.html#btz42jq-2",
+          "page_format" : "doc_center" } ],
+      "FinancialDataExample" : 
+      [ 
+        { "path" : "ug\/wavelet-analysis-of-financial-data.html",
+          "page_format" : "doc_center" } ],
+      "FirstLevelDetailCoefficientsApproximationComplexDualTreeExample" : 
+      [ 
+        { "path" : "ref\/dddtree.html#bt0x_9l-3",
+          "page_format" : "doc_center" } ],
+      "FlipVectorExample" : 
+      [ 
+        { "path" : "ref\/wrev.html#mw_d5f14a03-5d0b-4d60-9c77-2f332412a3e1",
+          "page_format" : "doc_center" } ],
+      "FrequencyRangeForZeroAndEffectivelyZeroCutoffValuesExample" : 
+      [ 
+        { "path" : "ref\/cwtfreqbounds.html#mw_714625f3-8841-45e7-a079-1b2d8f99e370",
+          "page_format" : "doc_center" } ],
+      "FrequencyResolutionOfCWTFilterBanksExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.html#mw_f8dcf17e-2e38-42d6-8e87-d9246c95d6c0",
+          "page_format" : "doc_center" } ],
+      "FrequencyResponsesOfACWTFilterBankExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.freqz.html#mw_308f529e-06db-4699-821f-92f86edd64c4",
+          "page_format" : "doc_center" } ],
+      "FuseTwoImagesExample" : 
+      [ 
+        { "path" : "ref\/wfusimg.html#mw_72378123-42f6-4bfc-8346-8cdc5e91bc72",
+          "page_format" : "doc_center" } ],
+      "FuseTwoImagesWithUserDefinedFusionMethodExample" : 
+      [ 
+        { "path" : "ref\/wfusimg.html#mw_7d45de90-0c7a-4839-b765-aa998ce914c9",
+          "page_format" : "doc_center" } ],
+      "GENER_VARTHR" : 
+      [ 
+        { "path" : "ug\/one-dimensional-variance-adaptive-thresholding-of-wavelet-coefficients.html#GENER_VARTHR",
+          "page_format" : "doc_center" } ],
+      "GPUDeepScalogramExample" : 
+      [ 
+        { "path" : "ug\/gpu-acceleration-scalograms-for-deep-learning.html",
+          "page_format" : "doc_center" } ],
+      "GPUscatteringSpokenDigitExample" : 
+      [ 
+        { "path" : "ug\/wavelet-time-scattering-with-gpu-acceleration-spoken-digit-recognition.html",
+          "page_format" : "doc_center" } ],
+      "GatherWaveletScatteringObjectExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.gather.html#mw_7c5e99ee-0d5b-427c-acdf-7ef603613ab0",
+          "page_format" : "doc_center" } ],
+      "GeneralizedMorseAndAnalyticMorletWaveletsExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.html#mw_c07efe81-5d89-4243-85ba-51ec1ccfb2ff",
+          "page_format" : "doc_center" } ],
+      "GenerateAndDeployOptimizedCodeForWaveletScatteringOnARMExample" : 
+      [ 
+        { "path" : "ug\/generate-and-deploy-optimized-code-for-wavelet-time-scattering-on-arm-targets.html",
+          "page_format" : "doc_center" } ],
+      "GenerateBiorthogonalWaveletFiltersFromHaarFiltersExample" : 
+      [ 
+        { "path" : "ref\/liftfilt.html#mw_ffd679a3-7ed0-4632-9bca-c245e88d4cb2",
+          "page_format" : "doc_center" } ],
+      "GenerateFractionalBrownianMotionSignalsExample" : 
+      [ 
+        { "path" : "ref\/wfbm.html#mw_42a7bca9-b43c-4991-979a-216f0528bda2",
+          "page_format" : "doc_center" } ],
+      "GenerateMODWTMRADecompositionScriptExample" : 
+      [ 
+        { "path" : "ref\/signalmultiresolutionanalyzer-app.html#mw_0bf10b73-ce4b-4fd4-a9ed-727281ab3617",
+          "page_format" : "doc_center" } ],
+      "GetLabelDefinitionsExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.getlabeldefinitions.html#mw_16600848-fd7d-4175-9b60-b4f96f90d067",
+          "page_format" : "doc_center" } ],
+      "GetLabelNamesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.getlabelnames.html#mw_2b52f625-3e6c-4fda-b49f-815c6267d91d",
+          "page_format" : "doc_center" } ],
+      "GetLabelValuesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.getlabelvalues.html#mw_b4161fdb-9600-47b0-b993-b41b47ea678c",
+          "page_format" : "doc_center" } ],
+      "GetLabeledSignalExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.getlabeledsignal.html#mw_da4cd4cc-8b1f-4add-9969-bb035ab3c74a",
+          "page_format" : "doc_center" } ],
+      "GetMemberNamesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.getmembernames.html#mw_036bff90-b63b-469d-bc04-885db8c33e0e",
+          "page_format" : "doc_center" } ],
+      "GetSignalExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.getsignal.html#mw_fc96540d-efd4-4450-87ec-12c469fb29fc",
+          "page_format" : "doc_center" } ],
+      "GlobalHolderExponentForBrownianMotionExample" : 
+      [ 
+        { "path" : "ref\/wtmm.html#bvet1c6-1",
+          "page_format" : "doc_center" } ],
+      "GlobalThresholdDiscreteWaveletDecompositionExample" : 
+      [ 
+        { "path" : "ref\/wthrmngr.html#mw_445608b4-d0bf-4e30-8c29-f64206f2fd02",
+          "page_format" : "doc_center" } ],
+      "GlobalThresholdWaveletPacketDecompositionExample" : 
+      [ 
+        { "path" : "ref\/wthrmngr.html#mw_8108ecbf-2cd4-426a-b3de-c7b1e1639511",
+          "page_format" : "doc_center" } ],
+      "HaarTransformAndLevelDetailsOf2DDataExample" : 
+      [ 
+        { "path" : "ref\/haart2.html#bveev1f-2_1",
+          "page_format" : "doc_center" } ],
+      "HaarTransformOfAnImageToASpecifiedLevelExample" : 
+      [ 
+        { "path" : "ref\/haart2.html#bvfuoph-1",
+          "page_format" : "doc_center" } ],
+      "HaarTransformOfECGDataExample" : 
+      [ 
+        { "path" : "ref\/haart.html#bvevc2t-2",
+          "page_format" : "doc_center" } ],
+      "HaarTransformOfElectricityConsumptionDataExample" : 
+      [ 
+        { "path" : "ref\/haart.html#bvfno16-1",
+          "page_format" : "doc_center" } ],
+      "HaarTransformOfIntegerDataSeriesExample" : 
+      [ 
+        { "path" : "ref\/haart.html#bvfno17-1",
+          "page_format" : "doc_center" } ],
+      "HaarTransformUsingIntegerImageDataExample" : 
+      [ 
+        { "path" : "ref\/haart2.html#bvfuopj-1",
+          "page_format" : "doc_center" } ],
+      "HaarTransformsForTimeSeriesDataAndImagesExample" : 
+      [ 
+        { "path" : "ug\/haar-transforms-for-time-series-data-and-images.html",
+          "page_format" : "doc_center" } ],
+      "HaarWaveletViaLiftingExample" : 
+      [ 
+        { "path" : "ug\/lifting-method-for-constructing-wavelets.html#mw_31496ce3-6b88-4f1b-9301-78ca606c3db1",
+          "page_format" : "doc_center" } ],
+      "HalfPowerWaveletBandwidthsExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.powerbw.html#mw_a1df7072-7082-4a78-a2a1-5a51ab03e4f3",
+          "page_format" : "doc_center" } ],
+      "HanRealOrthogonalWaveletExample" : 
+      [ 
+        { "path" : "ref\/hanscalf.html#mw_2a778431-2502-4b84-8072-5f8d3608d2d5",
+          "page_format" : "doc_center" } ],
+      "HardAndSoftThresholdingExample" : 
+      [ 
+        { "path" : "ref\/wthresh.html#mw_46d0ef59-ed2e-4a29-98b0-f046611a4868",
+          "page_format" : "doc_center" } ],
+      "HilbertSpectrumOfQuadraticChirpExample" : 
+      [ 
+        { "path" : "ref\/hht.html#mw_91fa26f0-af46-4c1e-92e1-4bcf330350d6",
+          "page_format" : "doc_center" } ],
+      "HilbertSpectrumofWhaleSongExample" : 
+      [ 
+        { "path" : "ref\/hht.html#mw_6f663078-e183-4279-835c-e1cd231f251d",
+          "page_format" : "doc_center" } ],
+      "HumanHealthMonitoringUsingCWRadarAndDLExample" : 
+      [ 
+        { "path" : "ug\/human-health-monitoring-using-continuous-wave-radar-and-deep-learning.html",
+          "page_format" : "doc_center" } ],
+      "HurstParameterEstimationExample" : 
+      [ 
+        { "path" : "ref\/wfbmesti.html#mw_fc3affd1-6e57-47bf-b8ef-850f75faa7ae",
+          "page_format" : "doc_center" } ],
+      "ICWTRemovingTimeLocalizedFreqComponentExample" : 
+      [ 
+        { "path" : "ug\/removing-a-time-localized-frequency-component-using-the-inverse-cwt.html",
+          "page_format" : "doc_center" } ],
+      "ICWTTransformUsingScalingCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.wt.html#mw_0ec214cd-8e73-4af1-a174-e42fa288a145",
+          "page_format" : "doc_center" } ],
+      "IDTS_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-variance-adaptive-thresholding-of-wavelet-coefficients.html#f4-1021792",
+          "page_format" : "doc_center" } ],
+      "IdentifyTunableQfactorMRASubbandsByEnergyExample" : 
+      [ 
+        { "path" : "ref\/tqwtmra.html#mw_24a80dfb-be86-490f-8365-e4473bd0e08a",
+          "page_format" : "doc_center" } ],
+      "ImageCompressionAndUncompressionUsingAdvancedParametersExample" : 
+      [ 
+        { "path" : "ref\/wcompress.html#mw_a0e8bc2d-fb34-4dbc-b758-a644e4f8bb02",
+          "page_format" : "doc_center" } ],
+      "ImageCompressionBirgMassartThresholdsExample" : 
+      [ 
+        { "path" : "ref\/wthrmngr.html#mw_79c97b5c-63f9-42b3-bf60-29bdc725378c",
+          "page_format" : "doc_center" } ],
+      "ImageCompressionUsingBasicParametersExample" : 
+      [ 
+        { "path" : "ref\/wcompress.html#mw_f1bd52d6-7b97-465f-b157-66372d7b37c2",
+          "page_format" : "doc_center" } ],
+      "ImageExtensionsExample" : 
+      [ 
+        { "path" : "ug\/dealing-with-border-distortion.html#mw_65869631-4fa9-4988-aa0b-eb8b3839fb7a",
+          "page_format" : "doc_center" } ],
+      "InsertElementaryLiftingStepsExample" : 
+      [ 
+        { "path" : "ref\/liftingscheme.addlift.html#mw_4650c08f-92d5-4c18-9ce7-e99d81b11263",
+          "page_format" : "doc_center" } ],
+      "InspectTQWTInformationStructureExample" : 
+      [ 
+        { "path" : "ref\/tqwt.html#mw_0b8cb900-8ec3-4514-b94e-9a42d4468ed5",
+          "page_format" : "doc_center" } ],
+      "InstantaneousFrequencyExample" : 
+      [ 
+        { "path" : "gs\/choose-a-wavelet.html#mw_2050a3f7-7f70-4936-b064-d88ee78cfff1",
+          "page_format" : "doc_center" } ],
+      "IntegertoIntegerWaveletTransformExample" : 
+      [ 
+        { "path" : "ug\/lifting-method-for-constructing-wavelets.html#bs9j3kj",
+          "page_format" : "doc_center" } ],
+      "InterferenceTermsExample" : 
+      [ 
+        { "path" : "ref\/wvd.html#mw_1319921e-38d6-4c8e-bbb4-38e87d94ed61",
+          "page_format" : "doc_center" } ],
+      "InvWaveletSynchrosqTransformRangeOfFreqsExample" : 
+      [ 
+        { "path" : "ref\/iwsst.html#bu7fbtq-3",
+          "page_format" : "doc_center" } ],
+      "Inverse1DDualtreeComplexWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/idualtree.html#mw_fadb908e-c4f3-4f92-995f-aeab5b801db3",
+          "page_format" : "doc_center" } ],
+      "Inverse2DDualTreeWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/idualtree2.html#mw_605a2267-8804-47d8-8da1-604d67065e2a",
+          "page_format" : "doc_center" } ],
+      "Inverse2DHaarTransformIntegerDataExample" : 
+      [ 
+        { "path" : "ref\/ihaart2.html#bvfus05-1",
+          "page_format" : "doc_center" } ],
+      "Inverse2DHaarTransformOfAnImageExample" : 
+      [ 
+        { "path" : "ref\/ihaart2.html#bveev3u-7",
+          "page_format" : "doc_center" } ],
+      "Inverse2DLiftingWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/ilwt2.html#mw_86e59d27-1e2b-43cf-981f-809965bdac1c",
+          "page_format" : "doc_center" } ],
+      "InverseCWTOfSpeechSignalExample" : 
+      [ 
+        { "path" : "ref\/icwt.html#bvdchf4",
+          "page_format" : "doc_center" } ],
+      "InverseCWTofSpeechSignalUsingBumpWaveletExample" : 
+      [ 
+        { "path" : "ref\/icwt.html#bvdchf9-1",
+          "page_format" : "doc_center" } ],
+      "InverseDWTUsingBiorthgonalWaveletExample" : 
+      [ 
+        { "path" : "ref\/idwt.html#mw_dd4f0a9d-f32d-4b86-8131-b7014db036f8",
+          "page_format" : "doc_center" } ],
+      "InverseDWTUsingOrthogonalWaveletExample" : 
+      [ 
+        { "path" : "ref\/idwt.html#mw_f1136d49-f765-4096-b29a-bf9b7de132f2",
+          "page_format" : "doc_center" } ],
+      "InverseHaarTransformOfECGDataExample" : 
+      [ 
+        { "path" : "ref\/ihaart.html#bvfutsb-1",
+          "page_format" : "doc_center" } ],
+      "InverseHaarTransformOfIntegerDataExample" : 
+      [ 
+        { "path" : "ref\/ihaart.html#bvfutsd-1",
+          "page_format" : "doc_center" } ],
+      "InverseHaarTransformOfNoisyDataExample" : 
+      [ 
+        { "path" : "ref\/ihaart.html#bveev6r-7",
+          "page_format" : "doc_center" } ],
+      "InverseLWTOf2DMultisignalToSpecifiedLevelExample" : 
+      [ 
+        { "path" : "ref\/ilwt2.html#mw_0a408b4c-1437-444e-b03d-6a4e6ae9b61a",
+          "page_format" : "doc_center" } ],
+      "InverseLWTOfIntegerValuedSignalExample" : 
+      [ 
+        { "path" : "ref\/ilwt.html#mw_1a5092cc-c4e5-4961-b387-558b074c29d5",
+          "page_format" : "doc_center" } ],
+      "InverseLWTOfMultisignalExample" : 
+      [ 
+        { "path" : "ref\/ilwt.html#mw_78855531-1454-433a-bc25-fc714e68ca96",
+          "page_format" : "doc_center" } ],
+      "InverseMODWPTUsingDaubechiesExtremalPhaseWaveletExample" : 
+      [ 
+        { "path" : "ref\/imodwpt.html#bu36k2v-7",
+          "page_format" : "doc_center" } ],
+      "InverseMODWPTUsingScalingAndWaveletFIltersExample" : 
+      [ 
+        { "path" : "ref\/imodwpt.html#bu36k2v-8",
+          "page_format" : "doc_center" } ],
+      "InverseMODWTOfMultisignalExample" : 
+      [ 
+        { "path" : "ref\/imodwt.html#mw_be113e38-4891-47cc-aaac-1e73b92b7f08",
+          "page_format" : "doc_center" } ],
+      "InverseMODWTWithReflectionBoundaryExample" : 
+      [ 
+        { "path" : "ref\/imodwt.html#bu0b0d_",
+          "page_format" : "doc_center" } ],
+      "InverseMODWTWithSpecifiedFiltersExample" : 
+      [ 
+        { "path" : "ref\/imodwt.html#buuzr3d",
+          "page_format" : "doc_center" } ],
+      "InverseMODWTWithSpecifiedWaveletExample" : 
+      [ 
+        { "path" : "ref\/imodwt.html#buuzrwr",
+          "page_format" : "doc_center" } ],
+      "InverseStationaryWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/iswt2.html#mw_10449ee8-9e15-457d-a9c4-936e2b2d28b0",
+          "page_format" : "doc_center" } ],
+      "InverseSynchrosqueezedOfChirpExample" : 
+      [ 
+        { "path" : "ref\/iwsst.html#bu7fbtq-2",
+          "page_format" : "doc_center" } ],
+      "InverseTunableQfactorWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/itqwt.html#mw_345d38ee-2d26-4249-8205-dba8b2c5df54",
+          "page_format" : "doc_center" } ],
+      "InverseWaveletPacketTransformExample" : 
+      [ 
+        { "path" : "ref\/idwpt.html#mw_faf48cc2-6463-4d95-b50f-19afc9dd5cd9",
+          "page_format" : "doc_center" } ],
+      "InvertCWTUsingApproximateSynthesisFiltersExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.freqz.html#mw_d0842ecc-d687-4f5f-a91c-69305715dc1e",
+          "page_format" : "doc_center" } ],
+      "KingsburyQshiftFiltersExample" : 
+      [ 
+        { "path" : "ref\/qorthwavf.html#mw_e9487180-3718-4765-9cc4-28d5f09696d2",
+          "page_format" : "doc_center" } ],
+      "LWTOfMultisignalExample" : 
+      [ 
+        { "path" : "ref\/lwt.html#mw_75f6d882-5d2d-4961-a9d1-7255a17072e1",
+          "page_format" : "doc_center" } ],
+      "LabelDefinitionsForWhaleSongsExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.html#mw_f7a1c39a-89cb-4505-9d37-bb89d0386f88",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/signallabeldefinition.html#mw_3f44690e-a7cc-4f48-be52-cf357e6b739b",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "LabelHierarchyExample" : 
+      [ 
+        { "path" : "ref\/signallabeldefinition.labeldefinitionshierarchy.html#mw_57f1fa29-71f0-4be9-9ba0-4dc6da58c12b",
+          "page_format" : "doc_center" } ],
+      "LabelPropertiesExample" : 
+      [ 
+        { "path" : "ref\/signallabeldefinition.labeldefinitionssummary.html#mw_cc653df1-15e0-49db-86cb-7b6ce0150446",
+          "page_format" : "doc_center" } ],
+      "LabeledSubsetExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.subset.html#mw_4285c5df-1e59-44b3-83ef-15fd97ed942f",
+          "page_format" : "doc_center" } ],
+      "LaurentMatrixAdditionExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.plus.html#mw_40c6c30e-a71b-48ea-985d-92011d93ee1d",
+          "page_format" : "doc_center" } ],
+      "LaurentMatrixDeterminantExample" : 
+      [ 
+        { "path" : "ref\/laurentmatrix.det.html#mw_a3937c28-7356-4853-969a-76390e8a3694",
+          "page_format" : "doc_center" } ],
+      "LaurentMatrixInverseExample" : 
+      [ 
+        { "path" : "ref\/laurentmatrix.inverse.html#mw_d6a727a4-d3fe-4544-b057-cf7dceb194ae",
+          "page_format" : "doc_center" } ],
+      "LaurentMatrixMultiplicationExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.mtimes.html#mw_30b95e23-43f2-4af5-9d9d-d6e6ee2e4c12",
+          "page_format" : "doc_center" } ],
+      "LaurentMatrixReflectionExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.reflect.html#mw_df8027ed-d702-412c-901a-b86ba2570bb6",
+          "page_format" : "doc_center" } ],
+      "LaurentMatrixSubtractionExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.minus.html#mw_9e2e6a7a-d9d1-44bb-9f0a-35799c4f240a",
+          "page_format" : "doc_center" } ],
+      "LaurentMatrixTransposeExample" : 
+      [ 
+        { "path" : "ref\/laurentmatrix.ctranspose.html#mw_85cab469-f8e0-4828-a668-93b206b309ee",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialAdditionExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.plus.html#mw_373db8da-5b8c-453d-8263-3faa696361db",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialConcatenationExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.horzcat.html#mw_88405bd7-145c-4dec-bc62-8f539b342b97",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/laurentpolynomial.vertcat.html#mw_8c35fa3c-918a-492e-ba8d-2053e169cb84",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialExponentiationExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.mpower.html#mw_454f6039-cc5f-482b-bf13-0b7fafa7134e",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialMultiplicationExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.mtimes.html#mw_05cdd404-f29c-445e-be15-4e1a4fd23bd5",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialReflectionExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.reflect.html#mw_2fd4e2cd-a0c4-4e52-91ee-48e85145795a",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialSubtractionExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.minus.html#mw_1365c719-34b6-4406-83ea-48cb635b9fb8",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialsAssociatedWithWaveletExample" : 
+      [ 
+        { "path" : "ref\/wave2lp.html#mw_83382e70-d5f5-44a5-b570-5ae070d30349",
+          "page_format" : "doc_center" } ],
+      "LaurentPolynomialsAssociatedWithWaveletFiltersExample" : 
+      [ 
+        { "path" : "ref\/filters2lp.html#mw_2ad0be4f-604f-4fad-8e47-2947efa9efb6",
+          "page_format" : "doc_center" } ],
+      "LeastAsymExtremalPolyExample" : 
+      [ 
+        { "path" : "ref\/dbaux.html#mw_b14f30f6-353a-438a-a5cc-fd252bfbd1a1",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/symaux.html#mw_e7ff4820-fc68-4965-82ef-d1ee39b0894a",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "LeastAsymmetricWaveletExample" : 
+      [ 
+        { "path" : "ref\/symaux.html#mw_472cedac-3a2a-4fb7-a90d-fc05982b7017",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ug\/least-asymmetric-wavelet-and-phase.html",
+          "group" : "wavelet_ug",
+          "page_format" : "doc_center" } ],
+      "Level3ApproxCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/appcoef.html#mw_cf4c8214-04a7-4ad6-9646-fb9de3ed1386",
+          "page_format" : "doc_center" } ],
+      "LevelDependentThresholdStationaryWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/wthrmngr.html#mw_8013c788-f410-4ebe-ab1c-3b4e8c76af33",
+          "page_format" : "doc_center" } ],
+      "LevelIndependentThresholdStationaryWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/wthrmngr.html#mw_87804362-5302-47eb-b15d-153e60a68832",
+          "page_format" : "doc_center" } ],
+      "LiftingAFilterBankExample" : 
+      [ 
+        { "path" : "ug\/lifting-a-filter-bank.html",
+          "page_format" : "doc_center" } ],
+      "LiftingBackgroundExample" : 
+      [ 
+        { "path" : "ug\/lifting-method-for-constructing-wavelets.html#f8-85630",
+          "page_format" : "doc_center" } ],
+      "LiftingExample" : 
+      [ 
+        { "path" : "gs\/1d-lifting.html",
+          "page_format" : "doc_center" } ],
+      "LiftingWaveletTransformOf2DDataExample" : 
+      [ 
+        { "path" : "ref\/lwt2.html#mw_0e78bfbb-0077-4e78-91ab-5203a54b0315",
+          "page_format" : "doc_center" } ],
+      "LiftingWaveletTransformOfIntegerValuedSignalExample" : 
+      [ 
+        { "path" : "ref\/lwt.html#mw_205c4ff8-bdde-409a-a496-0938ba97745f",
+          "page_format" : "doc_center" } ],
+      "LiftingWaveletTransformOfRGBImageUsingLiftingSchemeExample" : 
+      [ 
+        { "path" : "ref\/lwt2.html#mw_09fec0a0-6072-443a-81a1-59e1bb114572",
+          "page_format" : "doc_center" } ],
+      "LinearChirpsWithInadequateSeparationExample" : 
+      [ 
+        { "path" : "gs\/wavelet-synchrosqueezing.html#bu9sczg-1",
+          "page_format" : "doc_center" } ],
+      "LinearityOfWTMMCoeffsForMonofractalExample" : 
+      [ 
+        { "path" : "ref\/wtmm.html#bve32qe-1",
+          "page_format" : "doc_center" } ],
+      "LittlewoodPaleySumOfImageScatteringFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.littlewoodpaleysum.html#mw_a2c14d27-a7fa-4a3b-8799-713beb98b832",
+          "page_format" : "doc_center" } ],
+      "LocalHolderExponentsForCuspSignalAndDeltaFunctionsExample" : 
+      [ 
+        { "path" : "ref\/wtmm.html#bveevqv-2",
+          "page_format" : "doc_center" } ],
+      "LocalizeDiscontinuityInSineWaveExample" : 
+      [ 
+        { "path" : "gs\/what-is-a-wavelet.html#bsoq9mo-1",
+          "page_format" : "doc_center" } ],
+      "LocalizingTransientsExample" : 
+      [ 
+        { "path" : "gs\/choose-a-wavelet.html#mw_f37d2bb5-33dc-4e61-a1c3-0f7e650f6181",
+          "page_format" : "doc_center" } ],
+      "LowVsHighFrequencySeparationForSynchrosqueezingExample" : 
+      [ 
+        { "path" : "gs\/wavelet-synchrosqueezing.html#bu9scze-1",
+          "page_format" : "doc_center" } ],
+      "MODIF_VARTHR" : 
+      [ 
+        { "path" : "ug\/one-dimensional-variance-adaptive-thresholding-of-wavelet-coefficients.html#MODIF_VARTHR",
+          "page_format" : "doc_center" } ],
+      "MODWPTDetailsForFullPacketTreeExample" : 
+      [ 
+        { "path" : "ref\/modwptdetails.html#bu3xmii-14",
+          "page_format" : "doc_center" } ],
+      "MODWPTDetailsForNoisySineWaveExample" : 
+      [ 
+        { "path" : "ref\/modwptdetails.html#bu3xmii-11",
+          "page_format" : "doc_center" } ],
+      "MODWPTDetailsForTwoSineWavesExample" : 
+      [ 
+        { "path" : "ref\/modwptdetails.html#bu4ky4m-1",
+          "page_format" : "doc_center" } ],
+      "MODWPTDetailsUsingDefaultWaveletExample" : 
+      [ 
+        { "path" : "ref\/modwptdetails.html#bu3xmii-10",
+          "page_format" : "doc_center" } ],
+      "MODWPTDetailsUsingScalingAndWaveletFiltersExample" : 
+      [ 
+        { "path" : "ref\/modwptdetails.html#bu3xmii-12",
+          "page_format" : "doc_center" } ],
+      "MODWPTEnergyAndRelativeEnergyExample" : 
+      [ 
+        { "path" : "ref\/modwpt.html#bu3j9a9-1",
+          "page_format" : "doc_center" } ],
+      "MODWPTFullPacketTreeAndPassbandCenterFrequenciesExample" : 
+      [ 
+        { "path" : "ref\/modwpt.html#bu3j9a7-1",
+          "page_format" : "doc_center" } ],
+      "MODWPTUsingDaubechiesTwoExample" : 
+      [ 
+        { "path" : "ref\/modwpt.html#bu3j9ed-1",
+          "page_format" : "doc_center" } ],
+      "MODWPTUsingDefaultWaveletExample" : 
+      [ 
+        { "path" : "ref\/modwpt.html#bu2_rk8-2",
+          "page_format" : "doc_center" } ],
+      "MODWTDaubechiesExtremalPhaseWaveletExample" : 
+      [ 
+        { "path" : "ref\/modwt.html#buux9yz",
+          "page_format" : "doc_center" } ],
+      "MODWTOfECGSignalExample" : 
+      [ 
+        { "path" : "ref\/modwt.html#buux9yh",
+          "page_format" : "doc_center" } ],
+      "MODWTOfMultisignalExample" : 
+      [ 
+        { "path" : "ref\/modwt.html#mw_7f4d20a4-8e25-44d2-8c02-d455d97834bd",
+          "page_format" : "doc_center" } ],
+      "MODWTToASpecifiedLevelExample" : 
+      [ 
+        { "path" : "ref\/modwt.html#buux_p7",
+          "page_format" : "doc_center" } ],
+      "MODWTUsingScalingAndWaveletFiltersExample" : 
+      [ 
+        { "path" : "ref\/modwt.html#buux_hw",
+          "page_format" : "doc_center" } ],
+      "MODWTWithReflectionBoundaryExample" : 
+      [ 
+        { "path" : "ref\/modwt.html#buux_3p",
+          "page_format" : "doc_center" } ],
+      "MRAOfDeutscheMarkUSDollarExchangeDataExample" : 
+      [ 
+        { "path" : "ref\/modwtmra.html#buuz1a4-8",
+          "page_format" : "doc_center" } ],
+      "MRAOfECGSignalExample" : 
+      [ 
+        { "path" : "ref\/modwtmra.html#buuz1a4-6",
+          "page_format" : "doc_center" } ],
+      "MRAOfMultisignalExample" : 
+      [ 
+        { "path" : "ref\/modwtmra.html#mw_6daed1af-4def-45ff-8130-045abccbf579",
+          "page_format" : "doc_center" } ],
+      "MRAOfSouthernOscillationIndexDataExample" : 
+      [ 
+        { "path" : "ref\/modwtmra.html#buuz1a4-7",
+          "page_format" : "doc_center" } ],
+      "MRAUsingFejerKorovkinFiltersExample" : 
+      [ 
+        { "path" : "ref\/modwtmra.html#mw_731e6933-158f-4bc2-92d4-a8bd1fa1362e",
+          "page_format" : "doc_center" } ],
+      "MRAUsingReflectionBoundaryExample" : 
+      [ 
+        { "path" : "ref\/modwtmra.html#buuz1a4-9",
+          "page_format" : "doc_center" } ],
+      "MULT_ANA_1D" : 
+      [ 
+        { "path" : "ug\/1-d-multisignal-analysis-using-the-wavelet-analyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "MULT_CLUS_1D" : 
+      [ 
+        { "path" : "ug\/1-d-multisignal-analysis-using-the-wavelet-analyzer-app.html#f4-1100394",
+          "page_format" : "doc_center" } ],
+      "MULT_COMP_1D" : 
+      [ 
+        { "path" : "ug\/1-d-multisignal-analysis-using-the-wavelet-analyzer-app.html#MULT_COMP_1D",
+          "page_format" : "doc_center" } ],
+      "MULT_DENO_1D" : 
+      [ 
+        { "path" : "ug\/1-d-multisignal-analysis-using-the-wavelet-analyzer-app.html#MULT_DENO_1D",
+          "page_format" : "doc_center" } ],
+      "MULT_VAR_DEN" : 
+      [ 
+        { "path" : "ug\/multivariate-wavelet-de-noising.html",
+          "page_format" : "doc_center" } ],
+      "MULT_VAR_PCA" : 
+      [ 
+        { "path" : "ug\/wavelet-multiscale-principal-components-analysis.html",
+          "page_format" : "doc_center" } ],
+      "MUL_PCA" : 
+      [ 
+        { "path" : "ug\/multivariate-wavelet-denoising-using-the-wavelet-analyzer-app.html#MUL_PCA",
+          "page_format" : "doc_center" } ],
+      "MatchingPursuitofElectricityConsumptionDataExample" : 
+      [ 
+        { "path" : "ref\/wmpalg.html#mw_3f106879-44f3-4086-af43-a2006fb0f67b",
+          "page_format" : "doc_center" } ],
+      "MatrixFusionExample" : 
+      [ 
+        { "path" : "ref\/wfusmat.html#mw_239c1ab9-484e-4336-b52a-38d133f8dc2a",
+          "page_format" : "doc_center" } ],
+      "MaximumLevelsOfDecompositionForASignalAndImageExample" : 
+      [ 
+        { "path" : "ref\/wmaxlev.html#mw_a5751fbe-4ca3-436d-9a03-5957855c457f",
+          "page_format" : "doc_center" } ],
+      "MeasureApproximationQualityInAnRGBImageExample" : 
+      [ 
+        { "path" : "ref\/measerr.html#mw_e26847e0-6113-4392-b876-5b82006b93df",
+          "page_format" : "doc_center" } ],
+      "MergeLabeledSignalSetsExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.concatenate.html#mw_f3aedc25-b77d-4342-be9e-6df82bdcd6c2",
+          "page_format" : "doc_center" } ],
+      "MergeWhaleLabeledSignalSetsExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.merge.html#mw_dff39743-609c-4f14-9891-10aaadf62593",
+          "page_format" : "doc_center" } ],
+      "ModClassUsingWaveletAnalysisOnNVIDIAJetsonExample" : 
+      [ 
+        { "path" : "ug\/modulation-classification-using-wavelet-analysis-on-nvidia-jetson.html",
+          "page_format" : "doc_center" } ],
+      "ModifyApproximationCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/wthcoef.html#mw_fc973292-c91d-4637-af77-47b06e3ff8a1",
+          "page_format" : "doc_center" } ],
+      "ModwtxcorrNoisySinesExample" : 
+      [ 
+        { "path" : "ref\/modwtxcorr.html#buxg3_t-1",
+          "page_format" : "doc_center" } ],
+      "MorletWaveletExample" : 
+      [ 
+        { "path" : "ref\/morlet.html#mw_5e6fb2fd-d59a-4468-9d77-2ef1b88082b5",
+          "page_format" : "doc_center" } ],
+      "MorrisMinimumBandwidthWaveletExample" : 
+      [ 
+        { "path" : "ref\/mbscalf.html#mw_498a2e12-8b29-4c0a-abd5-0f67e2019fe8",
+          "page_format" : "doc_center" } ],
+      "MorseWaveletTransformAndHilbertTransformExample" : 
+      [ 
+        { "path" : "ug\/morse-wavelets.html#bvej0g9-1",
+          "page_format" : "doc_center" } ],
+      "MultichannelDiscreteWaveletPacketTransformExample" : 
+      [ 
+        { "path" : "ref\/dwpt.html#mw_b82888d4-953f-4967-8842-1bbe4195c43f",
+          "page_format" : "doc_center" } ],
+      "MultifractalAndSingularityAnalysisExample" : 
+      [ 
+        { "path" : "ug\/multifractal-analysis.html",
+          "page_format" : "doc_center" } ],
+      "MultifractalRandomWalkCumulantsExponentsExample" : 
+      [ 
+        { "path" : "ref\/dwtleader.html#mw_d297f1d2-6bf4-4934-ac13-e2b34ba7342d",
+          "page_format" : "doc_center" } ],
+      "MultifractalSpectrumOfHeartRateVariabilityExample" : 
+      [ 
+        { "path" : "ref\/dwtleader.html#bvfgqrt",
+          "page_format" : "doc_center" } ],
+      "Multilevel1DWaveletReconstructionExample" : 
+      [ 
+        { "path" : "ref\/waverec.html#mw_104aa515-b9f6-4f8d-9675-819df016692f",
+          "page_format" : "doc_center" } ],
+      "Multilevel2DDiscreteWaveletTransformOnAGPUExample" : 
+      [ 
+        { "path" : "ref\/wavedec2.html#mw_d4e80b3b-befc-4d09-91c1-c83811ff5254",
+          "page_format" : "doc_center" } ],
+      "MultilevelDiscreteWaveletTransformOnAGPUExample" : 
+      [ 
+        { "path" : "ref\/wavedec.html#mw_577ee36a-f722-4377-9f40-6b48b0a75cad",
+          "page_format" : "doc_center" } ],
+      "MultilevelStationaryWaveletReconstructionExample" : 
+      [ 
+        { "path" : "ref\/iswt.html#mw_f7dc2cab-609c-4eef-95c0-5d6c265612aa",
+          "page_format" : "doc_center" } ],
+      "MultilevelTwoDimensionalStationaryWaveletReconstructionExample" : 
+      [ 
+        { "path" : "ref\/iswt2.html#mw_07c6f847-575b-463b-a03f-305508836592",
+          "page_format" : "doc_center" } ],
+      "MultiscaleCorrelationInTabularFormExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buvytfe",
+          "page_format" : "doc_center" } ],
+      "MultiscaleCorrelationOfAtmosphericPressureDataExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buvynec",
+          "page_format" : "doc_center" } ],
+      "Multisignal1DDecompositionEnergyDistributionExample" : 
+      [ 
+        { "path" : "ref\/wdecenergy.html#mw_5729b98d-5559-4eb6-901d-e7a64ebbf3dd",
+          "page_format" : "doc_center" } ],
+      "Multisignal1DWaveletDenoisingExample" : 
+      [ 
+        { "path" : "ref\/mswden.html#mw_097e427b-87b4-4268-855c-053b05123001",
+          "page_format" : "doc_center" } ],
+      "MultisignalCompressionScoresExample" : 
+      [ 
+        { "path" : "ref\/mswcmpscr.html#mw_de23ac3e-ea4d-4d44-951c-90047a2acf46",
+          "page_format" : "doc_center" } ],
+      "MultisignalCompressionThresholdsAndPerformanceExample" : 
+      [ 
+        { "path" : "ref\/mswcmptp.html#mw_fb16f957-8108-4df7-971e-533eb9752177",
+          "page_format" : "doc_center" } ],
+      "MultisignalThresholdingExample" : 
+      [ 
+        { "path" : "ref\/mswthresh.html#mw_1a1e8c62-6ae7-4e73-9d9f-53cd44ee3cab",
+          "page_format" : "doc_center" } ],
+      "NaturalLogarithmOfImageScatteringCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.log.html#mw_22d25b3e-b85c-4649-bc24-83323b67eeef",
+          "page_format" : "doc_center" } ],
+      "NaturalLogarithmOfScatteringCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.log.html#mw_2b8ca1c1-d661-4c4c-94fc-b250864e3a5c",
+          "page_format" : "doc_center" } ],
+      "NewWaveletForCWTUsingTheCommandLineExample" : 
+      [ 
+        { "path" : "gs\/new-wavelet-for-cwt.html",
+          "page_format" : "doc_center" } ],
+      "NoiseRemovalFromECGSignalUsingVMDExample" : 
+      [ 
+        { "path" : "ref\/vmd.html#mw_baefc34d-b019-4584-a625-bfc920e57526",
+          "page_format" : "doc_center" } ],
+      "NondecimatedDiscreteWaveletAnalysisExample" : 
+      [ 
+        { "path" : "gs\/analysis-with-the-discrete-wavelets.html#bu_pg8z-1",
+          "page_format" : "doc_center" } ],
+      "NormalizeScaleAveragedWaveletSpectrumExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.scalespectrum.html#mw_3626a7fb-4e61-4238-83f4-3ae69a8f5ea5",
+          "page_format" : "doc_center" } ],
+      "NormalizeTimeAveragedWaveletSpectrumExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.timespectrum.html#mw_c8815234-76c3-4e58-85f0-753e4aac4841",
+          "page_format" : "doc_center" } ],
+      "NumberOfFilterBanksIn2DWaveletScatteringNetworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.numfilterbanks.html#mw_ad5366b3-7a42-4d93-8ca5-609abc9a3782",
+          "page_format" : "doc_center" } ],
+      "NumberOfFilterBanksInAScatteringDecompositionFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.numfilterbanks.html#mw_55916fa4-f983-4c03-ad15-0bc01ddfeb69",
+          "page_format" : "doc_center" } ],
+      "NumberOfOrdersInAScatteringDecompositionFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.numorders.html#mw_0d3a0b97-f5c7-4620-a33b-46114f5fc5bd",
+          "page_format" : "doc_center" } ],
+      "NumberOfOrdersInWaveletImageScatteringNetworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.numorders.html#mw_7896e52e-e522-4761-8b12-ce89def874c8",
+          "page_format" : "doc_center" } ],
+      "NumberOfShearletFiltersInAShearletSystemExample" : 
+      [ 
+        { "path" : "ref\/shearletsystem.numshears.html#mw_309e8b85-32d6-4095-aed8-e14945c8c697",
+          "page_format" : "doc_center" } ],
+      "Obtain2DWaveletPacketDecompositionExample" : 
+      [ 
+        { "path" : "ref\/wpdec2.html#mw_5818c3bb-c3df-4b7f-aef7-5d832398a8a9",
+          "page_format" : "doc_center" } ],
+      "ObtainAScatteringFeatureMatrixExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.featurematrix.html#mw_e1631feb-b048-4ee0-b4c9-9ec772102ac4",
+          "page_format" : "doc_center" } ],
+      "ObtainBestFitUsingMatchingPursuitExample" : 
+      [ 
+        { "path" : "ref\/sensingdictionary.html#mw_1c4ddb9e-2e43-4d17-b1b1-af02e8dee30e",
+          "page_format" : "doc_center" } ],
+      "ObtainFeatureMatrixForWaveletImageScatteringFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.featurematrix.html#mw_2616c8f9-fbef-4eb2-a218-a03422256dfc",
+          "page_format" : "doc_center" } ],
+      "ObtainFilterBankMatrixFromDeepLearningCWTFilterTensorExample" : 
+      [ 
+        { "path" : "ref\/array2cwtfilters.html#mw_6ac6b983-1027-4562-8177-7a55fc07e036",
+          "page_format" : "doc_center" } ],
+      "ObtainFiltersFromLiftingSchemeExample" : 
+      [ 
+        { "path" : "ref\/ls2filt.html#mw_f875b64c-1dc4-4702-b63f-730552726e4e",
+          "page_format" : "doc_center" } ],
+      "ObtainFullWeightCWTFilterBankExample" : 
+      [ 
+        { "path" : "ref\/cwtlayer.filterbank.html#mw_97c4c3c3-716c-4516-8dbc-2ad4c9a20aa2",
+          "page_format" : "doc_center" } ],
+      "ObtainLiftingSchemeFromLaurentPolynomialsExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.lp2ls.html#mw_53ee2213-75e8-4e88-8d79-2cd2b219df29",
+          "page_format" : "doc_center" } ],
+      "ObtainProjectionOntoScalingSpaceExample" : 
+      [ 
+        { "path" : "ref\/imodwt.html#buuzwfx",
+          "page_format" : "doc_center" } ],
+      "ObtainReducedWeightCWTFilterTensorExample" : 
+      [ 
+        { "path" : "ref\/cwtfilters2array.html#mw_543e39d2-067c-48bf-b0f1-2f314a38b404",
+          "page_format" : "doc_center" } ],
+      "ObtainSparseApproximationExample" : 
+      [ 
+        { "path" : "ref\/sensingdictionary.matchingpursuit.html#mw_3d615f60-0cac-4cdf-8445-3036f6b142a2",
+          "page_format" : "doc_center" } ],
+      "ObtainWaveletEntropyExample" : 
+      [ 
+        { "path" : "ref\/wentropy.html#mw_e8272c68-2f26-492c-b762-5d19aeaf479e",
+          "page_format" : "doc_center" } ],
+      "ObtainWaveletPacketCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/wptree.wpcoef.html#mw_d18af641-4c85-4a7d-8926-9e62911d8662",
+          "page_format" : "doc_center" } ],
+      "OneDComplexContWaveletAnalysisOfCuspExample" : 
+      [ 
+        { "path" : "ug\/continuous-wavelet-analysis-of-cusp-signal.html",
+          "page_format" : "doc_center" } ],
+      "OneDComplexDualTreeWvltTxStructureExample" : 
+      [ 
+        { "path" : "ref\/dddtreecfs.html#bt3r1cl-3",
+          "page_format" : "doc_center" } ],
+      "OneDCompressionUsingWaveletPacketsExample" : 
+      [ 
+        { "path" : "ref\/wpdencmp.html#mw_c225f0e2-9964-4929-8a6d-7b291455cc3c",
+          "page_format" : "doc_center" } ],
+      "OneDCycleSpinningExample" : 
+      [ 
+        { "path" : "ug\/translation-invariant-wavelet-denoising-with-cycle-spinning.html#btyybgt",
+          "page_format" : "doc_center" } ],
+      "OneDDenoisingUsingWaveletPacketsExample" : 
+      [ 
+        { "path" : "ref\/wpdencmp.html#mw_5cb061e9-a53d-4df0-b6fb-7f3b152c8670",
+          "page_format" : "doc_center" } ],
+      "OneDFractionalBrownianMotionSynthesisExample" : 
+      [ 
+        { "path" : "gs\/one-dimensional-fractional-brownian-motion-synthesis.html",
+          "page_format" : "doc_center" } ],
+      "OneDWaveletDenoisingExample" : 
+      [ 
+        { "path" : "gs\/analysis-with-the-discrete-wavelets.html#btdt59x",
+          "page_format" : "doc_center" } ],
+      "OneDWaveletVarianceAdaptiveThresholdingExample" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#mw_a9aa8a56-3436-4f86-a1e3-0838d76be738",
+          "page_format" : "doc_center" } ],
+      "OrderTerminalNodesByDepthAndPositionExample" : 
+      [ 
+        { "path" : "ref\/otnodes.html#mw_c157660c-da22-41d4-a263-cb845939254d",
+          "page_format" : "doc_center" } ],
+      "OrderTerminalNodesExample" : 
+      [ 
+        { "path" : "ref\/otnodes.html#mw_54ab2eb1-c1df-4d83-a509-62535c07afe5",
+          "page_format" : "doc_center" } ],
+      "OrderTerminalNodesFromWaveletPacketTreeExample" : 
+      [ 
+        { "path" : "ref\/otnodes.html#mw_10338034-dc4f-41ae-be86-4dc3e58661ad",
+          "page_format" : "doc_center" } ],
+      "OrthogonalAndBiorthogonalFilterBanksExample" : 
+      [ 
+        { "path" : "ug\/orthogonal-and-biorthogonal-filter-banks.html",
+          "page_format" : "doc_center" } ],
+      "OrthogonalMatchingPursuitOn1DSignalExample" : 
+      [ 
+        { "path" : "ug\/matching-pursuit-command-line.html#mw_d72cca90-6457-4bac-8ab9-b3482d5b1b3e",
+          "page_format" : "doc_center" } ],
+      "OrthogonalityTestOfDWTFilterBankExample" : 
+      [ 
+        { "path" : "ref\/dwtfilterbank.isorthogonal.html#mw_090df6c2-14ee-400d-8519-a2e2cdde7e58",
+          "page_format" : "doc_center" } ],
+      "OutputIntervalsAndThresholdsExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btift8b",
+          "page_format" : "doc_center" } ],
+      "Oversample1DWaveletScatteringTransformExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.numcoefficients.html#mw_ee780ff4-0f14-42e9-b790-32e22aeb87e3",
+          "page_format" : "doc_center" } ],
+      "PCA_PCA" : 
+      [ 
+        { "path" : "ug\/multiscale-principal-components-analysis-using-the-wavelet-analyzer-app.html#PCA_PCA",
+          "page_format" : "doc_center" } ],
+      "PCA_PROC" : 
+      [ 
+        { "path" : "ug\/wavelet-multiscale-principal-components-analysis.html#PCA_PROC",
+          "page_format" : "doc_center" } ],
+      "PRBiorthFiltersExample" : 
+      [ 
+        { "path" : "ref\/idwpt.html#mw_a280a609-dc0e-46f6-b6a3-d58b4ccb5b5c",
+          "page_format" : "doc_center" } ],
+      "ParasiteClassificationExample" : 
+      [ 
+        { "path" : "ug\/parasite-classification-using-wavelet-scattering-and-deep-learning.html",
+          "page_format" : "doc_center" } ],
+      "PartitionSignalIntoIncreasingNumbersOfIntervalsExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btifuan",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionOfTheConstantQTransformExample" : 
+      [ 
+        { "path" : "ref\/icqt.html#mw_3b99f506-f3e8-49db-b730-130659612105",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionOfTheShearletTransformExample" : 
+      [ 
+        { "path" : "ref\/shearletsystem.isheart2.html#mw_2c739e25-d286-4cf2-b27e-4c5bd60a2f65",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionUsingtheComplexOrientedDualTreeWaveExample" : 
+      [ 
+        { "path" : "ref\/idddtree2.html#bt0p1ig-6",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionUsingtheDualTreeDoubleDensityWaveleExample" : 
+      [ 
+        { "path" : "ref\/idddtree.html#btzsu88-2",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionWithMODWTExample" : 
+      [ 
+        { "path" : "ref\/imodwt.html#buuzrn4",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionWithTheInverseMODWPTExample" : 
+      [ 
+        { "path" : "ref\/imodwpt.html#bu36k2v-6",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionWithTheMODWTMRAExample" : 
+      [ 
+        { "path" : "ref\/modwtmra.html#buz4apn-1",
+          "page_format" : "doc_center" } ],
+      "PerfectReconstructionwith3DDiscreteWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/waverec3.html#mw_7f85577d-a896-4921-a23d-0e44688d86a8",
+          "page_format" : "doc_center" } ],
+      "PerformBiorthogonalityChecksOnFilterBankExample" : 
+      [ 
+        { "path" : "ref\/isbiorthwfb.html#mw_ffb3efd5-3c9a-4799-a086-a50822ef0059",
+          "page_format" : "doc_center" } ],
+      "PerformDyadicDownsamplingExample" : 
+      [ 
+        { "path" : "ref\/dyaddown.html#mw_c050a131-6733-422f-9e63-dd10bbc48752",
+          "page_format" : "doc_center" } ],
+      "PerformDyadicUpsamplingExample" : 
+      [ 
+        { "path" : "ref\/dyadup.html#mw_6eb4c17c-2669-43ed-a7ae-e0eefe6bbb5b",
+          "page_format" : "doc_center" } ],
+      "PerformEMDAndComputeHilbertSpectrumOfNonStationarySignalExample" : 
+      [ 
+        { "path" : "ref\/emd.html#mw_718f517b-3d96-4628-ae9a-38293f04111c",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/hht.html#mw_133e405f-fe22-4f33-8937-e393dc70f328",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "PerformEWTAndVisualizeHilbertSpectrumOfSignalExample" : 
+      [ 
+        { "path" : "ref\/ewt.html#mw_06bc61bc-9389-4a04-8f3b-26d3f89ce8fe",
+          "page_format" : "doc_center" } ],
+      "PerformMLPTAnalysisExample" : 
+      [ 
+        { "path" : "ref\/imlpt.html#bvkoedz-7",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/mlpt.html#bvkm5gp",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "PerformMultilevelOneDimensionalWaveletAnalysisExample" : 
+      [ 
+        { "path" : "ref\/wavedec.html#mw_49b47b24-3400-4629-a09c-78d049660902",
+          "page_format" : "doc_center" } ],
+      "PerformOrthogonalityChecksOnFilterBankExample" : 
+      [ 
+        { "path" : "ref\/isorthwfb.html#mw_e39bb836-a9bf-43ac-9d93-b9008b13e04c",
+          "page_format" : "doc_center" } ],
+      "PerformTunableQfactorMultiresolutionAnalysisExample" : 
+      [ 
+        { "path" : "ref\/tqwtmra.html#mw_24f5821d-753c-49b6-b4e5-00f6ed67b6ed",
+          "page_format" : "doc_center" } ],
+      "PerformingAStationaryWaveletDecompositionExample" : 
+      [ 
+        { "path" : "ref\/swt.html#mw_f3a6c0a0-4099-4de2-a53d-79f87438c694",
+          "page_format" : "doc_center" } ],
+      "PhysiologicSignalAnalysisExample" : 
+      [ 
+        { "path" : "ug\/wavelet-analysis-of-physiologic-signals.html",
+          "page_format" : "doc_center" } ],
+      "Plot2DCWTExample" : 
+      [ 
+        { "path" : "ref\/cwtft2.html#bt1o1xz",
+          "page_format" : "doc_center" } ],
+      "PlotCWTScalogramInSubplotExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_f6c38b6d-dbbc-4485-8fac-9f506666abb9",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/cwtfilterbank.html#mw_159e8c83-edf2-4c35-bf0e-cdb62e13d825",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "PlotCWTWithFrequenciesExample" : 
+      [ 
+        { "path" : "ref\/scal2frq.html#mw_dcfb1e86-ad4a-4861-9767-c992e3ede408",
+          "page_format" : "doc_center" } ],
+      "PlotComplexDualTreeWaveletTransformof1DSignalExample" : 
+      [ 
+        { "path" : "ref\/plotdt.html#btzsynv-2",
+          "page_format" : "doc_center" } ],
+      "PlotComplexOrientedDualTreeWaveletTransformof2DImageExample" : 
+      [ 
+        { "path" : "ref\/plotdt.html#btzs8j5-2",
+          "page_format" : "doc_center" } ],
+      "PlotCorrelationWithConfidenceIntervalsExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buvyxhv",
+          "page_format" : "doc_center" } ],
+      "PlotCrossCorrelationSequencesByLagExample" : 
+      [ 
+        { "path" : "ref\/modwtxcorr.html#buv30nq",
+          "page_format" : "doc_center" } ],
+      "PlotDualtreeComplexWaveletTransformCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/dualtree.html#mw_a0581c8c-ac92-4cc5-b0e1-1b6f442128e0",
+          "page_format" : "doc_center" } ],
+      "PlotLittlewoodPaleySumExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.littlewoodpaleysum.html#mw_e130f69d-d15d-485b-bb79-8119e7ae4286",
+          "page_format" : "doc_center" } ],
+      "PlotMeyerAuxiliaryFunctionExample" : 
+      [ 
+        { "path" : "ref\/meyeraux.html#mw_cadd55b6-6c8f-47e1-8d8e-dbbe73e6a3d5",
+          "page_format" : "doc_center" } ],
+      "PlotMeyerWaveletAndScalingFunctionsExample" : 
+      [ 
+        { "path" : "ref\/meyer.html#mw_6573836f-f034-4adc-b139-7a2b11dea74d",
+          "page_format" : "doc_center" } ],
+      "PlotScatteringFrameworkFilterBanksExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.filterbank.html#mw_d27e1cc2-bebe-4ecf-86f2-a354b61ec2e7",
+          "page_format" : "doc_center" } ],
+      "PlotShearletFiltersExample" : 
+      [ 
+        { "path" : "ref\/shearletsystem.filterbank.html#mw_7840f609-ee83-4de5-b7f9-b0323c0af1a5",
+          "page_format" : "doc_center" } ],
+      "PlotSpecificWaveletOfImageScatteringFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.filterbank.html#mw_45a7ea65-4701-46f5-a71c-fd8455caae73",
+          "page_format" : "doc_center" } ],
+      "PlotWaveletCenterFrequenciesExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.filterbank.html#mw_cff04c4e-96be-4245-a258-67ff7cd3189b",
+          "page_format" : "doc_center" } ],
+      "PlotWaveletPacketTreesExample" : 
+      [ 
+        { "path" : "ref\/plot.html#mw_4abecea0-162f-419d-a1df-340074633bcb",
+          "page_format" : "doc_center" } ],
+      "PlotWaveletTestSignalsExample" : 
+      [ 
+        { "path" : "ref\/wnoise.html#mw_17d81bee-1139-4903-8985-912fd42166e2",
+          "page_format" : "doc_center" } ],
+      "PolyphaseDecompositionOfLaurentPolynomialExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.polyphase.html#mw_c90a6612-a12e-4931-a16f-f3e14a854a35",
+          "page_format" : "doc_center" } ],
+      "PracIntroCWAnalysisExample" : 
+      [ 
+        { "path" : "ug\/practical-introduction-to-time-frequency-analysis-using-the-continuous-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "PracticalConsiderationsEdgesAreCriticalExample" : 
+      [ 
+        { "path" : "ug\/dealing-with-border-distortion.html#mw_db11f4a6-2cdc-4933-8313-9f8e5418dd8e",
+          "page_format" : "doc_center" } ],
+      "PracticalIntroductionToMultiresolutionAnalysisExample" : 
+      [ 
+        { "path" : "ug\/practical-introduction-to-multiresolution-analysis.html",
+          "page_format" : "doc_center" } ],
+      "PrimalLiftingFromHaarExample" : 
+      [ 
+        { "path" : "ug\/lifting-method-for-constructing-wavelets.html#bs9j03p",
+          "page_format" : "doc_center" } ],
+      "PropertiesOfLaurentPolynomialsExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.html#mw_b39f6280-8b29-47b3-947c-cf065f311139",
+          "page_format" : "doc_center" } ],
+      "PvaluesForCorrelationExample" : 
+      [ 
+        { "path" : "ref\/modwtcorr.html#buvysh8",
+          "page_format" : "doc_center" } ],
+      "QuadratureMirrorFilterExample" : 
+      [ 
+        { "path" : "ref\/qmf.html#mw_800f90a1-1654-4486-9500-ed3cfb797278",
+          "page_format" : "doc_center" } ],
+      "QualityFactorOfCWTFilterBankExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.qfactor.html#mw_b0fc994c-b39a-4958-8c17-81363c29cde1",
+          "page_format" : "doc_center" } ],
+      "REGF_GUI" : 
+      [ 
+        { "path" : "ug\/univariate-wavelet-regression.html",
+          "page_format" : "doc_center" } ],
+      "REGR_GUI" : 
+      [ 
+        { "path" : "ug\/univariate-wavelet-regression.html#bs_xztl-10",
+          "page_format" : "doc_center" } ],
+      "REG_BINS" : 
+      [ 
+        { "path" : "ug\/univariate-wavelet-regression.html#REG_BINS",
+          "page_format" : "doc_center" } ],
+      "REG_EST" : 
+      [ 
+        { "path" : "ug\/univariate-wavelet-regression.html",
+          "page_format" : "doc_center" } ],
+      "REG_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/univariate-wavelet-regression.html#bs_xztl-16",
+          "page_format" : "doc_center" } ],
+      "RESI1D_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-discrete-wavelet-analysis.html#RESI1D_GUI",
+          "page_format" : "doc_center" } ],
+      "RESI2D_GUI" : 
+      [ 
+        { "path" : "ug\/2-d-wavelet-analysis-using-the-wavelet-analyzer-app.html#RESI2D_GUI",
+          "page_format" : "doc_center" } ],
+      "RWaveDetectionInTheECGExample" : 
+      [ 
+        { "path" : "ug\/r-wave-detection-in-the-ecg.html",
+          "page_format" : "doc_center" } ],
+      "RealOrientedDualTreeWaveletsExample" : 
+      [ 
+        { "path" : "ref\/dddtree2.html#bt0ecvx-6",
+          "page_format" : "doc_center" } ],
+      "Reconstruct2DWaveletCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/wrcoef2.html#mw_f840828d-fcc0-4556-a8a4-464f60a749c3",
+          "page_format" : "doc_center" } ],
+      "ReconstructApproximationCoefficientsOfAnImageExample" : 
+      [ 
+        { "path" : "ref\/appcoef2.html#mw_e4785cc0-a13e-43ff-9464-163c980ef49d",
+          "page_format" : "doc_center" } ],
+      "ReconstructComplexDataWithTrendExample" : 
+      [ 
+        { "path" : "ref\/icwt.html#mw_544701fb-73b5-4a20-9f65-6cebe3609e18",
+          "page_format" : "doc_center" } ],
+      "ReconstructElNinoDataFromTimePeriodExample" : 
+      [ 
+        { "path" : "ref\/icwt.html#bvdchf_-1",
+          "page_format" : "doc_center" } ],
+      "ReconstructFrequencyLocalizedEarthquakeDataExample" : 
+      [ 
+        { "path" : "ref\/icwt.html#bvdchf9-1_1",
+          "page_format" : "doc_center" } ],
+      "ReconstructImageFromOrthogonalProjectionsExample" : 
+      [ 
+        { "path" : "ref\/lwtcoef2.html#mw_04f12fc4-4c38-4292-9bf7-95c5ade72c8a",
+          "page_format" : "doc_center" } ],
+      "ReconstructMultisignalsExample" : 
+      [ 
+        { "path" : "ref\/mdwtrec.html#mw_0c1d65de-b672-4054-b388-543884140f0c",
+          "page_format" : "doc_center" } ],
+      "ReconstructSignalFromCoefficientProjectionsExample" : 
+      [ 
+        { "path" : "ref\/lwtcoef.html#mw_0a792852-344b-4c29-bb3a-e2e0b6d4b06a",
+          "page_format" : "doc_center" } ],
+      "ReconstructSignalFromWaveletTreeObjectExample" : 
+      [ 
+        { "path" : "ref\/wptree.wprec.html#mw_4114c441-2641-4a61-9475-d57c05ca4830",
+          "page_format" : "doc_center" } ],
+      "ReconstructSignalUsingAnalysisFiltersExample" : 
+      [ 
+        { "path" : "ref\/icwt.html#mw_1106985a-6593-415b-8ffd-8be96c8b643c",
+          "page_format" : "doc_center" } ],
+      "ReconstructWaveletCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/wrcoef.html#mw_4aa78b11-e862-4368-a85a-28059549ef7c",
+          "page_format" : "doc_center" } ],
+      "ReconstructWaveletCoefficientsUpCoefExample" : 
+      [ 
+        { "path" : "ref\/upcoef.html#mw_c7d254e9-60db-4d25-a6dd-0237955e5817",
+          "page_format" : "doc_center" } ],
+      "ReconstructWaveletPacketCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/wptree.wprcoef.html#mw_d70247d6-0701-4e2a-b9ab-430270298039",
+          "page_format" : "doc_center" } ],
+      "Reconstructionfrom1DComplexDualTreeWaveletTransformExample" : 
+      [ 
+        { "path" : "ref\/dddtreecfs.html#btz65sw-2",
+          "page_format" : "doc_center" } ],
+      "RedundancyAndQfactorExample" : 
+      [ 
+        { "path" : "ug\/tunable-q-factor-wavelet-transform.html#mw_124267fe-3efc-45ad-88ea-f31b71d1b02d",
+          "page_format" : "doc_center" } ],
+      "RemoveLabelDefinitionExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.removelabeldefinition.html#mw_bb1bc977-088e-465e-ba81-676e27d2ef05",
+          "page_format" : "doc_center" } ],
+      "RemoveMemberExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.removemembers.html#mw_777744f9-5dd1-420c-8865-ece69371c8cd",
+          "page_format" : "doc_center" } ],
+      "RemovePointValueExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.removepointvalue.html#mw_5460d778-3d45-44dd-b8d1-55e734f4867c",
+          "page_format" : "doc_center" } ],
+      "RemoveRegionValueExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.removeregionvalue.html#mw_903d96df-a857-4799-923c-05d66b4e06e0",
+          "page_format" : "doc_center" } ],
+      "RescaleLaurentPolynomialExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.rescale.html#mw_2f4c834e-7e2b-436e-ba23-f4b721a530a5",
+          "page_format" : "doc_center" } ],
+      "ResetFrequencyLimitsToDefaultValuesInDeepNetworkDesignerExample" : 
+      [ 
+        { "path" : "ref\/cwtlayer.html#mw_548b7496-fc36-4560-98e8-a10c6c786118",
+          "page_format" : "doc_center" } ],
+      "ResetLabelValuesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.resetlabelvalues.html#mw_b4b63a81-4489-4d89-8a01-5928da210bcd",
+          "page_format" : "doc_center" } ],
+      "RestoreImageFromTwoFuzzyVersionsExample" : 
+      [ 
+        { "path" : "ref\/wfusimg.html#mw_e9cdf42d-6661-471d-a90f-e7332b859d64",
+          "page_format" : "doc_center" } ],
+      "ReturnDenoisedWaveletCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btifs5t",
+          "page_format" : "doc_center" } ],
+      "ReturnNodesOfWPTreeExample" : 
+      [ 
+        { "path" : "ref\/allnodes.html#bu_by2l",
+          "page_format" : "doc_center" } ],
+      "ReturnPermutationsForOrderingExample" : 
+      [ 
+        { "path" : "ref\/otnodes.html#mw_dc906f36-1013-486f-bd44-bb01d05718e9",
+          "page_format" : "doc_center" } ],
+      "ReturnResidualExpansionCoefficientsSelectedAtomsandApproExample" : 
+      [ 
+        { "path" : "ref\/wmpalg.html#mw_aae45e61-2a89-4810-a93d-86e0582ae4ee",
+          "page_format" : "doc_center" } ],
+      "ReverseBiorthgonalScalingFilterExample" : 
+      [ 
+        { "path" : "ref\/rbiowavf.html#mw_7470385e-3787-4860-bc87-cd131c85e194",
+          "page_format" : "doc_center" } ],
+      "SW1D_GUI" : 
+      [ 
+        { "path" : "ug\/interactive-1-d-stationary-wavelet-transform-denoising.html",
+          "page_format" : "doc_center" } ],
+      "SW1D_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/importing-and-exporting-1-d-swt-denoised-image-from-the-wavelet-analysis-app.html",
+          "page_format" : "doc_center" } ],
+      "SW2D_GUI" : 
+      [ 
+        { "path" : "ug\/interactive-2-d-stationary-wavelet-transform-denoising.html",
+          "page_format" : "doc_center" } ],
+      "SW2D_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/importing-and-exporting-2-d-swt-information-from-the-wavelet-analyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "SWT" : 
+      [ 
+        { "path" : "ug\/discrete-stationary-wavelet-transform-swt.html",
+          "page_format" : "doc_center" } ],
+      "ScaleAveragedWaveletSpectrumExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.scalespectrum.html#mw_223250aa-098d-4a29-8cbb-4080e0b96130",
+          "page_format" : "doc_center" } ],
+      "ScaleLocalizedVolatilityAndCorrelationExample" : 
+      [ 
+        { "path" : "ug\/scale-localized-volatility-and-correlation.html",
+          "page_format" : "doc_center" } ],
+      "ScalesAndPseudofrequenciesExample" : 
+      [ 
+        { "path" : "ref\/scal2frq.html#mw_d90cf671-4b72-45e0-9f89-a58f101cce3c",
+          "page_format" : "doc_center" } ],
+      "ScalingFilterAssociatedWithDaubechiesWaveletExample" : 
+      [ 
+        { "path" : "ref\/dbwavf.html#mw_554682ae-1440-4c91-8ab2-e5467440668d",
+          "page_format" : "doc_center" } ],
+      "ScalingFilterAssociatedWithTheSymletWaveletExample" : 
+      [ 
+        { "path" : "ref\/symwavf.html#mw_2cda009f-444e-45b0-b03a-315692eb5c7f",
+          "page_format" : "doc_center" } ],
+      "ScalingFunctionAndWaveletExample" : 
+      [ 
+        { "path" : "ug\/scaling-function-and-wavelet.html",
+          "page_format" : "doc_center" } ],
+      "ScatPathsOfWaveletImageScatFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.paths.html#mw_24290643-f31b-40bb-964f-e6a75f802e8e",
+          "page_format" : "doc_center" } ],
+      "ScatteringCoefficientSizesForImageScatteringFrameworkExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.coefficientsize.html#mw_00a13b9e-4fc1-4bd8-bdd8-028394f45f44",
+          "page_format" : "doc_center" } ],
+      "ScatteringPhonocardiogramDataExample" : 
+      [ 
+        { "path" : "ug\/wavelet-time-scattering-classification-of-phonocardiogram-data.html",
+          "page_format" : "doc_center" } ],
+      "ScatteringTransformOfAnECGSignalExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.scatteringtransform.html#mw_d493221c-a22d-4a03-b7ff-4f3bbc26cd54",
+          "page_format" : "doc_center" } ],
+      "SensingDictionaryCreationAndVisualizationExample" : 
+      [ 
+        { "path" : "ug\/matching-pursuit-command-line.html#mw_1a65b8ac-9ef6-4593-a1f4-4aa50190e445",
+          "page_format" : "doc_center" } ],
+      "SensingExample" : 
+      [ 
+        { "path" : "ug\/signal-deconvolution-and-impulse-denoising-using-pursuit-methods.html",
+          "page_format" : "doc_center" } ],
+      "SetLabelValueExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.setlabelvalue.html#mw_c71dbe9e-128e-4f55-a767-76a681c4314b",
+          "page_format" : "doc_center" } ],
+      "SetMemberNamesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.setmembernames.html#mw_5cbecb3e-98a7-4ff8-8bf3-99c6f9f57ac8",
+          "page_format" : "doc_center" } ],
+      "ShearletSystemFiltersExample" : 
+      [ 
+        { "path" : "ref\/shearletsystem.filterbank.html#mw_88e561ff-8787-45c5-8d21-de10664b7477",
+          "page_format" : "doc_center" } ],
+      "ShearletSystemFrameBoundsExample" : 
+      [ 
+        { "path" : "ref\/shearletsystem.framebounds.html#mw_1824a322-0141-4c8c-9f7c-f2bdf0665e05",
+          "page_format" : "doc_center" } ],
+      "ShearletTransformOfACircleExample" : 
+      [ 
+        { "path" : "ref\/shearletsystem.sheart2.html#mw_22a656d7-7f85-488c-841a-a58a3bf7774c",
+          "page_format" : "doc_center" } ],
+      "SignalRecoveryWithDifferentiableSPExample" : 
+      [ 
+        { "path" : "ug\/signal-recovery-with-differentiable-scalograms-and-spectrograms.html",
+          "page_format" : "doc_center" } ],
+      "SingleLevel2DDWTwithFiltersExample" : 
+      [ 
+        { "path" : "ref\/dwt2.html#mw_1336a46e-066e-4a78-ad7c-fb85cb9dd63a",
+          "page_format" : "doc_center" } ],
+      "SingleLevel2DDiscreteWaveletTransformOnAGPUExample" : 
+      [ 
+        { "path" : "ref\/dwt2.html#mw_7e27415b-0852-4b58-a8a7-170ad1ccf802",
+          "page_format" : "doc_center" } ],
+      "SingleLevel2DWaveletReconstructionExample" : 
+      [ 
+        { "path" : "ref\/idwt2.html#mw_63761184-daf8-4ffd-9a91-73e40fa4291e",
+          "page_format" : "doc_center" } ],
+      "SingleLevelReconstructionOf1DWaveletDecompositionExample" : 
+      [ 
+        { "path" : "ref\/upwlev.html#mw_bf8f09cb-23e3-4a38-9bae-eaba78253837",
+          "page_format" : "doc_center" } ],
+      "SingleLevelThreeDimensionalWaveletDecompositionExample" : 
+      [ 
+        { "path" : "ref\/dwt3.html#mw_b84664c9-36cc-4559-b060-cfdc87e2593f",
+          "page_format" : "doc_center" } ],
+      "SingleLevelThreeDimensionalWaveletReconstructionExample" : 
+      [ 
+        { "path" : "ref\/idwt3.html#bvlj73_",
+          "page_format" : "doc_center" } ],
+      "SinglelevelDiscreteWaveletTransformOnAGPUExample" : 
+      [ 
+        { "path" : "ref\/dwt.html#mw_52eb0d4c-321d-4c49-a23a-0e512edd7972",
+          "page_format" : "doc_center" } ],
+      "SinusoidAndWaveletCoefficientAmplitudesExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_c5d60d59-2768-4634-a322-93311a78fd8c",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/cwtfilterbank.html#mw_4a669c4d-85dd-46c6-9851-bb768139f3fb",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "SmoothedPseudoWignerVilleDistributionOfComplexSignalExample" : 
+      [ 
+        { "path" : "ref\/wvd.html#mw_afec9521-e465-4157-a44b-5fd55fe3f164",
+          "page_format" : "doc_center" } ],
+      "SmoothingNonuniformlySampledDataExample" : 
+      [ 
+        { "path" : "ug\/smoothing-nonuniformly-sampled-data.html",
+          "page_format" : "doc_center" } ],
+      "SpecifyIntervalsAndThresholdsExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btifntz",
+          "page_format" : "doc_center" } ],
+      "SpecifyNondefaultDenoisingLevelExample" : 
+      [ 
+        { "path" : "ref\/mlptdenoise.html#bvlbmz3",
+          "page_format" : "doc_center" } ],
+      "SpecifyNondefaultDenoisingMethodExample" : 
+      [ 
+        { "path" : "ref\/mlptdenoise.html#bvlbnh4",
+          "page_format" : "doc_center" } ],
+      "SpecifyNondefaultDualMomentsForTransformExample" : 
+      [ 
+        { "path" : "ref\/imlpt.html#bvk_yb9",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/mlpt.html#bvk_xm3",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "SpecifyNondefaultResolutionLevelsExample" : 
+      [ 
+        { "path" : "ref\/mlpt.html#bvlne1q",
+          "page_format" : "doc_center" } ],
+      "SpecifyTheNumberOfIntervalsExample" : 
+      [ 
+        { "path" : "ref\/cmddenoise.html#btie9jz",
+          "page_format" : "doc_center" } ],
+      "SpecifytheMaximumNumberofIterationsExample" : 
+      [ 
+        { "path" : "ref\/wmpalg.html#mw_60d1f9a6-3fe0-4b1b-8caf-d123f0134ddc",
+          "page_format" : "doc_center" } ],
+      "SpokenDigitRecognitionWaveletScatteringAndDeepLearningExample" : 
+      [ 
+        { "path" : "ug\/spoken-digit-recognition-with-wavelet-scattering-and-deep-learning.html",
+          "page_format" : "doc_center" } ],
+      "StationaryWaveletTransformTruecolorExample" : 
+      [ 
+        { "path" : "ref\/swt2.html#mw_dc1b9c6f-3490-4fc6-a899-a9af194fa5d7",
+          "page_format" : "doc_center" } ],
+      "SupportOfComplexValuedGaussianWaveletExample" : 
+      [ 
+        { "path" : "ref\/wavsupport.html#mw_0584c4d8-c7bc-490e-a079-c2c180a80b19",
+          "page_format" : "doc_center" } ],
+      "SupportOfHaarWaveletExample" : 
+      [ 
+        { "path" : "ref\/wavsupport.html#mw_9f7df4fe-d49f-46ec-8d61-b57e218c16e4",
+          "page_format" : "doc_center" } ],
+      "SymletScalingFilterCoefsUnitNormExample" : 
+      [ 
+        { "path" : "ref\/symaux.html#mw_5c5afa0b-6d54-47f6-872a-ee9b2061bb7e",
+          "page_format" : "doc_center" } ],
+      "SynchrosqueezedTxAndReconstructionOfSpeechExample" : 
+      [ 
+        { "path" : "ref\/wsst.html#bu71gr8-1",
+          "page_format" : "doc_center" } ],
+      "TRUECOMP_CMPWAV" : 
+      [ 
+        { "path" : "ug\/wavelet-compression-for-images.html",
+          "page_format" : "doc_center" } ],
+      "TRUECOMP_GUI" : 
+      [ 
+        { "path" : "ug\/2-d-wavelet-compression-using-the-wavelet-analyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "TRUECOMP_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/importing-and-exporting-compressed-image-from-the-wavelet-analyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "TRUECOMP_METH" : 
+      [ 
+        { "path" : "ug\/wavelet-compression-for-images.html#f8-100589",
+          "page_format" : "doc_center" } ],
+      "TRUECOMP_SCORES" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#buzctmn-1",
+          "page_format" : "doc_center" } ],
+      "TestEqualityOfLaurentPolynomialsExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.eq.html#mw_4b6b7aac-74fa-441b-832e-ae983a5fca90",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/laurentpolynomial.ne.html#mw_60faa43f-b758-43c5-96a1-2303fa21cd5c",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "TextureScatteringExample" : 
+      [ 
+        { "path" : "ug\/texture-classification-with-wavelet-image-scattering.html",
+          "page_format" : "doc_center" } ],
+      "ThreeDimensionalDualTreeTransformOfVolumetricDataExample" : 
+      [ 
+        { "path" : "ref\/dualtree3.html#bvkk7mt-2",
+          "page_format" : "doc_center" } ],
+      "ThresholdSelectionRulesExample" : 
+      [ 
+        { "path" : "ref\/thselect.html#mw_bd0271a2-aa02-45c8-aa6e-4c46452f4e0d",
+          "page_format" : "doc_center" } ],
+      "ThresholdWaveletCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/wthcoef.html#mw_e8fbefb9-4bee-475d-8bfc-61898d98379f",
+          "page_format" : "doc_center" } ],
+      "TimeAlignMODWTAnalysisExample" : 
+      [ 
+        { "path" : "ref\/modwt.html#mw_06957d5e-ab9d-49fc-9414-65206dd18d08",
+          "page_format" : "doc_center" } ],
+      "TimeAlignedMODWPTExample" : 
+      [ 
+        { "path" : "ref\/modwpt.html#bu3j742-1",
+          "page_format" : "doc_center" } ],
+      "TimeAveragedWaveletSpectrumOfOceanicEddyDataExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.timespectrum.html#mw_d09a9067-778d-459c-bdfb-f7f102c5b6dd",
+          "page_format" : "doc_center" } ],
+      "TimeFreqRidgeExtractionMulticomponentSignalExample" : 
+      [ 
+        { "path" : "ref\/wsstridge.html#bu7fbim-2_1",
+          "page_format" : "doc_center" } ],
+      "TimeFrequencyAnalysisUsingContinuousWaveletTransformExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-analysis-and-continuous-wavelet-transform.html",
+          "page_format" : "doc_center" } ],
+      "TimeFrequencyAnalysisWithTheCWTExample" : 
+      [ 
+        { "path" : "ug\/continuous-wavelet-analysis-of-modulated-signals.html",
+          "page_format" : "doc_center" } ],
+      "TimeFrequencyDeepMetricLearningExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-feature-embedding-with-deep-metric-learning.html",
+          "page_format" : "doc_center" } ],
+      "TopLabelValuesExample" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.head.html#mw_10a2bd1d-e23e-46b7-bedc-abb327cf1e66",
+          "page_format" : "doc_center" } ],
+      "TunableQfactorWaveletTransformOfMultisignalExample" : 
+      [ 
+        { "path" : "ref\/tqwt.html#mw_37e5d846-6694-4d58-87ff-43782db2d138",
+          "page_format" : "doc_center" } ],
+      "TwoDDecimatedDiscreteWaveletAnalysisExample" : 
+      [ 
+        { "path" : "gs\/analysis-with-the-discrete-wavelets.html#btdvdd5",
+          "page_format" : "doc_center" } ],
+      "TwoDDenoisingUsingWaveletPacketsExample" : 
+      [ 
+        { "path" : "ref\/wpdencmp.html#mw_f49e4368-5401-4acd-be10-436f23fe26cb",
+          "page_format" : "doc_center" } ],
+      "TwoDInverseHaarOfmageLimitedToLevelExample" : 
+      [ 
+        { "path" : "ref\/ihaart2.html#bvfusks-1",
+          "page_format" : "doc_center" } ],
+      "TwoDWaveletReconstructionExample" : 
+      [ 
+        { "path" : "ref\/waverec2.html#mw_9bdf8e53-1c1c-40fb-8972-d3281916144d",
+          "page_format" : "doc_center" } ],
+      "TwoDimensionalCWTOfNoisyPatternExample" : 
+      [ 
+        { "path" : "ug\/two-dimensional-cwt-of-noisy-pattern.html",
+          "page_format" : "doc_center" } ],
+      "UT_COLMAP" : 
+      [ 
+        { "path" : "ug\/general-features.html#f1-133967",
+          "page_format" : "doc_center" } ],
+      "UT_WAVELET" : 
+      [ 
+        { "path" : "ug\/wavelet-families-and-associated-properties-i.html#UT_WAVELET",
+          "page_format" : "doc_center" } ],
+      "UnaryMinusOfLaurentPolynomialExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.uminus.html#mw_a8789b49-a7f3-487a-a675-84ef63fad7da",
+          "page_format" : "doc_center" } ],
+      "UnaryNegativeOfLaurentMatrixExample" : 
+      [ 
+        { "path" : "ref\/laurentpolynomial.uminus.html#mw_e7f841ee-9f40-4e20-b76e-89d6672dc1c4",
+          "page_format" : "doc_center" } ],
+      "UseCwtLayerInDeepLearningNetworkExample" : 
+      [ 
+        { "path" : "ref\/cwtlayer.html#mw_4274414f-9333-46c5-ae54-0ec29aa9b647",
+          "page_format" : "doc_center" } ],
+      "UseDefaultTimeInstantsExample" : 
+      [ 
+        { "path" : "ref\/mlpt.html#bvk_xo3",
+          "page_format" : "doc_center" } ],
+      "UseModwtLayerInDeepLearningNetworkExample" : 
+      [ 
+        { "path" : "ref\/modwtlayer.html#mw_832fb8c0-b21b-49a8-bb88-bf05548a0813",
+          "page_format" : "doc_center" } ],
+      "UseXWVDToEstimateInstantaneousFrequencyExample" : 
+      [ 
+        { "path" : "ref\/xwvd.html#mw_5c34d4c8-c424-45e0-9e8c-ee45eff3eee5",
+          "page_format" : "doc_center" } ],
+      "UsingCWTFilterBankOnMultipleTimeSeriesExample" : 
+      [ 
+        { "path" : "ref\/cwt.html#mw_865ad1ac-69a8-4e80-b454-b6a7ea050a04",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/cwtfilterbank.html#mw_ad3e7ff7-af28-47cf-ac68-17b5b7eababc",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/cwtfilterbank.wt.html#mw_43a23e5f-ad5e-4916-9e14-4f861f2a4919",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "UsingWaveletImageAnalyzerAppExample" : 
+      [ 
+        { "path" : "ref\/waveletimageanalyzer-app.html#mw_58a3db18-ad62-4439-89da-7932bd9c0695",
+          "page_format" : "doc_center" } ],
+      "UsingWaveletTimeFrequencyAnalyzerAppExample" : 
+      [ 
+        { "path" : "ug\/using-wavelet-time-frequency-analyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "VMDOfAPiecewiseSignalExample" : 
+      [ 
+        { "path" : "ref\/vmd.html#mw_d8a2ca69-2e4d-46ea-b969-9d6ba184f78b",
+          "page_format" : "doc_center" } ],
+      "VMDOfMulticomponentSignalExample" : 
+      [ 
+        { "path" : "ref\/hht.html#mw_20d96e54-52fa-4e94-bafa-9724254d8ce2",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/vmd.html#mw_9ae5866f-c810-427e-85ca-b380c9f5ddb6",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "VarianceEstConfIntUsingMODWTVARExample" : 
+      [ 
+        { "path" : "ref\/modwtvar.html#buytglo-1",
+          "page_format" : "doc_center" } ],
+      "VariationalModeDecompositionOfDialToneSignalExample" : 
+      [ 
+        { "path" : "ref\/vmd.html#mw_025cea2f-9ebf-48b2-9117-b1262fa3105a",
+          "page_format" : "doc_center" } ],
+      "ViewWaveletPacketCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/wptree.wpviewcf.html#mw_6a2685d0-0317-4490-9a3b-29d40846e244",
+          "page_format" : "doc_center" } ],
+      "VisualizeAndApplyConstantQTransformGaborFramesExample" : 
+      [ 
+        { "path" : "ref\/cqt.html#mw_e075be1a-8916-46ac-85e3-e39b68d29575",
+          "page_format" : "doc_center" } ],
+      "VisualizeAndRecreateEWTDecompositionExample" : 
+      [ 
+        { "path" : "ug\/visualize-and-recreate-ewt-decomposition.html",
+          "page_format" : "doc_center" } ],
+      "VisualizeAndRecreateTQWTDecompositionExample" : 
+      [ 
+        { "path" : "ug\/visualize-and-recreate-tqwt-decomposition.html",
+          "page_format" : "doc_center" } ],
+      "VisualizeAndRecreateVMDDecompositionExample" : 
+      [ 
+        { "path" : "ug\/visualize-and-recreate-vmd-decomposition.html",
+          "page_format" : "doc_center" } ],
+      "VisualizeEmpiricalWaveletTransformFilterBankExample" : 
+      [ 
+        { "path" : "ref\/ewt.html#mw_943a4190-cc94-40fa-a394-08f6c66f57f4",
+          "page_format" : "doc_center" } ],
+      "VisualizeIntrinsicModeFunctionsOfNonStationarySignalExample" : 
+      [ 
+        { "path" : "ref\/emd.html#mw_03854969-5af7-4f55-858f-dd79daeb8199",
+          "page_format" : "doc_center" } ],
+      "VisualizeScalogramsUsingDefaultSettingsExample" : 
+      [ 
+        { "path" : "ref\/wavelettimefrequencyanalyzer-app.html#mw_db05590f-58d2-48b2-980f-c98304b4b0f4",
+          "page_format" : "doc_center" } ],
+      "VisualizeScattergramExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.scattergram.html#mw_4320e4f4-a0d2-40f2-a665-5a46d9a6772a",
+          "page_format" : "doc_center" } ],
+      "VisualizeTimeAlignedWaveletDecompositionExample" : 
+      [ 
+        { "path" : "ref\/signalmultiresolutionanalyzer-app.html#mw_fa353bb2-25e3-47fe-a395-96aa5202bec9",
+          "page_format" : "doc_center" } ],
+      "VisualizeWaveletDecompositionOfComplexValuedSignalExample" : 
+      [ 
+        { "path" : "ref\/waveletsignalanalyzer-app.html#mw_492863e3-b078-462e-bb32-23860481dd3d",
+          "page_format" : "doc_center" } ],
+      "VisualizeWaveletDecompositionUsingWaveletSignalAnalyzerExample" : 
+      [ 
+        { "path" : "ref\/waveletsignalanalyzer-app.html#mw_788896d5-1385-4279-b02e-27062d77dd7d",
+          "page_format" : "doc_center" } ],
+      "VisualizeWaveletPacketTreeExample" : 
+      [ 
+        { "path" : "ref\/wpdec.html#mw_3bd6d0f7-155b-43b3-bf0c-ebf955a73050",
+          "page_format" : "doc_center" } ],
+      "VisualizingWaveletsWaveletPacketsandWaveletFiltersExample" : 
+      [ 
+        { "path" : "gs\/visualize-wavelets.html",
+          "page_format" : "doc_center" } ],
+      "WFUS_GUI" : 
+      [ 
+        { "path" : "gs\/image-fusion.html",
+          "page_format" : "doc_center" } ],
+      "WFUS_IMG" : 
+      [ 
+        { "path" : "ref\/wfusmat.html",
+          "page_format" : "doc_center" } ],
+      "WMP_TOOL" : 
+      [ 
+        { "path" : "ug\/matching-pursuit-interactive-analysis.html#btdhspm",
+          "page_format" : "doc_center" } ],
+      "WP1D_COMP_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-wavelet-packet-analysis.html#f7-1006362",
+          "page_format" : "doc_center" } ],
+      "WP1D_DENO_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-wavelet-packet-analysis.html#buy60e7-1",
+          "page_format" : "doc_center" } ],
+      "WP1D_GUI" : 
+      [ 
+        { "path" : "ug\/one-dimensional-wavelet-packet-analysis.html",
+          "page_format" : "doc_center" } ],
+      "WP2D_COMP_GUI" : 
+      [ 
+        { "path" : "ug\/two-dimensional-wavelet-packet-analysis.html#f7-1000560",
+          "page_format" : "doc_center" } ],
+      "WP2D_GUI" : 
+      [ 
+        { "path" : "ug\/two-dimensional-wavelet-packet-analysis.html",
+          "page_format" : "doc_center" } ],
+      "WPDI_ATOMS" : 
+      [ 
+        { "path" : "ug\/wavelet-packets.html#f8-22425",
+          "page_format" : "doc_center" } ],
+      "WPDI_BUILDING" : 
+      [ 
+        { "path" : "ug\/wavelet-packets.html#f8-22400",
+          "page_format" : "doc_center" } ],
+      "WPHarmonicInterferenceRemovalExample" : 
+      [ 
+        { "path" : "ug\/wavelet-packet-harmonic-interference-removal.html",
+          "page_format" : "doc_center" } ],
+      "WP_BESTTREE" : 
+      [ 
+        { "path" : "ug\/one-dimensional-wavelet-packet-analysis.html#f7-998335",
+          "page_format" : "doc_center" } ],
+      "WP_ENTROPY" : 
+      [ 
+        { "path" : "ug\/one-dimensional-wavelet-packet-analysis.html#f7-997879",
+          "page_format" : "doc_center" } ],
+      "WP_LOADSAVE" : 
+      [ 
+        { "path" : "ug\/importing-and-exporting-from-graphical-tools.html",
+          "page_format" : "doc_center" } ],
+      "WP_PACKETS" : 
+      [ 
+        { "path" : "ug\/wavelet-packets.html",
+          "page_format" : "doc_center" } ],
+      "WP_TOOLS" : 
+      [ 
+        { "path" : "ug\/wavelet-packet-tool-features-1-d-and-2-d.html",
+          "page_format" : "doc_center" } ],
+      "WTMMStructureFunctionExample" : 
+      [ 
+        { "path" : "ref\/wtmm.html#bve32se-1",
+          "page_format" : "doc_center" } ],
+      "WVDI_ADVANCED" : 
+      [ 
+        { "path" : "ug\/wavelet-families-additional-discussion.html",
+          "page_format" : "doc_center" } ],
+      "WVDI_FAMILIES" : 
+      [ 
+        { "path" : "gs\/introduction-to-the-wavelet-families.html",
+          "page_format" : "doc_center" } ],
+      "Wavedec2ImageDecompositionLevelExample" : 
+      [ 
+        { "path" : "ref\/wavedec2.html#mw_21832107-a126-4b29-bad3-96bffdeeacd1",
+          "page_format" : "doc_center" } ],
+      "WaveletApproximationsExample" : 
+      [ 
+        { "path" : "ref\/wavefun.html#mw_433bef07-6b71-4dbc-8d71-dc2241460941",
+          "page_format" : "doc_center" } ],
+      "WaveletBandpassCenterFrequenciesExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.centerfrequencies.html#mw_0da0cc27-03ca-4bd5-88fe-dc7b61b546e1",
+          "page_format" : "doc_center" } ],
+      "WaveletBandpassFrequenciesExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.bpfrequencies.html#mw_869f1977-e33f-401f-bf11-acbd18757813",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/cwtfilterbank.centerfrequencies.html#mw_9f3f4b5c-15e9-43e5-80e7-e6add0e0b4ae",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "WaveletBandpassFrequenciesUsingDefaultValuesExample" : 
+      [ 
+        { "path" : "ref\/cwtfreqbounds.html#mw_2998ecd1-f540-4a9f-a432-04ed5c1bac50",
+          "page_format" : "doc_center" } ],
+      "WaveletChangepointDetectionExample" : 
+      [ 
+        { "path" : "ug\/wavelet-changepoint-detection.html",
+          "page_format" : "doc_center" } ],
+      "WaveletCoefficientThresholdingExample" : 
+      [ 
+        { "path" : "ref\/wthcoef2.html#mw_29f67f4c-5b90-4bb5-bc78-072ae63292ea",
+          "page_format" : "doc_center" } ],
+      "WaveletCoherenceAnalysisOfBrainDynamicsExample" : 
+      [ 
+        { "path" : "ug\/wavelet-coherence-of-brain-dynamics.html",
+          "page_format" : "doc_center" } ],
+      "WaveletCoherenceUsingDefaultSettingsExample" : 
+      [ 
+        { "path" : "ref\/wcoherence.html#bu5y1j7-2",
+          "page_format" : "doc_center" } ],
+      "WaveletCoherenceUsingPhaseDisplayThresholdExample" : 
+      [ 
+        { "path" : "ref\/wcoherence.html#bu6e0rx-1",
+          "page_format" : "doc_center" } ],
+      "WaveletCoherenceUsingSamplingFrequencyExample" : 
+      [ 
+        { "path" : "ref\/wcoherence.html#bu6eq0x-1",
+          "page_format" : "doc_center" } ],
+      "WaveletCoherenceUsingSamplingIntervalExample" : 
+      [ 
+        { "path" : "ref\/wcoherence.html#bu6e0nr-1",
+          "page_format" : "doc_center" } ],
+      "WaveletCoherenceUsingSmoothedNumberOfScalesExample" : 
+      [ 
+        { "path" : "ref\/wcoherence.html#bu6erw4-1",
+          "page_format" : "doc_center" } ],
+      "WaveletConfidenceIntervalsExample" : 
+      [ 
+        { "path" : "ref\/modwtvar.html#buytgl2-1",
+          "page_format" : "doc_center" } ],
+      "WaveletCrossCorrelationExample" : 
+      [ 
+        { "path" : "ug\/wavelet-cross-correlation-for-lead-lag-analysis.html",
+          "page_format" : "doc_center" } ],
+      "WaveletDenoisingExample" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising.html",
+          "page_format" : "doc_center" } ],
+      "WaveletDenoisingInActionExample" : 
+      [ 
+        { "path" : "ug\/wavelet-denoising-and-nonparametric-function-estimation.html#mw_9d5ff19f-cafc-44d8-82a9-0f178ca6b8de",
+          "page_format" : "doc_center" } ],
+      "WaveletFamiliesExample" : 
+      [ 
+        { "path" : "ref\/waveletfamilies.html#mw_47759f38-dcda-4d1f-98df-36d180eb46ad",
+          "page_format" : "doc_center" } ],
+      "WaveletFamilyInformationExample" : 
+      [ 
+        { "path" : "ref\/waveinfo.html#mw_a29b4db9-c36b-4409-853a-9d4988060c3b",
+          "page_format" : "doc_center" } ],
+      "WaveletFilterBankBandpassPeriodsExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.bpperiods.html#mw_d635231d-9ab1-4e70-8597-720425682439",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" },
+        
+        { "path" : "ref\/cwtfilterbank.centerperiods.html#mw_faa6b01c-657a-4782-adbd-327c36ef6106",
+          "group" : "wavelet_ref",
+          "page_format" : "doc_center" } ],
+      "WaveletFilterBankTimeSupportsExample" : 
+      [ 
+        { "path" : "ref\/cwtfilterbank.waveletsupport.html#mw_1e368599-021c-4d9a-adf1-14e02cb69364",
+          "page_format" : "doc_center" } ],
+      "WaveletImageAnalysisAndCompressionExample" : 
+      [ 
+        { "path" : "ug\/two-dimensional-discrete-wavelet-analysis.html#f4-1004906",
+          "page_format" : "doc_center" } ],
+      "WaveletImageScatteringWithDefaultValuesExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.html#mw_76e14666-df5e-46d1-99a9-1d08e593d6fe",
+          "page_format" : "doc_center" } ],
+      "WaveletInvSynchroTransformOfSpeechSignalExample" : 
+      [ 
+        { "path" : "ref\/iwsst.html#bu7fbtq-5",
+          "page_format" : "doc_center" } ],
+      "WaveletNamesAndFamilyNamesExample" : 
+      [ 
+        { "path" : "ref\/wavemngr.html#mw_262c67d2-1f4e-4d03-a2e8-f7defe360bb4",
+          "page_format" : "doc_center" } ],
+      "WaveletPacketSpectrumForSinusoidsExample" : 
+      [ 
+        { "path" : "ref\/wpspectrum.html#mw_5580810e-0f6e-4d19-b824-74b4bbad1214",
+          "page_format" : "doc_center" } ],
+      "WaveletPacketSpectrumOfChirpExample" : 
+      [ 
+        { "path" : "ref\/wpspectrum.html#mw_15615f03-c739-43fc-8874-a523c9249331",
+          "page_format" : "doc_center" } ],
+      "WaveletPacketTreePropertiesExample" : 
+      [ 
+        { "path" : "ref\/wptree.read.html#mw_d614264b-cf89-4964-8e47-b790116c4288",
+          "page_format" : "doc_center" } ],
+      "WaveletPrincipalComponentAnalysisofNoisyMultivariateSignExample" : 
+      [ 
+        { "path" : "ref\/wmspca.html#mw_a1edc5df-8b29-49bc-b852-b4b157005494",
+          "page_format" : "doc_center" } ],
+      "WaveletReconstructionUsingDetailCoefficientsExample" : 
+      [ 
+        { "path" : "ref\/idwt2.html#mw_24753662-d743-47b3-a8a9-8b080863a947",
+          "page_format" : "doc_center" } ],
+      "WaveletScatteringDigitsExample" : 
+      [ 
+        { "path" : "ug\/digit-classification-with-wavelet-scattering.html",
+          "page_format" : "doc_center" } ],
+      "WaveletScatteringInvarianceScaleAndOversamplingExample" : 
+      [ 
+        { "path" : "ug\/wavelet-scattering-invariance-scale-and-oversampling.html",
+          "page_format" : "doc_center" } ],
+      "WaveletScatteringPathsExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.paths.html#mw_171174c1-7e27-43e6-a73c-00ca74ec6b81",
+          "page_format" : "doc_center" } ],
+      "WaveletSynchroAndInverseSynchroTransformOfChirpExample" : 
+      [ 
+        { "path" : "ref\/iwsst.html#bu71in0-1",
+          "page_format" : "doc_center" } ],
+      "WaveletSynchronizedTransformOfSunspotDataExample" : 
+      [ 
+        { "path" : "ref\/wsst.html#bu7fbp7-5",
+          "page_format" : "doc_center" } ],
+      "WaveletSynchronizedTxOfSunspotDataBumpWaveletExample" : 
+      [ 
+        { "path" : "ref\/wsst.html#bu7fbsb-1",
+          "page_format" : "doc_center" } ],
+      "WaveletSynchrosqransformUsingNumBinsWExample" : 
+      [ 
+        { "path" : "ref\/iwsst.html#bu7fbtq-6",
+          "page_format" : "doc_center" } ],
+      "WaveletSynchrosqueezedTransformOfQuadraticChirpExample" : 
+      [ 
+        { "path" : "ref\/wsst.html#bu7fbp7-3",
+          "page_format" : "doc_center" } ],
+      "WaveletSynchrosqueezedTransformOfSpeechSignalExample" : 
+      [ 
+        { "path" : "ref\/wsst.html#bu7fbp7-2",
+          "page_format" : "doc_center" } ],
+      "WaveletTimeFreqRidgeExtractionDefaultExample" : 
+      [ 
+        { "path" : "ref\/wsstridge.html#bu64s33-2",
+          "page_format" : "doc_center" } ],
+      "WaveletTimeScatteringNetworkPrecisionExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.html#mw_9f8bb05f-053e-496d-ad3e-8b36a305e56e",
+          "page_format" : "doc_center" } ],
+      "WaveletTimeScatteringWithDefaultValuesExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering.html#mw_588774f4-15c3-4db4-a22d-e9342c7147a3",
+          "page_format" : "doc_center" } ],
+      "WaveletVarianceEstimateTableOutputExample" : 
+      [ 
+        { "path" : "ref\/modwtvar.html#buytgl4-1_1",
+          "page_format" : "doc_center" } ],
+      "WaveletVarianceExample" : 
+      [ 
+        { "path" : "ref\/modwtvar.html#buytgix",
+          "page_format" : "doc_center" } ],
+      "WaveletVarianceUsingSpecifiedWaveletTypeExample" : 
+      [ 
+        { "path" : "ref\/modwtvar.html#buytgpj-1",
+          "page_format" : "doc_center" } ],
+      "WaveletsAndVanishingMomentsExample" : 
+      [ 
+        { "path" : "gs\/wavelets-and-vanishing-moments.html",
+          "page_format" : "doc_center" } ],
+      "WaveletsOnAScatteringPathExample" : 
+      [ 
+        { "path" : "ref\/waveletscattering2.paths.html#mw_6ec85815-31a2-4c3e-8f48-750fa49b6e34",
+          "page_format" : "doc_center" } ],
+      "WdenoiseNoisySignalExample" : 
+      [ 
+        { "path" : "ref\/wdenoise.html#mw_bac4ce10-d45e-4418-bc58-153b5124a405",
+          "page_format" : "doc_center" } ],
+      "WextendStandardExample" : 
+      [ 
+        { "path" : "ref\/wextend.html#mw_11c459e5-f8ce-4987-a57b-96a6110d9348",
+          "page_format" : "doc_center" } ],
+      "WignerVilleDistributionOfChirpsExample" : 
+      [ 
+        { "path" : "ref\/wvd.html#mw_da6b2fd3-c2dc-4c86-81db-034ea253481c",
+          "page_format" : "doc_center" } ],
+      "WignerVilleDistributionOfComplexSignalExample" : 
+      [ 
+        { "path" : "ref\/wvd.html#mw_935852c5-fdf2-4ca4-b962-219af08a255f",
+          "page_format" : "doc_center" } ],
+      "WignerVilleDistributionOfSinusoidExample" : 
+      [ 
+        { "path" : "ref\/wvd.html#mw_ec154fd0-8ae0-4c85-a7bb-cbee14d45268",
+          "page_format" : "doc_center" } ],
+      "WorkingWithRightWaveletTreeObjectsRWVTREEExample" : 
+      [ 
+        { "path" : "ug\/advanced-use-of-objects.html#mw_6b3dc659-c9d6-4521-bb25-1fab171d548b",
+          "page_format" : "doc_center" } ],
+      "WorkingWithWaveletTreeObjectEDWTTREEExample" : 
+      [ 
+        { "path" : "ug\/advanced-use-of-objects.html#mw_4f91fd3d-0cfd-49b7-90e1-a32a5fce3fe7",
+          "page_format" : "doc_center" } ],
+      "WorkingWithWaveletTreeObjectsWTREEExample" : 
+      [ 
+        { "path" : "ug\/advanced-use-of-objects.html#mw_0668a8b7-f29f-4d4e-b1e7-c3a915d575c5",
+          "page_format" : "doc_center" } ],
+      "WorkingWithWaveletTreeObjectsWVTREEExample" : 
+      [ 
+        { "path" : "ug\/advanced-use-of-objects.html#mw_10653e82-7003-42e3-b30f-1fbdfb0fb1b9",
+          "page_format" : "doc_center" } ],
+      "XpwWaveletMLExample" : 
+      [ 
+        { "path" : "ug\/ecg-classification-using-wavelet-features.html",
+          "page_format" : "doc_center" } ],
+      "ZeroCrossingsAndExtremaInIntrinsicModeFunctionOfSinusoidExample" : 
+      [ 
+        { "path" : "ref\/emd.html#mw_ca27ca8e-6bd1-4f04-b0ff-797de365e69c",
+          "page_format" : "doc_center" } ],
+      "cmddenodemo" : 
+      [ 
+        { "path" : "ug\/wavelet-interval-dependent-denoising.html",
+          "page_format" : "doc_center" } ],
+      "cwtdwtdemo" : 
+      [ 
+        { "path" : "ug\/continuous-and-discrete-wavelet-analysis.html",
+          "page_format" : "doc_center" } ],
+      "cwtftdemo" : 
+      [ 
+        { "path" : "ug\/signal-reconstruction-from-continuous-wavelet-transform-coefficients.html",
+          "page_format" : "doc_center" } ],
+      "datacompressiondemo" : 
+      [ 
+        { "path" : "ug\/data-compression-using-2d-wavelet-analysis.html",
+          "page_format" : "doc_center" } ],
+      "denoisingsignalsdemo" : 
+      [ 
+        { "path" : "ug\/denoising-signals-and-images.html",
+          "page_format" : "doc_center" } ],
+      "discontdemo" : 
+      [ 
+        { "path" : "ug\/detecting-discontinuities-and-breakdown-points.html",
+          "page_format" : "doc_center" } ],
+      "discontdemo-1" : 
+      [ 
+        { "path" : "ug\/detecting-discontinuities-and-breakdown-points.html#d124e27951",
+          "page_format" : "doc_center" } ],
+      "discontdemo-5" : 
+      [ 
+        { "path" : "ug\/detecting-discontinuities-and-breakdown-points.html#d124e27973",
+          "page_format" : "doc_center" } ],
+      "discontdemo-7" : 
+      [ 
+        { "path" : "ug\/detecting-discontinuities-and-breakdown-points.html#d124e27989",
+          "page_format" : "doc_center" } ],
+      "emd_plot_help" : 
+      [ 
+        { "path" : "ref\/emd.html",
+          "page_format" : "doc_center" } ],
+      "imagefusiondemo" : 
+      [ 
+        { "path" : "ug\/image-fusion.html",
+          "page_format" : "doc_center" } ],
+      "mdw1dcmddemo" : 
+      [ 
+        { "path" : "ug\/multisignal-1-d-wavelet-analysis.html",
+          "page_format" : "doc_center" } ],
+      "mra_app" : 
+      [ 
+        { "path" : "ref\/signalmultiresolutionanalyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "mra_importSignal" : 
+      [ 
+        { "path" : "ref\/signalmultiresolutionanalyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "mw_4ce15265-86b9-43f2-a79c-11a5f7ca05c9.mw_rtc_CountLabelValuesExample_36559699" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.countlabelvalues.html#mw_4ce15265-86b9-43f2-a79c-11a5f7ca05c9_sep_mw_rtc_CountLabelValuesExample_36559699",
+          "page_format" : "doc_center",
+          "id" : "mw_4ce15265-86b9-43f2-a79c-11a5f7ca05c9.mw_rtc_CountLabelValuesExample_36559699" } ],
+      "mw_801efffe-3b30-43f3-aabb-68546fc06b5f.mw_rtc_CountLabelValuesExample_36559699" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.html#mw_801efffe-3b30-43f3-aabb-68546fc06b5f_sep_mw_rtc_CountLabelValuesExample_36559699",
+          "page_format" : "doc_center",
+          "id" : "mw_801efffe-3b30-43f3-aabb-68546fc06b5f.mw_rtc_CountLabelValuesExample_36559699" } ],
+      "mw_f3d0e6f3-3d56-4e54-bb9e-dc32fe7bfd1c.mw_rtc_CountLabelValuesExample_36559699" : 
+      [ 
+        { "path" : "ref\/labeledsignalset.createdatastores.html#mw_f3d0e6f3-3d56-4e54-bb9e-dc32fe7bfd1c_sep_mw_rtc_CountLabelValuesExample_36559699",
+          "page_format" : "doc_center",
+          "id" : "mw_f3d0e6f3-3d56-4e54-bb9e-dc32fe7bfd1c.mw_rtc_CountLabelValuesExample_36559699" } ],
+      "object_signalLabelDefinition.mw_rtc_CountLabelValuesExample_36559699" : 
+      [ 
+        { "path" : "ref\/signallabeldefinition.html#object_signalLabelDefinition_sep_mw_rtc_CountLabelValuesExample_36559699",
+          "page_format" : "doc_center",
+          "id" : "object_signalLabelDefinition.mw_rtc_CountLabelValuesExample_36559699" } ],
+      "one_d_multiscale_analysis" : 
+      [ 
+        { "path" : "ug\/one-dimensional-multisignal-analysis.html",
+          "page_format" : "doc_center" } ],
+      "synchrosqueezingExample" : 
+      [ 
+        { "path" : "ug\/time-frequency-reassignment-and-mode-extraction-with-synchrosqueezing.html",
+          "page_format" : "doc_center" } ],
+      "truecompdemo" : 
+      [ 
+        { "path" : "ug\/two-dimensional-true-compression.html",
+          "page_format" : "doc_center" } ],
+      "wavelet3ddemo" : 
+      [ 
+        { "path" : "ug\/wavelet-analysis-for-3d-data.html",
+          "page_format" : "doc_center" } ],
+      "wavelet_doccenter-examplelandingpage" : 
+      [ 
+        { "path" : "examples.html",
+          "page_format" : "doc_center" } ],
+      "wavelet_doccenter-prodlandingpage" : 
+      [ 
+        { "path" : "index.html",
+          "page_format" : "doc_center" } ],
+      "wavelet_rn-rnlandingpage" : 
+      [ 
+        { "path" : "release-notes.html",
+          "page_format" : "doc_center" } ],
+      "waveletimageanalyzer_app" : 
+      [ 
+        { "path" : "ref\/waveletimageanalyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "waveletpacketsdemo" : 
+      [ 
+        { "path" : "ug\/wavelet-packets-decomposing-the-details.html",
+          "page_format" : "doc_center" } ],
+      "waveletsignaldenoiser_app" : 
+      [ 
+        { "path" : "ref\/waveletsignaldenoiser-app.html",
+          "page_format" : "doc_center" } ],
+      "waveletsignaldenoiser_importSignal" : 
+      [ 
+        { "path" : "ref\/waveletsignaldenoiser-app.html",
+          "page_format" : "doc_center" } ],
+      "wavelettfanalyzer_app" : 
+      [ 
+        { "path" : "ref\/wavelettimefrequencyanalyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "wavelettfanalyzer_importSignals" : 
+      [ 
+        { "path" : "ref\/wavelettimefrequencyanalyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "wcoherdemo" : 
+      [ 
+        { "path" : "ug\/compare-time-frequency-content-in-signals-with-wavelet-coherence.html",
+          "page_format" : "doc_center" } ],
+      "wmspcademo" : 
+      [ 
+        { "path" : "ug\/multiscale-principal-components-analysis.html",
+          "page_format" : "doc_center" } ],
+      "wmuldendemo" : 
+      [ 
+        { "path" : "ug\/multivariate-wavelet-denoising.html",
+          "page_format" : "doc_center" } ],
+      "wv1Danalyzer_app" : 
+      [ 
+        { "path" : "ref\/waveletsignalanalyzer-app.html",
+          "page_format" : "doc_center" } ],
+      "wv1Danalyzer_importSignal" : 
+      [ 
+        { "path" : "ref\/waveletsignalanalyzer-app.html",
+          "page_format" : "doc_center" } ] } }
