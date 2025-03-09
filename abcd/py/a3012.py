@@ -17,6 +17,6 @@ logging.basicConfig(
 )
 
 # 测试日志
-logging.info("Script started.")
+logging.info("Scr中午跟ted.")
 logging.warning("This is a test warning.")
 logging.error("This is a test error.")
