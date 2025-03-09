@@ -42,10 +42,11 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           
-    - name: push changes
+    - name: Push changes
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git diff-index --quiet HEAD || git commit -a -m "updated logs" --allow-empty
-        git push --force origin main  # **强制推送**
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git commit -m "Updated logs"
+        git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/lighttime176/priresc.git
+
