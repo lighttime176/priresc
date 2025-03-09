@@ -1,9 +1,6 @@
 name: a3012
 
 on:
-  #schedule:
-    # 设置启动时间，为 UTC 时间, UTC23点 对应北京时间早7点
-    #- cron : '0 * * * *'
   workflow_dispatch:  # 允许手动触发
 
 permissions:
@@ -37,27 +34,29 @@ jobs:
       env:
         APP_ID: ${{ secrets.APP_ID }}
         ydyp: ${{ secrets.ydyp }}
+
     - name: Create logs directory
       run: |
         if (!(Test-Path "logs")) {
           New-Item -ItemType Directory -Path "logs"
         }
+
     - name: Collect workflow logs
       run: |
-        Get-Content $env:GITHUB_WORKSPACE\abcd\py\3012.log | Out-File -FilePath logs/3012.log -Encoding utf8
+        Get-Content $env:GITHUB_WORKSPACE\abcd\py\a3012.log | Out-File -FilePath logs/a3012.log -Encoding utf8
       continue-on-error: true  # 避免日志文件不存在时出错
 
     - name: Upload logs as artifact (optional)
       uses: actions/upload-artifact@v4
       with:
         name: logs
-        path: logs/3012.log
+        path: logs/a3012.log
 
     - name: Commit and push logs to repo
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add logs/3012.log
+        git add logs/a3012.log
         git commit -m "Save workflow logs"
         git push
       continue-on-error: true  # 避免 push 失败时报错
