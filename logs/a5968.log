@@ -1,0 +1,204 @@
+2025-03-09 22:07:28 - INFO - ----阿里云13007665968----：{'success': True}
+2025-03-09 22:07:48 - INFO - ----百度13007665968----：bd__cbs__4vvw8e({"errno":0,"msg":"\u53d1\u9001\u6210\u529f","vcodestr":null,"vcodesign":null,"isslide":null})
+2025-03-09 22:07:55 - INFO - ----凤凰网13007665968----：{'smscode_len': 6}
+2025-03-09 22:08:21 - INFO - ----联通云盘13007665968----：{'STATUS': '200', 'MSG': '服务调用成功！', 'LOGID': None, 'RSP': {'RSP_CODE': '0000', 'RSP_DESC': '成功', 'DATA': None}}
+2025-03-09 22:08:37 - INFO - ----天翼云盘13007665968----：{'result': 0, 'msg': 'success'}
+2025-03-09 22:08:48 - INFO - ----雪球13007665968----：{'success': True}
+2025-03-09 22:08:56 - INFO - ----巨量13007665968---- ：{'description': '', 'error_code': 0, 'mobile_ticket': 'mobile_ticket_BTTTZC3JPA7AC4Q3EUKKJF4UXVQPFVP8'}
+2025-03-09 22:09:05 - INFO - ----兔喜13007665968---- ：{'result': {'isRisk': 0}, 'message': '操作成功', 'status': True, 'statusCode': '200'}
+2025-03-09 22:09:16 - INFO - ----水滴筹13007665968---- ：{'code': 0, 'msg': None, 'data': None}
+2025-03-09 22:09:34 - INFO - ----小红书13007665968----：{'msg': '成功', 'data': {}, 'code': 0, 'success': True}
+2025-03-09 22:09:48 - INFO - ----豆包13007665968----：{'data': {'log_id': '20250309220948A5A0345B3637AC90725B', 'mobile': '130******68', 'mobile_ticket': 'mobile_ticket_2Z5BC4T3682RH6YGMCPRHVX7GD6EVEBX', 'retry_time': 60}, 'message': 'success'}
+2025-03-09 22:10:23 - INFO - ----KYE13007665968---- ：{'code': 0, 'msg': '成功', 'data': {'msg': '验证码已发送至您的手机，请注意查收'}, 'traceId': None, 'success': True}
+2025-03-09 22:10:32 - INFO - ----易车13007665968----：59s后重新发送
+2025-03-09 22:10:50 - INFO - ----移动云盘13007665968---- ：{'success': True, 'code': '0', 'message': 'OK', 'data': {'result': {'resultCode': '0', 'resultDesc': '请求成功'}, 'mode': '0', 'regFlag': None, 'remainGetTimes': 7, 'verifyCode': None, 'objNumber': None, 'random': 'z13Eo12P'}}
+2025-03-09 22:11:04 - INFO - ----南方泵业13007665968----：{'Data': None, 'Code': 0, 'Message': '19225172BFF99B4ABCBAB3ED90A0FB28'}
+2025-03-09 22:11:12 - INFO - ----秘塔13007665968----：{'code': 2701, 'msg': '手机号不存在,请先注册!'}
+2025-03-09 22:11:20 - INFO - ----孔子学院13007665968----：{'msg': '操作成功', 'code': 200}
+2025-03-09 22:11:31 - INFO - ----巨人网络13007665968---- ：{'success': True, 'msg': '', 'data': []}
+2025-03-09 22:11:40 - INFO - ----火山引擎13007665968---- ：{'ResponseMetadata': {'RequestId': '2025030922114023279A3F73C15357C40D'}}
+2025-03-09 22:11:52 - INFO - ----webcsdn学院13007665968----：{'code': '0', 'subCode': '1017', 'message': '成功发送验证码', 'status': True}
+2025-03-09 22:11:59 - INFO - ----233乐园13007665968----：验证码倒计时发送验证码s
+2025-03-09 22:12:12 - INFO - ----q医疗13007665968----：{'data': {'code': '400'}, 'count': 0}
+2025-03-09 22:12:22 - INFO - ----指南者13007665968----：{'code': 0, 'msg': '发送验证码失败！'}
+2025-03-09 22:12:35 - INFO - ----闪德13007665968----：{'code': 0, 'msg': '短信服务异常', 'data': 4, 'url': '', 'wait': 3}
+2025-03-09 22:12:42 - INFO - ----顺丰同城13007665968----：{'errno': 0, 'errmsg': '', 'errmsg_lang': [], 'data': {'count': 60}, 'lid': '457194279680653055'}
+2025-03-09 22:12:53 - INFO - ----指南者13007665968----：{'code': 0, 'msg': '发送验证码失败！'}
+2025-03-09 22:13:13 - INFO - ----云8813007665968----：{'code': 1, 'msg': '触发号码天级流控Permits:40'}
+2025-03-09 22:13:35 - INFO - 执行 wjs 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=#dsbLogin1 > div:nth-child(4) > div', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:13:43 - INFO - ----异次元13007665968----：{'state': {'message': '风险', 'code': 505001}}
+2025-03-09 22:13:53 - INFO - ----网易云游戏13007665968----：{}
+2025-03-09 22:14:12 - INFO - 执行 a4 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=body > div:nth-child(12) > div > div.ant-modal-wrap.dialog-login-home.ant-modal-centered > div > div.ant-modal-content > div > div > div.dialog-login-content > div.dialog-login-change-group > div:nth-child(1)', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:14:34 - INFO - ----AI好记----：{'code': 10001, 'message': '短信发送失败: {"Message":"触发号码天级流控Permits:40","RequestId":"BF51AD00-3356-5D62-B68F-246684CE4C58","Code":"isv.BUSINESS_LIMIT_CONTROL"}', 'data': {}}
+2025-03-09 22:14:55 - INFO - ----万兴13007665968----：{'code': 0, 'msg': '', 'data': ''}
+2025-03-09 22:15:08 - INFO - ----九游网13007665968----：验证码剩余时间重新获取(58s)
+2025-03-09 22:15:19 - INFO - ----右糖13007665968----：{'status': 200, 'message': 'success'}
+2025-03-09 22:15:26 - INFO - ----大米小米13007665968----：{'status': 200, 'code': 0, 'data': True, 'message': '查询数据成功.'}
+2025-03-09 22:15:42 - INFO - 手机新浪注册失败
+2025-03-09 22:15:50 - INFO - ----海康威视13007665968----：{'code': '000000', 'data': {'code': 200, 'message': 'success', 'data': '{code=0, message=null, result=1058718415564181504}'}, 'message': None}
+2025-03-09 22:16:23 - INFO - 执行 i4 失败: 
+The browser connection fails.
+Address: 127.0.0.1:50576
+Tip: 
+1, the user folder does not conflict with the open browser 
+2, if no interface system, please add '--headless=new' startup parameter 
+3, if the system is Linux, try adding '--no-sandbox' boot parameter 
+The port and user folder paths can be set using ChromiumOptions.
+Version: 4.1.0.17
+2025-03-09 22:16:31 - INFO - ----跨境13007665968----：{'code': 500, 'msg': '短信发送失败，请稍后再试~', 'data': [], 'meta': {}}
+2025-03-09 22:16:41 - INFO - ----acfun13007665968----：{'result': 0}
+2025-03-09 22:16:58 - INFO - mathtool注册失败
+2025-03-09 22:17:08 - INFO - ----包月ai13007665968----：{'code': 100, 'msg': 'success', 'data': {}}
+2025-03-09 22:17:14 - INFO - ----库迪13007665968----：{'code': 200, 'message': 'success', 'busCode': '10408', 'busMessage': '请输入图形验证码', 'data': None, 'traceId': None}
+2025-03-09 22:17:21 - INFO - ----氢图13007665968----：{'code': 0, 'message': None, 'result': None}
+2025-03-09 22:17:33 - INFO - ----溪流13007665968----：{'code': 500, 'msg': '服务器内部错误，请稍后再试。'}
+2025-03-09 22:17:45 - INFO - ----演图网13007665968----：{'code': '000000', 'msg': 'Message sent successfully'}
+2025-03-09 22:17:57 - INFO - ----笔灵ai13007665968----：{'code': 1, 'msg': '验证码发送成功'}
+2025-03-09 22:18:05 - INFO - ----豆豆游戏13007665968----：{'code': 0, 'error_code': 0, 'error_message': '', 'payload': {}}
+2025-03-09 22:18:16 - INFO - ----问小白----：{'code': 0, 'msg': '', 'data': '', 'requestId': ''}
+2025-03-09 22:18:24 - INFO - ----九马13007665968----：{'code': 200, 'message': '发送成功', 'data': ''}
+2025-03-09 22:18:38 - INFO - ----柏测13007665968----：{'d': '触发号码天级流控Permits:40'}
+2025-03-09 22:19:01 - INFO - ----欢拓云13007665968----：{'code': 0, 'msg': 'OK'}
+2025-03-09 22:19:23 - INFO - ----活动汪13007665968----：{'status_code': 9, 'status_message': '发送失败........'}
+2025-03-09 22:19:37 - INFO - ----派克配音13007665968----：{'code': 1, 'info': '发送成功', 'data': {}}
+2025-03-09 22:19:53 - INFO - ----灵感严选13007665968----：{'code': -1, 'msg': '发送短信失败', 'data': None, 'exception': None, 'error': None, 'stackTrace': None, 'path': None, 'errCode': -1}
+2025-03-09 22:20:03 - INFO - ----笔熊13007665968----：{'code': 0, 'msg': 'isv.BUSINESS_LIMIT_CONTROL', 'time': '1741530002', 'data': None}
+2025-03-09 22:20:14 - INFO - ----美即云13007665968----：{'code': 502, 'msg': ''}
+2025-03-09 22:20:23 - INFO - ----诗词13007665968----：{'status': 'ok'}
+2025-03-09 22:20:34 - INFO - ----超级文档13007665968----：59 秒后可重试
+2025-03-09 22:20:46 - INFO - ----翼虎13007665968----：{'error': 0, 'msg': '写入成功', 'data': 1}
+2025-03-09 22:20:57 - INFO - ----考拉13007665968----：{'content': {'data': {'resultCode': 100, 'smsToken': 'idc_16A19FE9EBA0244D9A0A6E1CA68FEFEFB', 'processFinished': True}, 'status': 0, 'success': True}, 'hasError': False}
+2025-03-09 22:21:10 - INFO - 执行 c7 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'text=+86', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:21:22 - INFO - ----3C云13007665968----：{'status': 400, 'msg': 'CODE_SEND_FAIL'}
+2025-03-09 22:21:42 - INFO - ----交大云13007665968----：130****5968
+2025-03-09 22:21:50 - INFO - ----八法云----：{'code': 0, 'message': 'OK', 'data': {'code': 3}}
+2025-03-09 22:22:18 - INFO - ----有言13007665968----：{'error_code': 1, 'error_reason': '触发号码天级流控Permits:40'}
+2025-03-09 22:22:36 - INFO - ----环球医疗13007665968----：jsonp1741530144254({"code":"210","msg":"发送失败，请过一会再发送"})
+2025-03-09 22:23:02 - INFO - ----最有料13007665968----：{'code': 200, 'status': False, 'message': '触发号码天级流控Permits:40', 'url': None, 'other': None}
+2025-03-09 22:23:14 - INFO - ----乒协13007665968----：{'code': 10003, 'message': 'error-code.10003:触发号码天级流控Permits:40', 'tips': 'error-code.10003:触发号码天级流控Permits:40', 'result': None, 'traceId': '0d8585a1-a2bf-47f5-9042-a790849f7c9a', 'success': False}
+2025-03-09 22:23:24 - INFO - ----人人文库13007665968----：{'code': 5001, 'data': [], 'message': '发送失败'}
+2025-03-09 22:23:28 - INFO - ----人人文库13007665968----：{'code': 5001, 'data': [], 'message': '发送失败'}
+2025-03-09 22:23:33 - INFO - ----人人文库13007665968----：{'code': 5001, 'data': [], 'message': '发送失败'}
+2025-03-09 22:23:37 - INFO - ----人人文库13007665968----：{'code': 5001, 'data': [], 'message': '发送失败'}
+2025-03-09 22:23:41 - INFO - ----人人文库13007665968----：{'code': 5001, 'data': [], 'message': '发送失败'}
+2025-03-09 22:23:45 - INFO - ----人人文库13007665968----：{'code': 5001, 'data': [], 'message': '发送失败'}
+2025-03-09 22:23:45 - INFO - 人人文库5次错误
+2025-03-09 22:23:53 - INFO - ----广州心理协会13007665968----：{'status': 1, 'time': '10', 'msg': '手机验证码发送成功！'}
+2025-03-09 22:24:01 - INFO - ----返利网13007665968---- ：jQuery1830009783798791028087_1741530237537({"info":"succes","data":"13007665968","status":1})
+2025-03-09 22:24:37 - INFO - ----丽芙家居13007665968----：{'Result': True, 'Status': 1, 'Message': '手机验证码已发送至尾号5968手机，请注意查收', 'InnerData': {'retCode': 1, 'rm': 1}, 'CK': []}
+2025-03-09 22:25:13 - INFO - ----穷游网13007665968----：{'error_code': 0, 'result': 'ok', 'data': {'mobile': '86-13007665968'}}
+2025-03-09 22:25:27 - INFO - ----海尔13007665968----：{'result': 'SUCCESS', 'resultCode': '0', 'resultMsg': 'success', 'data': 'SUCCESS'}
+2025-03-09 22:25:27 - INFO - success
+2025-03-09 22:25:51 - INFO - 百卓注册失败
+2025-03-09 22:26:00 - INFO - ----百卓13007665968----：{'retCode': '0'}
+2025-03-09 22:26:14 - INFO - ----股海13007665968----：{'msg': '发送成功'}
+2025-03-09 22:26:25 - INFO - ----todesk13007665968----：{'statusCode': 200, 'data': {'challengeToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjEzMDA3NjY1OTY4IiwidXNhZ2UiOjEsIm5vdW5jZSI6IjEiLCJpYXQiOjE3NDE1MzAzODQsImV4cCI6MTc0MTUzMDY4NH0.q8fNQNGiFcFsXScQHGulqEM-mmSDdFPBZfZ67Udcw6c'}}
+2025-03-09 22:26:35 - INFO - ----zol13007665968----：{'info': 'ok', 'msg': '动态密码发送成功'}
+2025-03-09 22:26:46 - INFO - ----第一会展13007665968----：{"states":"err","message":"{"Message":"触发号码天级流控Permits:40","RequestId":"DB1157A2-4B48-5DCC-A57E-23B57FFB675F","Code":"isv.BUSINESS_LIMIT_CONTROL"}"}
+2025-03-09 22:26:47 - INFO - 执行 a9 失败: string indices must be integers, not 'str'
+2025-03-09 22:27:00 - INFO - ----索尼中国13007665968----：{'resultData': {'registerToken': 'hdi6UBP7tQ2CnR5ar96S4khLssvqTbXoO756bUpIhb8='}, 'resultMsg': [{'code': '00', 'message': '成功'}]}
+2025-03-09 22:27:07 - INFO - ----爱乐奇13007665968----：suss
+2025-03-09 22:27:22 - INFO - 花生同注册失败
+2025-03-09 22:27:25 - INFO - ----花生同13007665968----：{'success': True, 'code': '00000', 'lang': None, 'error': None, 'errorHK': None, 'data': None}
+2025-03-09 22:27:45 - INFO - ----包图13007665968----：{'status': 1, 'msg': '亲，验证码发送成功'}
+2025-03-09 22:27:55 - INFO - ----莫言ai13007665968----：{'code': 200, 'msg': '成功', 'data': []}
+2025-03-09 22:28:13 - INFO - ----慕客13007665968----：{'code': 0, 'message': '成功', 'payload': {'captchaVerifyResult': False}}
+2025-03-09 22:28:52 - INFO - ----广告狂人13007665968----：{'msg': '操作成功', 'code': '10000'}
+2025-03-09 22:29:08 - INFO - ----feemoo13007665968----：{'status': '90001', 'msg': '', 'time': 1741530542, 'data': {'url': 'https://fmph5.jingfile.com/h5_hk', 'width': '290', 'height': '256', 'code': '', 'e': {'code': 200, 'errorCode': 90001, 'msg': '', 'params': {'url': 'https://fmph5.jingfile.com/h5_hk', 'width': '290', 'height': '256', 'code': ''}}}}
+2025-03-09 22:29:22 - INFO - ----spai13007665968----：{'error': 2005, 'msg': '操作失败,请稍后重试', 'data': None, 'total': 0}
+2025-03-09 22:29:36 - INFO - 执行 a10 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=#txtMobile', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:29:44 - INFO - ----云群13007665968----：{'status': 400, 'msg': '图形验证码有误'}
+2025-03-09 22:29:54 - INFO - ----云码13007665968----：<pre>string(43) "{"msg":"发送成功","code":200,"data":[]}"
+</pre>
+2025-03-09 22:30:04 - INFO - ----创配----：{"states":"err","message":"{"Message":"触发号码天级流控Permits:40","RequestId":"D03412EF-8860-5295-AA05-CAA2F1A5AD04","Code":"isv.BUSINESS_LIMIT_CONTROL"}"}
+2025-03-09 22:30:04 - INFO - 执行 d10 失败: string indices must be integers, not 'str'
+2025-03-09 22:30:20 - INFO - ----及时设计----：{'code': 801101, 'msg': 'aliyun authenticate not pass', 'msg_cn': '无痕验证未通过', 'key': 'NO_TRACE_VERIFICATION_FAILED', 'data': '400'}
+2025-03-09 22:30:43 - INFO - ----嘉立创13007665968----：{'success': True, 'code': 200}
+2025-03-09 22:31:03 - INFO - ----电子发烧友13007665968----：{'status': 'successed', 'error_code': 0, 'data': {'account': '13007665968'}}
+2025-03-09 22:31:13 - INFO - ----鸟哥笔记----：{'return_code': '-1', 'return_msg': '参数错误', 'return_data': []}
+2025-03-09 22:31:16 - INFO - ----鸟哥笔记----：{'return_code': '200', 'return_msg': '已发送', 'return_data': []}
+2025-03-09 22:31:35 - INFO - ----团结13007665968----：{'success': True, 'data': '130076659681741530693', 'message': None, 'ErrorCode': 0}
+2025-03-09 22:31:48 - INFO - ----站库13007665968----：{'result': True}
+2025-03-09 22:31:54 - INFO - ----万兴科技13007665968----：{'code': 0, 'msg': '', 'data': ''}
+2025-03-09 22:32:14 - INFO - ----亿图13007665968----：{'status': 'success', 'msg': '', 'data': {}}
+2025-03-09 22:32:26 - INFO - ----医疗器械13007665968----：{'code': '1', 'data': None, 'msg': '验证码已发送！'}
+2025-03-09 22:32:41 - INFO - ----大学生在线13007665968----：{'code': 200, 'message': '发送成功'}
+2025-03-09 22:32:51 - INFO - ----永洪13007665968----：{'code': 200, 'data': 'smssuccess'}
+2025-03-09 22:32:58 - INFO - ----深信服13007665968----：{'code': 0, 'msg': 'success', 'rows': 'success'}
+2025-03-09 22:33:11 - INFO - ----磨刀13007665968----：{'success': '验证码发送成功'}
+2025-03-09 22:33:20 - INFO - ----逗逗游戏伙伴13007665968----：{'code': 0, 'error_code': 0, 'error_message': '', 'payload': {}}
+2025-03-09 22:33:36 - INFO - 执行 i11 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'text=请登录', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:33:49 - INFO - ----韩红13007665968----：{'code': 0, 'msg': 'success', 'data': 60}
+2025-03-09 22:34:11 - INFO - ----ccf13007665968----：1
+2025-03-09 22:34:45 - INFO - 钻石网注册失败
+2025-03-09 22:34:45 - INFO - 执行 b12 失败: cannot access local variable 'res' where it is not associated with a value
+2025-03-09 22:34:55 - INFO - ----云书网13007665968----：{'code': '-2', 'gitVersion': {'git.branch': 'origin/online', 'git.commit.id': '9493803b7f97740d60bed02d3a23f781f35c4156'}, 'message': '图片验证码输入有误', 'success': False, 'trace': '1c9cec709af69c99'}
+2025-03-09 22:35:00 - INFO - ----云书网13007665968----：{'code': '0', 'gitVersion': {'git.branch': 'origin/online', 'git.commit.id': '9493803b7f97740d60bed02d3a23f781f35c4156'}, 'message': '短信发送成功', 'trace': '0ccb9ac4d795eaef'}
+2025-03-09 22:35:07 - INFO - ----天天13007665968----：{'msg': '验证码有误'}
+2025-03-09 22:35:11 - INFO - ----天天13007665968----：{'msg': '触发号码天级流控Permits:40', 'error': 1}
+2025-03-09 22:35:11 - INFO - 执行 d12 失败: 'code'
+2025-03-09 22:35:17 - INFO - ----心理13007665968----：59s
+2025-03-09 22:35:32 - INFO - 执行 f12 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=#phone', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:35:48 - INFO - 执行 g12 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=body > header > div > div.cloud-header-default > div.cloud-right-wrapper > div.login-wrapper > ul > li.nav-register > a', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:36:05 - INFO - 紫衣注册失败
+2025-03-09 22:36:18 - INFO - 紫衣注册失败
+2025-03-09 22:36:31 - INFO - 紫衣注册失败
+2025-03-09 22:36:45 - INFO - 紫衣注册失败
+2025-03-09 22:36:58 - INFO - 紫衣注册失败
+2025-03-09 22:37:12 - INFO - 紫衣注册失败
+2025-03-09 22:37:12 - INFO - 紫衣5次错误
+2025-03-09 22:37:42 - INFO - 执行 i12 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=body > div:nth-child(1) > div > div:nth-child(3) > p > span:nth-child(1)', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 22:37:53 - INFO - ----飞乐13007665968----：{'status': -1, 'msg': 'CODE_RES_ERROR'}
+2025-03-09 22:38:06 - INFO - 飞乐注册失败
+2025-03-09 22:38:06 - INFO - 执行 j12 失败: 'status'
+2025-03-09 22:38:11 - INFO - ----58同城13007665968----：JsonpCallBack1741531090966187({"code":0,"data":{"voice":true,"exist":0,"requesthost":"passport.58.com","times":"30","tokencode":"5Hx4_QjAxghNu879ZMykHNarR4IMSWRj","length":6,"action":"0","strategyid":"2","label":"收不到短信验证码？","type":2},"msg":"动态码已发送"})
+2025-03-09 22:38:24 - INFO - ----中图网13007665968----：{'Status': 0, 'Msg': None, 'Succeed': True, 'Data': None, 'Remark': None, 'Error': None}
+2025-03-09 22:39:03 - INFO - ----优购13007665968----：2
+2025-03-09 22:39:14 - INFO - ----多多买菜13007665968----：{'success': True, 'errorCode': 1000000, 'errorMsg': None, 'result': None}
+2025-03-09 22:39:29 - INFO - 执行 e13 失败: 
+This element has no location or size.
+Version: 4.1.0.17
+2025-03-09 22:39:34 - INFO - ----酒窝13007665968----：
+2025-03-09 22:39:46 - INFO - ----安徽博物院13007665968----：{'success': False, 'message': '验证码发送失败'}
+2025-03-09 22:40:02 - INFO - 爱卡注册失败
+2025-03-09 22:40:11 - INFO - ----花礼网13007665968----：{'Status': '0', 'ErrMsg': None, 'DataStatus': 0, 'Datas': {'Message': '验证码已经发送到13007665968,请及时输入进行验证。'}, 'HuaSessionId': None}
+2025-03-09 22:40:25 - INFO - ----美非遗13007665968----：{'code': '200', 'codeid': 5796, 'msg': 'success'}
+2025-03-09 22:40:26 - INFO - Deleted: .\bd_background.png
+2025-03-09 22:40:26 - INFO - Deleted: .\cp.png
+2025-03-09 22:40:26 - INFO - Deleted: .\hzzx.png
+2025-03-09 22:40:26 - INFO - Deleted: .\ngbj.png
+2025-03-09 22:40:26 - INFO - Deleted: .\tt.png
+2025-03-09 22:40:26 - INFO - Deleted: .\ysw.png
+2025-03-09 22:40:26 - INFO - All PNG images deleted.
