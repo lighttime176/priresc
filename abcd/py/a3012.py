@@ -5804,7 +5804,7 @@ if __name__ == '__main__':
     safe_execute(h13)
     safe_execute(i13)
     safe_execute(j13)
-        safe_execute(aliyun)
+    safe_execute(aliyun)
     safe_execute(xueqiu)
     safe_execute(juliang)
     safe_execute(tuxi)
