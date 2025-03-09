@@ -1,0 +1,156 @@
+2025-03-09 15:23:10 - INFO - ----阿里云19845173012----：{'success': True}
+2025-03-09 15:23:24 - INFO - ----百度19845173012----：bd__cbs__avwp9w({"errno":16,"msg":"\u83b7\u53d6\u9a8c\u8bc1\u7801\u6b21\u6570\u8fc7\u591a\uff0c\u8bf724\u5c0f\u65f6\u4e4b\u540e\u518d\u8bd5","vcodestr":null,"vcodesign":null,"isslide":null})
+2025-03-09 15:23:30 - INFO - ----凤凰网19845173012----：{'code': 'CaptchaRequired', 'msg': 'code: CaptchaRequired, msg: 需要验证码', 'tips': '需要验证码'}
+2025-03-09 15:23:58 - INFO - ----联通云盘19845173012----：{'STATUS': '200', 'MSG': '服务调用成功！', 'LOGID': None, 'RSP': {'RSP_CODE': '0000', 'RSP_DESC': '成功', 'DATA': None}}
+2025-03-09 15:24:57 - INFO - 执行 tyyp 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=#tab-pw > span', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 15:27:08 - INFO - ----雪球19845173012----：{'success': True}
+2025-03-09 15:27:15 - INFO - ----巨量19845173012---- ：{'description': '', 'error_code': 0, 'mobile_ticket': 'mobile_ticket_3K3XVEP9MB3Q27YFS432YRF7894DRXBX'}
+2025-03-09 15:27:22 - INFO - ----兔喜19845173012---- ：{'result': {'isRisk': 0}, 'message': '操作成功', 'status': True, 'statusCode': '200'}
+2025-03-09 15:27:32 - INFO - ----水滴筹19845173012---- ：{'code': 0, 'msg': None, 'data': None}
+2025-03-09 15:27:48 - INFO - ----小红书19845173012----：{'code': 0, 'success': True, 'msg': '成功', 'data': {}}
+2025-03-09 15:28:00 - INFO - ----豆包19845173012----：{'data': {'log_id': '202503091527592B3B39F40AAB3F3F6F4F', 'mobile': '198******12', 'mobile_ticket': 'mobile_ticket_7SCTESZT6RJJ8KMJSE374PACJDZDM66B', 'retry_time': 60}, 'message': 'success'}
+2025-03-09 15:28:07 - INFO - ----KYE19845173012---- ：{'code': 0, 'msg': '成功', 'data': {'msg': '验证码已发送至您的手机，请注意查收'}, 'traceId': None, 'success': True}
+2025-03-09 15:28:14 - INFO - ----易车19845173012----：59s后重新发送
+2025-03-09 15:28:30 - INFO - ----移动云盘19845173012---- ：{'success': True, 'code': '0', 'message': 'OK', 'data': {'result': {'resultCode': '0', 'resultDesc': '请求成功'}, 'mode': '0', 'regFlag': None, 'remainGetTimes': 8, 'verifyCode': None, 'objNumber': None, 'random': 'CVzhN6vV'}}
+2025-03-09 15:28:44 - INFO - ----南方泵业19845173012----：{'Data': None, 'Code': 0, 'Message': '9772A0806FAF17592BBFF5F0D3F426'}
+2025-03-09 15:28:51 - INFO - ----秘塔19845173012----：{'code': 2701, 'msg': '手机号不存在,请先注册!'}
+2025-03-09 15:28:59 - INFO - ----孔子学院19845173012----：{'msg': '操作成功', 'code': 200}
+2025-03-09 15:29:06 - INFO - ----巨人网络19845173012---- ：{'success': False, 'msg': '账号已存在，建议直接使用该手机号登录', 'data': {'rcmdAccount': ['1984517301212', '1984517301212']}}
+2025-03-09 15:29:15 - INFO - ----火山引擎19845173012---- ：{'ResponseMetadata': {'RequestId': '2025030915291500BEE3DAA2AED7FCCCA0'}}
+2025-03-09 15:29:24 - INFO - ----webcsdn学院19845173012----：{'code': '0', 'subCode': '1017', 'message': '成功发送验证码', 'status': True}
+2025-03-09 15:29:31 - INFO - ----233乐园19845173012----：验证码倒计时59s
+2025-03-09 15:29:43 - INFO - ----q医疗19845173012----：{'data': {'code': '400'}, 'count': 0}
+2025-03-09 15:29:52 - INFO - ----指南者19845173012----：{'code': 1, 'next': 'a9adff933ab38182cd648fc85a5a1aac'}
+2025-03-09 15:30:05 - INFO - ----闪德19845173012----：{'code': 1, 'msg': '发送成功', 'data': 3, 'url': '', 'wait': 3}
+2025-03-09 15:30:11 - INFO - ----顺丰同城19845173012----：{'errno': 0, 'errmsg': '', 'errmsg_lang': [], 'data': {'count': 60}, 'lid': '433043986751350733'}
+2025-03-09 15:30:21 - INFO - ----指南者19845173012----：{'code': 1, 'next': '7a6b7cbcd32e365ef1dd41c6c29cf7b4'}
+2025-03-09 15:30:39 - INFO - ----云8819845173012----：{'code': 1, 'msg': 'OK'}
+2025-03-09 15:30:49 - INFO - ----望京设19845173012----：成功
+2025-03-09 15:30:57 - INFO - ----异次元19845173012----：{'data': {'requestId': '8046199fdb50447eae7aa905a997e5d0'}, 'state': {'message': '成功', 'code': 200000}}
+2025-03-09 15:31:06 - INFO - ----网易云游戏19845173012----：{}
+2025-03-09 15:31:17 - INFO - ----aippt19845173012----：{'code': 0, 'data': None, 'msg': '发送成功'}
+2025-03-09 15:31:58 - INFO - ----万兴19845173012----：{'code': 0, 'msg': '', 'data': ''}
+2025-03-09 15:32:09 - INFO - ----九游网19845173012----：验证码剩余时间重新获取(58s)
+2025-03-09 15:32:17 - INFO - ----右糖19845173012----：{'status': 200, 'message': 'success'}
+2025-03-09 15:32:24 - INFO - ----大米小米19845173012----：{'status': 200, 'code': 0, 'data': True, 'message': '查询数据成功.'}
+2025-03-09 15:32:40 - INFO - 手机新浪注册失败
+2025-03-09 15:32:48 - INFO - ----海康威视19845173012----：{'code': '000000', 'data': {'code': 200, 'message': 'success', 'data': '{code=0, message=null, result=1058616987948552192}'}, 'message': None}
+2025-03-09 15:32:53 - INFO - ----网易数字19845173012----：{'success': True, 'msg': '验证码已发送'}
+2025-03-09 15:33:02 - INFO - ----跨境19845173012----：{'code': 0, 'msg': '发送成功', 'data': [], 'meta': {}}
+2025-03-09 15:33:11 - INFO - ----acfun19845173012----：{'result': 0}
+2025-03-09 15:33:19 - INFO - ----mathtool19845173012----：{'code': 0, 'data': [], 'message': 'ok!'}
+2025-03-09 15:33:27 - INFO - ----包月ai19845173012----：{'code': 100, 'msg': 'success', 'data': {}}
+2025-03-09 15:33:32 - INFO - ----库迪19845173012----：{'code': 200, 'message': 'success', 'busCode': '1', 'busMessage': 'success', 'data': None, 'traceId': None}
+2025-03-09 15:33:39 - INFO - ----氢图19845173012----：{'code': 0, 'message': None, 'result': None}
+2025-03-09 15:33:50 - INFO - ----溪流19845173012----：{'code': 200, 'data': True}
+2025-03-09 15:34:31 - INFO - ----演图网19845173012----：{'code': '000000', 'msg': 'Message sent successfully'}
+2025-03-09 15:34:43 - INFO - ----笔灵ai19845173012----：{'code': 1, 'msg': '验证码发送成功'}
+2025-03-09 15:34:53 - INFO - ----豆豆游戏19845173012----：{'code': 0, 'error_code': 0, 'error_message': '', 'payload': {}}
+2025-03-09 15:35:10 - INFO - ----九马19845173012----：{'code': 200, 'message': '发送成功', 'data': ''}
+2025-03-09 15:35:21 - INFO - ----柏测19845173012----：{'d': 'OK'}
+2025-03-09 15:35:41 - INFO - ----欢拓云19845173012----：{'code': 20104, 'msg': '图片验证码错误'}
+2025-03-09 15:36:00 - INFO - ----活动汪19845173012----：{'status_code': 1, 'status_message': '验证码发送成功'}
+2025-03-09 15:36:11 - INFO - ----派克配音19845173012----：{'code': 1, 'info': '发送成功', 'data': {}}
+2025-03-09 15:36:25 - INFO - ----灵感严选19845173012----：{'code': 1, 'msg': '操作成功', 'data': None, 'exception': None, 'error': None, 'stackTrace': None, 'path': None, 'errCode': 1}
+2025-03-09 15:36:32 - INFO - ----笔熊19845173012----：{'code': 1, 'msg': '发送成功，有效期为60秒', 'time': '1741505792', 'data': None}
+2025-03-09 15:36:43 - INFO - ----美即云19845173012----：{'code': 502, 'msg': ''}
+2025-03-09 15:36:52 - INFO - ----诗词19845173012----：{'status': 'ok'}
+2025-03-09 15:37:02 - INFO - ----超级文档19845173012----：59 秒后可重试
+2025-03-09 15:37:18 - INFO - ----翼虎19845173012----：{'error': 0, 'msg': '写入成功', 'data': 1}
+2025-03-09 15:37:29 - INFO - ----考拉19845173012----：{'content': {'data': {'resultCode': 100, 'smsToken': 'idc_15666D0200E8547CF8911DA61F3CB8D38', 'processFinished': True}, 'status': 0, 'success': True}, 'hasError': False}
+2025-03-09 15:37:47 - INFO - 执行 c7 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=#app > div > div > div.mainBox.greenBgColor > div:nth-child(2) > div.content > form > div:nth-child(2) > div > div > span > span > span > span > span', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 15:37:53 - INFO - ----3C云19845173012----：{'status': 400, 'msg': 'CODE_SEND_FAIL'}
+2025-03-09 15:38:10 - INFO - ----交大云19845173012----：198****3012
+2025-03-09 15:38:17 - INFO - ----八法云----：{'code': 0, 'message': 'OK', 'data': {'code': 3}}
+2025-03-09 15:39:03 - INFO - ----有言19845173012----：{'error_code': 0, 'error_reason': 'success'}
+2025-03-09 15:39:19 - INFO - ----环球医疗19845173012----：jsonp1741505947720({"code":"200","msg":"发送成功"})
+2025-03-09 15:39:42 - INFO - ----最有料19845173012----：{'code': 200, 'status': True, 'message': '获取成功', 'url': None, 'other': None}
+2025-03-09 15:39:51 - INFO - ----乒协19845173012----：{'code': 100, 'message': 'success', 'tips': None, 'result': True, 'traceId': '198bc2e5-515c-4f27-a3bf-3ae8c85b2223', 'success': True}
+2025-03-09 15:40:14 - INFO - ----返利网19845173012---- ：jQuery1830684652160006153_1741506010230({"info":"succes","data":"19845173012","status":1})
+2025-03-09 15:40:22 - INFO - ----丽芙家居19845173012----：{'Result': True, 'Status': 1, 'Message': '手机验证码已发送至尾号3012手机，请注意查收', 'InnerData': {'retCode': 1, 'rm': 1}, 'CK': []}
+2025-03-09 15:40:26 - INFO - ----穷游网19845173012----：{'error_code': 0, 'result': 'ok', 'data': {'mobile': '86-19845173012'}}
+2025-03-09 15:40:35 - INFO - eaju
+2025-03-09 15:40:36 - INFO - ----海尔19845173012----：{'result': 'SUCCESS', 'resultCode': '0', 'resultMsg': 'success', 'data': 'SUCCESS'}
+2025-03-09 15:40:36 - INFO - success
+2025-03-09 15:40:59 - INFO - 百卓注册失败
+2025-03-09 15:41:06 - INFO - ----百卓19845173012----：{'retCode': '0'}
+2025-03-09 15:41:12 - INFO - 执行 h8 失败: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2025-03-09 15:41:18 - INFO - 126
+2025-03-09 15:41:22 - INFO - ----todesk19845173012----：{'statusCode': 200, 'data': {'challengeToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjE5ODQ1MTczMDEyIiwidXNhZ2UiOjEsIm5vdW5jZSI6IjEiLCJpYXQiOjE3NDE1MDYwODIsImV4cCI6MTc0MTUwNjM4Mn0.5BrDKr-x0jf1GvfEPnplmUpkhUh3FGsMlWHULuxqpa4'}}
+2025-03-09 15:41:33 - INFO - ----zol19845173012----：{'info': 'error', 'msg': '图形验证码错误'}
+2025-03-09 15:41:36 - INFO - ----zol19845173012----：{'info': 'error', 'msg': '图形验证码错误'}
+2025-03-09 15:41:39 - INFO - ----zol19845173012----：{'info': 'ok', 'msg': '动态密码发送成功'}
+2025-03-09 15:41:47 - INFO - ----第一会展19845173012----：{'states': 'ok', 'message': '发送成功!'}
+2025-03-09 15:42:02 - INFO - ----索尼中国19845173012----：{'resultData': {'registerToken': 'Dq7UeYXgIEZraSg7lUwB0J0F+wwGZ1+xXJuVjh0/OQg='}, 'resultMsg': [{'code': '00', 'message': '成功'}]}
+2025-03-09 15:42:08 - INFO - ----爱乐奇19845173012----：suss
+2025-03-09 15:42:24 - INFO - 花生同注册失败
+2025-03-09 15:42:27 - INFO - ----花生同19845173012----：{'success': True, 'code': '00000', 'lang': None, 'error': None, 'errorHK': None, 'data': None}
+2025-03-09 15:42:43 - INFO - ----包图19845173012----：{'status': 1, 'msg': '亲，验证码发送成功'}
+2025-03-09 15:42:53 - INFO - ----莫言ai19845173012----：{'code': 200, 'msg': '成功', 'data': []}
+2025-03-09 15:43:06 - INFO - ----慕客19845173012----：{'code': 0, 'message': '成功', 'payload': {'captchaVerifyResult': False}}
+2025-03-09 15:43:19 - INFO - ----广告狂人19845173012----：{'msg': '操作成功', 'code': '10000'}
+2025-03-09 15:43:35 - INFO - ----feemoo19845173012----：{'status': '90001', 'msg': '', 'time': 1741506209, 'data': {'url': 'https://fmph5.jingfile.com/h5_hk', 'width': '290', 'height': '256', 'code': '', 'e': {'code': 200, 'errorCode': 90001, 'msg': '', 'params': {'url': 'https://fmph5.jingfile.com/h5_hk', 'width': '290', 'height': '256', 'code': ''}}}}
+2025-03-09 15:43:48 - INFO - ----spai19845173012----：{'error': 0}
+2025-03-09 15:44:01 - INFO - 执行 a10 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=#txtMobile', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 15:44:08 - INFO - ----云群19845173012----：{'status': 400, 'msg': '图形验证码有误'}
+2025-03-09 15:44:16 - INFO - ----云码19845173012----：<pre>string(43) "{"msg":"发送成功","code":200,"data":[]}"
+</pre>
+2025-03-09 15:44:24 - INFO - ----创配----：{'states': 'ok', 'message': '发送成功!'}
+2025-03-09 15:45:02 - INFO - ----嘉立创19845173012----：{'success': True, 'code': 200}
+2025-03-09 15:45:20 - INFO - ----电子发烧友19845173012----：{'status': 'failed', 'error_code': '1', 'msg': '请拖动上方滑块到正确位置', 'field': '40030', 'debug_info': 'no csessionid'}
+2025-03-09 15:45:29 - INFO - ----鸟哥笔记----：{'return_code': '200', 'return_msg': '已发送', 'return_data': []}
+2025-03-09 15:46:06 - INFO - 执行 i10 失败: 
+This element has no location or size.
+Version: 4.1.0.17
+2025-03-09 15:46:17 - INFO - ----站库19845173012----：{'result': True}
+2025-03-09 15:46:21 - INFO - ----万兴科技19845173012----：{'code': 0, 'msg': '', 'data': ''}
+2025-03-09 15:46:39 - INFO - ----亿图19845173012----：{'status': 'success', 'msg': '', 'data': {}}
+2025-03-09 15:46:52 - INFO - ----医疗器械19845173012----：{'code': '0', 'data': None, 'msg': '验证码发送成功！'}
+2025-03-09 15:47:06 - INFO - ----大学生在线19845173012----：{'code': 200, 'message': '发送成功'}
+2025-03-09 15:47:15 - INFO - ----永洪19845173012----：{'code': 200, 'data': 'smssuccess'}
+2025-03-09 15:47:22 - INFO - ----深信服19845173012----：{'code': 0, 'msg': 'success', 'rows': 'success'}
+2025-03-09 15:48:07 - INFO - ----磨刀19845173012----：{'success': '验证码发送成功'}
+2025-03-09 15:48:13 - INFO - ----逗逗游戏伙伴19845173012----：{'code': 0, 'error_code': 0, 'error_message': '', 'payload': {}}
+2025-03-09 15:48:31 - INFO - ----韩红19845173012----：{'code': 0, 'msg': 'success', 'data': 60}
+2025-03-09 15:48:50 - INFO - ----ccf19845173012----：1
+2025-03-09 15:49:06 - INFO - ----钻石网19845173012----：{'code': 200, 'msg': '验证成功'}
+2025-03-09 15:49:17 - INFO - ----云书网19845173012----：{'code': '0', 'gitVersion': {'git.branch': 'origin/online', 'git.commit.id': '9493803b7f97740d60bed02d3a23f781f35c4156'}, 'message': '短信发送成功', 'trace': 'a375e5eb7c930161'}
+2025-03-09 15:49:35 - INFO - ----心理19845173012----：59s
+2025-03-09 15:49:44 - INFO - ----拔草19845173012----：{'error': 0, 'msg': '发送成功', 'referer': '', 'state': 'fail'}
+2025-03-09 15:50:02 - INFO - 执行 g12 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=body > header > div > div.cloud-header-default > div.cloud-right-wrapper > div.login-wrapper > ul > li.nav-register > a', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 15:50:08 - INFO - ----紫衣19845173012----：{'res': True, 'code': 1, 'msg': '图形验证码不正确', 'err': 1, 'timestamp': 1741506608}
+2025-03-09 15:50:12 - INFO - ----紫衣19845173012----：{'res': True, 'code': 1, 'msg': '图形验证码不正确', 'err': 1, 'timestamp': 1741506612}
+2025-03-09 15:50:16 - INFO - ----紫衣19845173012----：{'res': True, 'code': 1, 'msg': '图形验证码不正确', 'err': 1, 'timestamp': 1741506616}
+2025-03-09 15:50:20 - INFO - ----紫衣19845173012----：{'res': True, 'code': 1, 'msg': '图形验证码不正确', 'err': 1, 'timestamp': 1741506620}
+2025-03-09 15:50:24 - INFO - ----紫衣19845173012----：{'res': True, 'code': 1, 'msg': '图形验证码不正确', 'err': 1, 'timestamp': 1741506624}
+2025-03-09 15:50:27 - INFO - ----紫衣19845173012----：{'res': True, 'code': 1, 'msg': '图形验证码不正确', 'err': 1, 'timestamp': 1741506627}
+2025-03-09 15:50:27 - INFO - 紫衣5次错误
+2025-03-09 15:50:57 - INFO - 执行 i12 失败: 
+No element found.
+Method: ele()
+Arguments: {'locator': 'css=body > div:nth-child(1) > div > div:nth-child(3) > p > span:nth-child(1)', 'index': 1, 'timeout': 10}
+Version: 4.1.0.17
+2025-03-09 15:51:07 - INFO - ----飞乐19845173012----：{'status': 0, 'data': {'noncestr': '13b98rkewa', 'phone': '19845173012', 'timestamp': 1741506667, 'signature': 'ac25d3b19006fc8cabe3104c4fd2fb0d9bb8d26a'}}
+2025-03-09 15:52:53 - INFO - Deleted: .\9eef21b94.png
+2025-03-09 15:52:53 - INFO - Deleted: .\bd_background.png
+2025-03-09 15:52:53 - INFO - Deleted: .\guhai_background.png
+2025-03-09 15:52:53 - INFO - Deleted: .\ngbj.png
+2025-03-09 15:52:53 - INFO - Deleted: .\tt.png
+2025-03-09 15:52:53 - INFO - All PNG images deleted.
