@@ -4,11 +4,12 @@ from DrissionPage import ChromiumOptions
 import os, time,random,base64,logging
 from threading import Thread
 import ddddocr,requests
-import re,pytz
+import re
 import json
 import sys
-from datetime import datetime
 # 全局变量
+# phonenum = os.environ.get("ydyp")
+# masked_phone = phonenum[:3] + '****' + phonenum[-4:]
 phonenum = '13007665968'
 masked_phone = phonenum
 log_filename = '5968.log'
@@ -1241,7 +1242,7 @@ def c6(tab, browser):
     ele.click()
     ele = tab.ele('css=body > div > div.register-container-r > div.center > form > div.code > div > span')
     time.sleep(2)
-    ele.click()
+    ele.click(by_js=True)
 
     try:
         res = tab.listen.wait(timeout=10).response
@@ -1672,141 +1673,108 @@ def j7(tab, browser):
   browser.quit()  # 关闭浏览器
 
 def a8(tab, browser):
-    tab.get('https://www.renrendoc.com/renrendoc_v1/User/reg.html')
-    ele = tab.ele('css=#Content_txtMobile')
-    ele.input(phonenum)
-
-    ele = tab.ele('css=#spansend')
-    ele.click()
-    time.sleep(1)
-
-    ele = tab.ele('css=#captcha')
-    def again(ele):
-        ele.click()
-        time.sleep(2)
-        ele.get_screenshot(name='rr.png')
-        #bytes_str = ele.get_screenshot(name='rr.png')  # 返回截图二进制文本
+    #0网址
+    url = 'https://www.renrendoc.com/renrendoc_v1/User/reg.html'
+    #1输入手机号
+    phonee = 'css=' + '#Content_txtMobile'
+    #2图片验证码ele
+    imge = 'css=' + '#captcha'
+    #3验证码输入框ele
+    inpute = 'css=' + '#Content_PicCode'
+    #4发送短信按钮
+    sende = 'css=' + '#spansend'
+    range = 6
+    picname = 'ysw.png'
+    #5监听端口
+    target = 'sendCode.html'
+    #res = {"result": False}
+    #成功res
+    resleft = 'code'
+    resright = 200
+    name = '人人文库'
+    
+    
+    
+    def char(imgele,inputele,sendele,range,picname):
+        inputele.clear()
+        imgele.click()
+        time.sleep(1)
+        imgele.get_screenshot(name=picname)
         ocr = ddddocr.DdddOcr(show_ad=False)
-        image = open("rr.png", "rb").read()
-        ocr.set_ranges(6)
+        image = open(picname, "rb").read()
+        ocr.set_ranges(range)
         result = ocr.classification(image, probability=True)
         s = ""
         for i in result['probability']:
             s += result['charsets'][i.index(max(i))]
-
-        logger.info(s)
-        ele = tab.ele('css=#Content_PicCode')
-        ele.input(s)
-        tab.listen.start(targets='/Send/sendCode.html')  # 开始监听，指定获取包含该文本的数据包
-        ele = tab.ele('css=#spansend')
-        ele.click()
-
-        res = tab.listen.wait(timeout=30).response
+        #print(s)
+        inputele.clear()
+        inputele.input(s)
+        sendele.click(by_js=True)
+    
+    tab.get(url)
+    phoneele = tab.ele(phonee)
+    phoneele.click()
+    phoneele.input(phonenum)
+    
+    imgele = tab.ele(imge)
+    inputele = tab.ele(inpute)
+    sendele = tab.ele(sende)
+    sendele.click()
+    tab.listen.start(targets=target)
+    char(imgele,inputele,sendele,range,picname)
+    res = {}
+    try:
+        res = tab.listen.wait(timeout=10).response
         res = res.body
-        logger.info(f'----人人文库----：{res}')
-        message = res['message']
-        return message
-
-    message = again(ele)
+        print(f'----{name}{masked_phone}----：{res}')
+    except:
+        print(f'{name}注册失败')
+        res[resleft] = 11
+    
+    
     attempts = 0
-
-    while message != '发送成功':
-        ele = tab.ele('css=#captcha')
-        ele.click()
-        time.sleep(3)
-        again(ele)
-
+    
+    while res[resleft] != resright:
+        tab.listen.start(targets=target)  # 开始监听，指定获取包含该文本的数据包
+        time.sleep(2)
+        char(imgele,inputele,sendele,range,picname)
+    
+        try:
+            res = tab.listen.wait(timeout=10).response
+            res = res.body
+            print(f'----{name}{masked_phone}----：{res}')
+        except:
+            print(f'{name}注册失败')
+            res[resleft] = 11
         attempts += 1
         if attempts == 5:
-            logger.info('验证码识别错误次数过多')
-            break;
-    # 文件路径
-    file_path = 'rr.png'
-    # 删除文件
-    if os.path.exists(file_path):
-        os.remove(file_path)
-    else:
-        pass
+            print(f'{name}5次错误')
+            break
     browser.quit()  # 关闭浏览器
 
 
 def b8(tab, browser):
-    tab.get('http://gpa-gd.scnu.edu.cn/member/index/register.html?siteid=1')
-
-    ele = tab.ele('css=#username')
-    ele.input('leijun123sadsad')
-    ele = tab.ele('css=#nickname')
-    ele.input('雷军')
-    ele = tab.ele('css=#email')
-    ele.input('13423424122@qq.com')
-    ele = tab.ele('css=#password')
-    ele.input('aaa123!')
-    ele = tab.ele('css=#pwdconfirm')
-    ele.input('aaa123!')
-    ele = tab.ele('css=#mobile')
+    url = 'https://gapc.com.cn/register_ps.aspx'
+    phoneele = 'css=' + '#mobile'
+    sendele = 'css=' + '#form1 > div.loginbox.clearfix > div.check_form > div > div:nth-child(11) > div.code'
+    target = '/submit_ajax.ashx'
+    name = '广州心理协会'
+    
+    tab.get(url)
+    ele = tab.ele(phoneele)
     ele.input(phonenum)
-    tab.listen.start(targets='public_send_code.html')  # 开始监听，指定获取包含该文本的数据包
-    ele = tab.ele('css=#code_img')
-    ele.get_screenshot()
-    bytes_str = ele.get_screenshot(as_bytes='png')  # 返回截图二进制文本
-    ocr = ddddocr.DdddOcr(show_ad=False)
-    image = open("img.jpg", "rb").read()
-    ocr.set_ranges(0)
-    result = ocr.classification(image, probability=True)
-    s = ""
-    for i in result['probability']:
-        s += result['charsets'][i.index(max(i))]
-    logger.info(s)
-    ele = tab.ele('css=#code')
-    ele = tab.ele('css=#getCodeBtn')
+    ele = tab.ele(sendele)
+    tab.listen.start(targets=target)
     ele.click()
-
+    
     try:
-        res = tab.listen.wait(timeout=30).response
+        res = tab.listen.wait(timeout=10).response
         res = res.body
-        logger.info(f'----广州心理学会----：{res}')
+        print(f'----{name}{masked_phone}----：{res}')
     except:
-        logger.info('广州心理学会注册失败')
-
-    attemps = 0
-    while res != 1:
-        tab.listen.start(targets='public_send_code.html')  # 开始监听，指定获取包含该文本的数据包
-        ele = tab.ele('css=#code_img')
-        ele.click()
-        time.sleep(1)
-        ele.get_screenshot()
-        bytes_str = ele.get_screenshot(as_bytes='png')  # 返回截图二进制文本
-        ocr = ddddocr.DdddOcr(show_ad=False)
-        image = open("img.jpg", "rb").read()
-        ocr.set_ranges(0)
-        result = ocr.classification(image, probability=True)
-        s = ""
-        for i in result['probability']:
-            s += result['charsets'][i.index(max(i))]
-        logger.info(s)
-        ele = tab.ele('css=#code')
-        ele.clear()
-        ele.input(s)
-        ele = tab.ele('css=#getCodeBtn')
-        ele.click()
-        try:
-            res = tab.listen.wait(timeout=30).response
-            res = res.body
-            logger.info(f'----广州心理学会----：{res}')
-        except:
-            logger.info('广州心理学会注册失败')
-
-        attemps += 1
-        if attemps == 5:
-            logger.info('5次验证失败')
-            break
-    # 文件路径
-    file_path = 'img.jpg'
-    # 删除文件
-    if os.path.exists(file_path):
-        os.remove(file_path)
-    else:
-        pass
+        print(f'{name}注册失败')
+        res = {"statusCode": -1}
     browser.quit()  # 关闭浏览器
 
 
@@ -3773,92 +3741,94 @@ def d10(tab, browser):
 
 
 def e10(tab, browser):
-  def slide(ele,distance):
-      def get_slide_track(distance):
-          """
-          根据滑动距离生成滑动轨迹
-          :param distance: 需要滑动的距离
-          :return: 滑动轨迹<type 'list'>: [[x,y,t], ...]
-              x: 已滑动的横向距离
-              y: 已滑动的纵向距离, 除起点外, 均为0
-              t: 滑动过程消耗的时间, 单位: 毫秒
-          """
-          def __ease_out_expo(sep):
-              if sep == 1:
-                  return 1
-              else:
-                  return 1 - pow(2, -10 * sep)
-          if not isinstance(distance, int) or distance < 0:
-              raise ValueError(f"distance类型必须是大于等于0的整数: distance: {distance}, type: {type(distance)}")
-          # 初始化轨迹列表
-          slide_track = [
-              [random.randint(-50, -10), random.randint(-50, -10), 0],
-              [0, 0, 0],
-          ]
-          # 共记录count次滑块位置信息
-          count = 30 + int(distance / 2)
-          # 初始化滑动时间
-          t = random.randint(50, 100)
-          # 记录上一次滑动的距离
-          _x = 0
-          _y = 0
-          for i in range(count):
-              # 已滑动的横向距离
-              x = round(__ease_out_expo(i / count) * distance)
-              # 滑动过程消耗的时间
-              t += random.randint(10, 20)
-              if x == _x:
-                  continue
-              slide_track.append([x, _y, t])
-              _x = x
-          slide_track.append(slide_track[-1])
-          del slide_track[0]
-          del slide_track[0]
-          return slide_track
-      tab.actions.hold(ele)
-      temp_track = 0
-      temp_time = 0
-      for track in get_slide_track(distance):  # 使鼠标相对当前位置移动若干距离page.actions.move(offset_x=track,
-          now_track = track[0] - temp_track
-          now_time = track[2] - temp_time
-          tab.actions.move(offset_x=now_track, offset_y=0, duration=now_time / 1000)
-          # logger.info("now_track:", now_track)
-          # time.sleep(track[2]/1000)
-          # logger.info("now_time:", now_time / 1000)
-          temp_track = track[0]
-          temp_time = track[2]
-      tab.actions.move(offset_x=5, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
-      tab.actions.move(offset_x=2, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
-      tab.actions.move(offset_x=3, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
-      time.sleep(0.1)
-      tab.actions.move(offset_x=-3, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
-      tab.actions.move(offset_x=-2, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
-      tab.actions.move(offset_x=-5, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
-      time.sleep(0.1)
-      tab.actions.release()
-      # time.sleep(2)
-      # sendele.click()
-  tab.get('https://js.design/login?type=register&by=phone')
-  
-  ele = tab.ele('css=#root > div > div > new-root > div > div > div.main-wrap > div.card-wrap > div > main > div.loginCardForm__3jjSi > div.sc-eIcdZJ.btipml > div.sc-gweoQa.ilXARf.form.form1-show > div > div > div:nth-child(1) > div > div > div > div > input[type=text]')
-  ele.input(phonenum)
-  tab.listen.start(targets='/sms')
-  time.sleep(1)
-  ele = tab.ele('css=#root > div > div > new-root > div > div > div.main-wrap > div.card-wrap > div > main > div.loginCardForm__3jjSi > div.sc-eIcdZJ.btipml > div.sc-gweoQa.ilXARf.form.form1-show > div > div > div.input-item.show-input-item > div > div > span > span')
-  logger.info(ele.text)
-  ele.click(by_js=True)
-  time.sleep(1)
-  buttonele = tab.ele('css=#nc_2_n1z')
-  #sendele = tab.ele('css=#header-index > div:nth-child(3) > div > div.ldr.fl > div > div.m_register > div.register_m_t > div > div > div > div.valid_z.valid_z2.clearfix > div > div.vlid_img.fl > div.huoqu.reg_huoquclub1 > a')
-  slide(buttonele,300)
-  
-  try:
-      res = tab.listen.wait(timeout=10).response
-      res = res.body
-      logger.info(f'----及时设计----：{res}')
-  except:
-      logger.info('及时设计注册失败')
-      res = {'msg': '-1'}
+    def slide(ele,distance):
+        def get_slide_track(distance):
+            """
+            根据滑动距离生成滑动轨迹
+            :param distance: 需要滑动的距离
+            :return: 滑动轨迹<type 'list'>: [[x,y,t], ...]
+                x: 已滑动的横向距离
+                y: 已滑动的纵向距离, 除起点外, 均为0
+                t: 滑动过程消耗的时间, 单位: 毫秒
+            """
+            def __ease_out_expo(sep):
+                if sep == 1:
+                    return 1
+                else:
+                    return 1 - pow(2, -10 * sep)
+            if not isinstance(distance, int) or distance < 0:
+                raise ValueError(f"distance类型必须是大于等于0的整数: distance: {distance}, type: {type(distance)}")
+            # 初始化轨迹列表
+            slide_track = [
+                [random.randint(-50, -10), random.randint(-50, -10), 0],
+                [0, 0, 0],
+            ]
+            # 共记录count次滑块位置信息
+            count = 30 + int(distance / 2)
+            # 初始化滑动时间
+            t = random.randint(50, 100)
+            # 记录上一次滑动的距离
+            _x = 0
+            _y = 0
+            for i in range(count):
+                # 已滑动的横向距离
+                x = round(__ease_out_expo(i / count) * distance)
+                # 滑动过程消耗的时间
+                t += random.randint(10, 20)
+                if x == _x:
+                    continue
+                slide_track.append([x, _y, t])
+                _x = x
+            slide_track.append(slide_track[-1])
+            del slide_track[0]
+            del slide_track[0]
+            return slide_track
+        tab.actions.hold(ele)
+        temp_track = 0
+        temp_time = 0
+        for track in get_slide_track(distance):  # 使鼠标相对当前位置移动若干距离page.actions.move(offset_x=track,
+            now_track = track[0] - temp_track
+            now_time = track[2] - temp_time
+            tab.actions.move(offset_x=now_track, offset_y=0, duration=now_time / 1000)
+            # print("now_track:", now_track)
+            # time.sleep(track[2]/1000)
+            # print("now_time:", now_time / 1000)
+            temp_track = track[0]
+            temp_time = track[2]
+        tab.actions.move(offset_x=5, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
+        tab.actions.move(offset_x=2, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
+        tab.actions.move(offset_x=3, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
+        time.sleep(0.1)
+        tab.actions.move(offset_x=-3, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
+        tab.actions.move(offset_x=-2, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
+        tab.actions.move(offset_x=-5, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
+        time.sleep(0.1)
+        tab.actions.release()
+        # time.sleep(2)
+        # sendele.click()
+    tab.get('https://js.design/login?type=register&by=phone')
+    
+    ele = tab.ele('css=#root > div > div > new-root > div > div > div.main-wrap > div.card-wrap > div > main > div.loginCardForm__3jjSi > div.sc-eIcdZJ.btipml > div.sc-gweoQa.ilXARf.form.form1-show > div > div > div:nth-child(1) > div > div > div > div > input[type=text]')
+    ele.input(phonenum)
+    tab.listen.start(targets='/sms')
+    time.sleep(1)
+    ele = tab.ele('css=#root > div > div > new-root > div > div > div.main-wrap > div.card-wrap > div > main > div.loginCardForm__3jjSi > div.sc-eIcdZJ.btipml > div.sc-gweoQa.ilXARf.form.form1-show > div > div > div.input-item.show-input-item > div > div > span > span')
+    print(ele)
+    ele.click()
+    
+    time.sleep(1)
+    ele.click(by_js=True)
+    buttonele = tab.ele('css=#nc_2_n1z')
+    #sendele = tab.ele('css=#header-index > div:nth-child(3) > div > div.ldr.fl > div > div.m_register > div.register_m_t > div > div > div > div.valid_z.valid_z2.clearfix > div > div.vlid_img.fl > div.huoqu.reg_huoquclub1 > a')
+    slide(buttonele,380)
+    
+    try:
+        res = tab.listen.wait(timeout=10).response
+        res = res.body
+        print(f'----及时设计----：{res}')
+    except:
+        print('及时设计注册失败')
+        res = {'msg': '-1'}
 
 
   browser.quit()  # 关闭浏览器
@@ -4507,30 +4477,32 @@ def h11(tab, browser):
 
 
 def i11(tab, browser):
-  url = 'https://yuewen.cn/chats/new'
-  
-  phoneele = 'css=' + 'body > div.yuewen-modal.mask > div > div.login_main__tilO0 > div.input_container__0yW3j.login_mobileInput__ffFID.input_fill__s005N.input_middle__UGzxk > input'
-  sendele = 'css=' + 'body > div.yuewen-modal.mask > div > div.login_main__tilO0 > div:nth-child(2) > button > span'
-  target = '/SendVerifyCode'
-  name = '阶跃ai'
-  
-  tab.get(url)
-  ele = tab.ele('css=body > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div > span > div > div:nth-child(2) > span')
-  ele.click()
-  ele = tab.ele(phoneele)
-  ele.input(phonenum)
-  ele = tab.ele(sendele)
-  tab.listen.start(targets=target)
-  ele.click()
-  
-  try:
+    url = 'https://yuewen.cn/chats/new'
+    
+    phoneele = 'css=' + 'body > div.yuewen-modal.mask > div > div.login_main__tilO0 > div.input_container__0yW3j.login_mobileInput__ffFID.input_fill__s005N.input_middle__UGzxk > input'
+    sendele = 'css=' + 'body > div.yuewen-modal.mask > div > div.login_main__tilO0 > div:nth-child(2) > button > span'
+    target = '/SendVerifyCode'
+    name = '阶跃ai'
+    
+    tab.get(url)
+    ele = tab.ele('text=请登录')
+    ele.click()
+    # ele = tab.ele('css=body > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div > span > div > div:nth-child(2) > span')
+    # ele.click()
+    ele = tab.ele(phoneele)
+    ele.input(phonenum)
+    ele = tab.ele(sendele)
+    tab.listen.start(targets=target)
+    ele.click()
+    
+    try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      logger.info(f'----{name}{masked_phone}----：{res}')
-  except:
-      logger.info(f'{name}注册失败')
+      print(f'----{name}{masked_phone}----：{res}')
+    except:
+      print(f'{name}注册失败')
       res = {"statusCode": -1}
-  browser.quit()  # 关闭浏览器
+    browser.quit()  # 关闭浏览器
 
 
 def j11(tab, browser):
@@ -4633,7 +4605,7 @@ def a12(tab, browser):
   tab.listen.start(targets='user!sendAuthCodePhone.action?')
   
   buttonele = tab.ele('css=#verify-wrap > span.drag-btn.dragBtn')
-  slide(buttonele,380)
+  slide(buttonele,420)
   time.sleep(3)
   ele = tab.ele('css=#phoneCode')
   ele.click()
@@ -4825,98 +4797,90 @@ def c12(tab, browser):
 
 
 def d12(tab, browser):
-  #0网址
-  url = 'https://www.tjbb.com/user.php?act=register'
-  #1输入手机号#mobile_phone
-  phonee = 'css=' + '#mobile_phone'
-  #2图片验证码elebody.bg-ligtGary > div.register:nth-child(1) > div.container:nth-child(2) > div.w.w1200 > div.register-wrap > div.register-form:nth-child(2) > div.form.form-other > form > div.item:nth-child(2) > div.item-info:nth-child(2) > img.captcha_img.fl
-  imge = 'css=' + 'body.bg-ligtGary > div.register:nth-child(1) > div.container:nth-child(2) > div.w.w1200 > div.register-wrap > div.register-form:nth-child(2) > div.form.form-other > form > div.item:nth-child(2) > div.item-info:nth-child(2) > img.captcha_img.fl'
-  #3验证码输入框ele#captcha
-  inpute = 'css=' + '#captcha'
-  #4发送短信按钮
-  sende = 'css=' + '#zphone'
-  range = 6
-  picname = 'tt.png'
-  #5监听端口
-  target = '=register'
-  #res = {"result": False}
-  #成功res
-  resleft = 'code'
-  resright = 2
-  name = '天天'
-  
-  
-  
-  def char(imgele,inputele,sendele,range,picname):
-      inputele.clear()
-      imgele.click()
-      time.sleep(1)
-      imgele.get_screenshot(name=picname)
-      ocr = ddddocr.DdddOcr(show_ad=False)
-      image = open(picname, "rb").read()
-      ocr.set_ranges(range)
-      result = ocr.classification(image, probability=True)
-      s = ""
-      for i in result['probability']:
-          s += result['charsets'][i.index(max(i))]
-      #logger.info(s)
-      inputele.clear()
-      inputele.input(s)
-      sendele.click(by_js=True)
-  
-  tab.get(url)
-  phoneele = tab.ele(phonee)
-  phoneele.input(phonenum)
-  imgele = tab.ele(imge)
-  inputele = tab.ele(inpute)
-  sendele = tab.ele(sende)
-  tab.listen.start(targets=target)
-  char(imgele,inputele,sendele,range,picname)
-  try:
-      res = tab.listen.wait(timeout=10).response
-      res = res.body
-      logger.info(f'----{name}{masked_phone}----：{res}')
-      try:
-          if res['msg'] == '验证码有误':
-              res[resleft] = False
-      except:
-          pass
-  except:
-      logger.info(f'{name}注册失败')
-      res[resleft] = False
-  
-  
-  attempts = 0
-  
-  while res[resleft] != resright:
-      tab.listen.start(targets=target)  # 开始监听，指定获取包含该文本的数据包
-      time.sleep(2)
-      char(imgele,inputele,sendele,range,picname)
-  
-      try:
-          res = tab.listen.wait(timeout=10).response
-          res = res.body
-          logger.info(f'----{name}{masked_phone}----：{res}')
-          try:
-              if res['msg'] == '验证码有误':
-                  res[resleft] = False
-          except:
-              pass
-      except:
-          logger.info(f'{name}注册失败')
-          res = {"result": False}
-      attempts += 1
-      if attempts == 5:
-          logger.info(f'{name}5次错误')
-          break
-  
-  
-  file_path = picname
-  
-  if os.path.exists(file_path):  # 先检查文件是否存在
-      os.remove(file_path)
-  else:
-      pass
+    #0网址
+    url = 'https://www.tjbb.com/user.php?act=register'
+    #1输入手机号#mobile_phone
+    phonee = 'css=' + '#mobile_phone'
+    #2图片验证码elebody.bg-ligtGary > div.register:nth-child(1) > div.container:nth-child(2) > div.w.w1200 > div.register-wrap > div.register-form:nth-child(2) > div.form.form-other > form > div.item:nth-child(2) > div.item-info:nth-child(2) > img.captcha_img.fl
+    imge = 'css=' + 'body.bg-ligtGary > div.register:nth-child(1) > div.container:nth-child(2) > div.w.w1200 > div.register-wrap > div.register-form:nth-child(2) > div.form.form-other > form > div.item:nth-child(2) > div.item-info:nth-child(2) > img.captcha_img.fl'
+    #3验证码输入框ele#captcha
+    inpute = 'css=' + '#captcha'
+    #4发送短信按钮
+    sende = 'css=' + '#zphone'
+    range = 6
+    picname = 'tt.png'
+    #5监听端口
+    target = '=register'
+    #res = {"result": False}
+    #成功res
+    resleft = 'code'
+    resright = 2
+    name = '天天'
+    
+    
+    
+    def char(imgele,inputele,sendele,range,picname):
+        inputele.clear()
+        imgele.click()
+        time.sleep(1)
+        imgele.get_screenshot(name=picname)
+        ocr = ddddocr.DdddOcr(show_ad=False)
+        image = open(picname, "rb").read()
+        ocr.set_ranges(range)
+        result = ocr.classification(image, probability=True)
+        s = ""
+        for i in result['probability']:
+            s += result['charsets'][i.index(max(i))]
+        #print(s)
+        inputele.clear()
+        inputele.input(s)
+        sendele.click(by_js=True)
+    
+    tab.get(url)
+    phoneele = tab.ele(phonee)
+    phoneele.input(phonenum)
+    imgele = tab.ele(imge)
+    inputele = tab.ele(inpute)
+    sendele = tab.ele(sende)
+    tab.listen.start(targets=target)
+    char(imgele,inputele,sendele,range,picname)
+    try:
+        res = tab.listen.wait(timeout=10).response
+        res = res.body
+        print(f'----{name}{masked_phone}----：{res}')
+        try:
+            if res['msg'] == '验证码有误':
+                res[resleft] = False
+        except:
+            pass
+    except:
+        print(f'{name}注册失败')
+        res[resleft] = False
+    
+    
+    attempts = 0
+    
+    while res[resleft] != resright:
+        tab.listen.start(targets=target)  # 开始监听，指定获取包含该文本的数据包
+        time.sleep(2)
+        char(imgele,inputele,sendele,range,picname)
+    
+        try:
+            res = tab.listen.wait(timeout=10).response
+            res = res.body
+            print(f'----{name}{masked_phone}----：{res}')
+            try:
+                if res['msg'] == '验证码有误':
+                    res[resleft] = False
+            except:
+                pass
+        except:
+            print(f'{name}注册失败')
+            res = {"result": False}
+        attempts += 1
+        if attempts == 5:
+            print(f'{name}5次错误')
+            break
 
   browser.quit()  # 关闭浏览器
 
@@ -5382,6 +5346,263 @@ def j12(tab, browser):
       pass
 
   browser.quit()  # 关闭浏览器
+
+def a13(tab, browser):
+  url = 'https://passport.58.com/reg/'
+  phoneele = 'css=' + '#mask_body_item_phonenum'
+  sendele = 'css=' + '#mask_body_item_getcode'
+  target = '/passport.58.com/58'
+  name = '58同城'
+  
+  tab.get(url)
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+  browser.quit()  # 关闭浏览器
+
+
+def b13(tab, browser):
+  url = 'https://www.bookschina.com/RegUser/Register.aspx'
+  phoneele = 'css=' + '#phone'
+  sendele = 'css=' + '#getPhoneCode'
+  target = '/ashx/RegisterApi.ashx'
+  name = '中图网'
+  
+  tab.get(url)
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele('css=#password')
+  ele.click()
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+
+  browser.quit()  # 关闭浏览器
+
+
+def c13(tab, browser):
+  url = 'https://passport.yougou.com/register.jhtml?redirectURL=https://www.yougou.com/'
+  phoneele = 'css=' + '#reg_mobile_'
+  sendele = 'css=' + '#getMsgSpan'
+  target = '/getMobileCode.jhtml'
+  name = '优购'
+  
+  tab.get(url)
+  ele = tab.ele('css=#layui-layer1 > div.layui-layer-btn.layui-layer-btn-c > a.layui-layer-btn1')
+  ele.click()
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+
+  browser.quit()  # 关闭浏览器
+
+
+def d13(tab, browser):
+  url = 'https://mdkd.pinduoduo.com/login'
+  phoneele = 'css=' + '#root > div > div.login-container > div.login-bottom > div.right > div > div.station-tabs.station-tabs-pure.station-medium.login-tabs > div.station-tabs-content > div > div > form > div:nth-child(1) > div > span > input'
+  sendele = 'css=' + '#root > div > div.login-container > div.login-bottom > div.right > div > div.station-tabs.station-tabs-pure.station-medium.login-tabs > div.station-tabs-content > div > div > form > div:nth-child(1) > div > button'
+  target = 'sendVerifyCode'
+  name = '多多买菜'
+  
+  tab.get(url)
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+
+  browser.quit()  # 关闭浏览器
+
+
+def e13(tab, browser):
+  url = 'https://www.kongfz.com/'
+  phoneele = 'css=' + '#phone'
+  sendele = 'css=' + '#register > ul > li:nth-child(3) > div.input_box > a'
+  target = '/replaceSemiangleByUsername'
+  name = '孔夫子旧书网'
+  
+  tab.get(url)
+  ele = tab.ele('css=#nickName > span:nth-child(3)')
+  ele.click()
+  ele = tab.ele('css=#loginWin > div > div.register-btn')
+  ele.click()
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+
+  browser.quit()  # 关闭浏览器
+
+
+def f13(tab, browser):
+  url = 'https://www.95bd.com/passport-signup.html'
+  phoneele = 'css=' + '#mobile'
+  sendele = 'css=' + '#resend'
+  target = '/passport-sendsmscode.html'
+  name = '酒窝'
+  
+  tab.get(url)
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+
+  browser.quit()  # 关闭浏览器
+
+
+def g13(tab, browser):
+  url = 'https://www.ahm.cn/Account/Login?backUrl=http://www.ahm.cn/'
+  phoneele = 'css=' + '#phonenumber'
+  sendele = 'css=' + '#sendCode'
+  target = 'phone'
+  name = '安徽博物院'
+  
+  tab.get(url)
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+
+
+  browser.quit()  # 关闭浏览器
+
+
+def h13(tab, browser):
+  url = 'https://reg.xcar.com.cn/register.php'
+  phoneele = 'css=' + '#mobile'
+  sendele = 'css=' + '#codePrompt'
+  target = 'https://reg.xcar.com.cn/base/check.php'
+  name = '爱卡'
+  
+  tab.get(url)
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+  browser.quit()  # 关闭浏览器
+
+
+def i13(tab, browser):
+  url = 'https://www.hua.com/Passport/Register/'
+  phoneele = 'css=' + '#phone'
+  sendele = 'css=' + '#getcode'
+  target = '/SendV3'
+  name = '花礼网'
+  
+  tab.get(url)
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+  browser.quit()  # 关闭浏览器
+
+
+def j13(tab, browser):
+  url = 'https://www.meifeiyi.com/'
+  phoneele = 'css=' + '#phone_id'
+  sendele = 'css=' + '#huoqu'
+  target = 'https://www.meifeiyi.com/'
+  name = '美非遗'
+  
+  tab.get(url)
+  ele = tab.ele('css=body > div:nth-child(3) > div.cont_div > div.x_top_kj012.x_fr > ul > li:nth-child(3) > a')
+  ele.click()
+  ele = tab.ele(phoneele)
+  ele.input(phonenum)
+  ele = tab.ele(sendele)
+  tab.listen.start(targets=target)
+  ele.click()
+  
+  try:
+      res = tab.listen.wait(timeout=10).response
+      res = res.body
+      print(f'----{name}{masked_phone}----：{res}')
+  except:
+      print(f'{name}注册失败')
+      res = {"statusCode": -1}
+      res = {"statusCode": -1}
+  browser.quit()  # 关闭浏览器
 def create_browser():
     """创建一个新的浏览器实例"""
     co = ChromiumOptions().auto_port()
@@ -5391,16 +5612,9 @@ def create_browser():
     browser = Chromium(addr_or_opts=co)
     return browser
   
-class BeijingFormatter(logging.Formatter):
-    """ 自定义 Formatter，强制使用北京时间 """
-    def formatTime(self, record, datefmt=None):
-        beijing_tz = pytz.timezone("Asia/Shanghai")
-        dt = datetime.fromtimestamp(record.created, beijing_tz)
-        return dt.strftime(datefmt or "%Y-%m-%d %H:%M:%S")
-
 def setup_logger(log_filename=log_filename, log_level=logging.DEBUG):
     """
-    设置日志记录器，支持输出到控制台和文件，确保中文字符正常显示，时间强制使用北京时间。
+    设置日志记录器，支持输出到控制台和文件，确保中文字符正常显示。
 
     :param log_filename: 日志文件的文件名 (默认 'app.log')
     :param log_level: 日志级别，默认 DEBUG
@@ -5413,16 +5627,16 @@ def setup_logger(log_filename=log_filename, log_level=logging.DEBUG):
     logger = logging.getLogger('my_logger')
     logger.setLevel(log_level)
 
-    # 创建控制台处理器
+    # 创建控制台处理器，显式设置编码为 UTF-8
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(log_level)
 
-    # 创建文件处理器
+    # 创建文件处理器，显式设置编码为 UTF-8
     file_handler = logging.FileHandler(log_filename, encoding='utf-8')
     file_handler.setLevel(log_level)
 
-    # 创建自定义格式器，使用北京时间
-    formatter = BeijingFormatter('%(asctime)s - %(levelname)s - %(message)s')
+    # 创建日志格式器
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
     # 设置格式器
     console_handler.setFormatter(formatter)
@@ -5583,4 +5797,14 @@ if __name__ == '__main__':
     safe_execute(h12)
     safe_execute(i12)
     safe_execute(j12)
+    safe_execute(a13)
+    safe_execute(b13)
+    safe_execute(c13)
+    safe_execute(d13)
+    safe_execute(e13)
+    safe_execute(f13)
+    safe_execute(g13)
+    safe_execute(h13)
+    safe_execute(i13)
+    safe_execute(j13)
     clear()
