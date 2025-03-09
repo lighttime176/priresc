@@ -38,8 +38,10 @@ jobs:
         APP_ID: ${{ secrets.APP_ID }}
         ydyp: ${{ secrets.ydyp }}
     - name: Create logs directory
-      run: mkdir -p logs
-
+      run: |
+        if (!(Test-Path "logs")) {
+          New-Item -ItemType Directory -Path "logs"
+        }
     - name: Collect workflow logs
       run: |
         Get-Content $env:GITHUB_WORKSPACE\abcd\py\3012.log | Out-File -FilePath logs/3012.log -Encoding utf8
