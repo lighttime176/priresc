@@ -3831,7 +3831,7 @@ def e10(tab, browser):
         res = {'msg': '-1'}
 
 
-  browser.quit()  # 关闭浏览器
+    browser.quit()  # 关闭浏览器
 
 
 def f10(tab, browser):
