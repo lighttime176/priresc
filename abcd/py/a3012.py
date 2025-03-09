@@ -12,7 +12,7 @@ import sys
 # masked_phone = phonenum[:3] + '****' + phonenum[-4:]
 phonenum = '19845173012'
 masked_phone = phonenum
-log_filename = 3012.log'
+log_filename = '3012.log'
 
 def aliyun(tab, browser):
     
