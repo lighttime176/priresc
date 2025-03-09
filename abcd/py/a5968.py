@@ -4882,7 +4882,7 @@ def d12(tab, browser):
             print(f'{name}5次错误')
             break
 
-  browser.quit()  # 关闭浏览器
+    browser.quit()  # 关闭浏览器
 
 
 def e12(tab, browser):
