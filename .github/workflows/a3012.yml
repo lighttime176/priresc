@@ -1,13 +1,10 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
 name: a3012
 
 on:
   #schedule:
     # 设置启动时间，为 UTC 时间, UTC23点 对应北京时间早7点
     #- cron : '0 * * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # 允许手动触发
 
 permissions:
   contents: write
@@ -18,35 +15,43 @@ permissions:
 
 jobs:
   build:
-
     runs-on: windows-latest
     env:
       TZ: Asia/Shanghai
+
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
       with:
         python-version: '3.12'
-        cache: 'pip' # caching pip dependencies
-    - run: pip install -r requirements.txt
-    - name: Run python code
-      run: |
-        python abcd/py/a3012.py
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run Python script
+      run: python abcd/py/a3012.py
       env:
         APP_ID: ${{ secrets.APP_ID }}
         ydyp: ${{ secrets.ydyp }}
-    - name: commit files
-      run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-          
-    - name: Push changes
+
+    - name: Configure Git
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "github-actions[bot]"
-        git add .
-        git commit -m "Updated logs"
-        git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/lighttime176/priresc.git
+        git config --local user.name "GitHub Actions Bot"
 
+    - name: Commit changes
+      run: |
+        git add -A
+        git diff --cached --quiet || git commit -m "Updated logs"
+
+    - name: Pull latest changes (rebase)
+      run: |
+        git pull --rebase https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/lighttime176/priresc.git main
+
+    - name: Push changes
+      run: |
+        git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/lighttime176/priresc.git main
