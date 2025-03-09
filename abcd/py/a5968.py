@@ -4,15 +4,16 @@ from DrissionPage import ChromiumOptions
 import os, time,random,base64,logging
 from threading import Thread
 import ddddocr,requests
-import re
+import re,pytz
 import json
 import sys
+from datetime import datetime
 # 全局变量
 # phonenum = os.environ.get("ydyp")
 # masked_phone = phonenum[:3] + '****' + phonenum[-4:]
 phonenum = '13007665968'
 masked_phone = phonenum
-log_filename = '5968.log'
+log_filename = "logs/a5968.log"
 
 def aliyun(tab, browser):
     
@@ -695,27 +696,24 @@ def a4(tab,browser):
 def b4(tab,browser):
     tab.get('https://aihaoji.com/zh?utm_source=pidoutv&utm_medium=referral')
     time.sleep(1)
-    ele = tab.ele(
-        r'css=body > div > div > header.fixed.top-0.z-40.w-full.bg-background > div.flex.h-16.items-center.w-full.px-\[130px\] > div > div > button.Header_buttonStyle__WagzW')
+    ele = tab.ele(r'css=body > div > div > header.fixed.top-0.z-40.w-full.bg-background > div.flex.h-16.items-center.w-full.px-\[130px\] > div > div > button.Header_buttonStyle__WagzW')
     ele.click(by_js=True)
-    ele = tab.ele(
-        r'css=#radix-\:Rb9dsplta\: > div > div.p-6.pt-0.pl-\[44px\].pr-\[44px\] > div > div > div.flex.justify-center.items-center.gap-4.mt-\[23px\] > button:nth-child(1)')
+    ele = tab.ele('text=验证码登录')
     ele.click()
-
+    
     tab.listen.start(targets='https://aihaoji.com/api/v1/user/mobile/send_sms')
-
-    sendele = tab.ele(
-        r'css=#radix-\:Rb9dsplta\: > div > div.p-6.pt-0.pl-\[44px\].pr-\[44px\] > div > form > div:nth-child(2) > div > button')
+    
+    sendele = tab.ele('text=获取验证码')
     ele = sendele.parent().parent().prev().child()
     #logger.info(ele)
     ele.input(phonenum)
     time.sleep(2)
     sendele.click()
-
+    
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        logger.info(f'----AI好记{masked_phone}----：{res}')
+        logger.info(f'----AI好记----：{res}')
     except:
         logger.info('AI好记注册失败')
         res = {"statusCode": -1}
@@ -1143,26 +1141,18 @@ def i5(tab, browser):
 
 def j5(tab, browser):
     tab.get('https://www.wenxiaobai.com/chat/tourist?forceLogin=true&source=pidoutv&ad_source=pidoutv&ref=pidoutv.com')
-
-    ele = tab.ele(
-        'css=body > div > div > div.page_container__6NQmV > div.page_content__nnCnZ > div.page_footer__vzQCA > div.page_login_ctn__jr2WF > div.Button_btn__bJHsP.Button_enable__jckq2.page_login_btn__PsNmh')
-    ele.click()
-
-    ele = tab.ele(
-        'css=body > div.root-system-theme-mode-light.CommonPageContainer_page-container__TXlwM > div > div.rc-dialog-root > div.rc-dialog-wrap > div > div.Modal_modal_container__Wkym7.UserLoginModal_login_modal_container__2tccj > div:nth-child(3) > div > div.UserLoginModal_modal_flex_content__9Y5T4 > div.UserLoginModal_phone_login_wrapper__5m6_4 > div.PhoneCheck_report_modal__EKxWF > div:nth-child(1) > div.TextInput_input_container__V2Wp_ > div > textarea')
-
-    ele.input(phonenum)
-
     tab.listen.start(targets='https://api-bj.wenxiaobai.com/api/v1.0/user/codes')
-    ele = tab.ele(
-        'css=body > div.root-system-theme-mode-light.CommonPageContainer_page-container__TXlwM > div > div.rc-dialog-root > div.rc-dialog-wrap > div > div.Modal_modal_container__Wkym7.UserLoginModal_login_modal_container__2tccj > div:nth-child(3) > div > div.UserLoginModal_modal_flex_content__9Y5T4 > div.UserLoginModal_phone_login_wrapper__5m6_4 > div.PhoneCheck_report_modal__EKxWF > div:nth-child(1) > div.PhoneCheck_code_content__4bQ19 > div > div.PhoneCheck_code_btn__rRU6n > span')
+    sendele = tab.ele('text=获取验证码')
+    ele = sendele.parent().parent().parent().prev().child().child()
+    #logger.info(ele)
+    ele.input(phonenum)
     time.sleep(2)
-    ele.click()
-
+    sendele.click()
+    
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        logger.info(f'----问小白{masked_phone}----：{res}')
+        logger.info(f'----问小白----：{res}')
     except:
         logger.info('问小白注册失败')
         res = {"statusCode": -1}
@@ -1707,7 +1697,7 @@ def a8(tab, browser):
         s = ""
         for i in result['probability']:
             s += result['charsets'][i.index(max(i))]
-        #print(s)
+        #logger.info(s)
         inputele.clear()
         inputele.input(s)
         sendele.click(by_js=True)
@@ -1727,9 +1717,9 @@ def a8(tab, browser):
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        print(f'----{name}{masked_phone}----：{res}')
+        logger.info(f'----{name}{masked_phone}----：{res}')
     except:
-        print(f'{name}注册失败')
+        logger.info(f'{name}注册失败')
         res[resleft] = 11
     
     
@@ -1743,13 +1733,13 @@ def a8(tab, browser):
         try:
             res = tab.listen.wait(timeout=10).response
             res = res.body
-            print(f'----{name}{masked_phone}----：{res}')
+            logger.info(f'----{name}{masked_phone}----：{res}')
         except:
-            print(f'{name}注册失败')
+            logger.info(f'{name}注册失败')
             res[resleft] = 11
         attempts += 1
         if attempts == 5:
-            print(f'{name}5次错误')
+            logger.info(f'{name}5次错误')
             break
     browser.quit()  # 关闭浏览器
 
@@ -1771,9 +1761,9 @@ def b8(tab, browser):
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        print(f'----{name}{masked_phone}----：{res}')
+        logger.info(f'----{name}{masked_phone}----：{res}')
     except:
-        print(f'{name}注册失败')
+        logger.info(f'{name}注册失败')
         res = {"statusCode": -1}
     browser.quit()  # 关闭浏览器
 
@@ -2024,7 +2014,7 @@ def f8(tab, browser):
     s = ""
     for i in result['probability']:
         s += result['charsets'][i.index(max(i))]
-    logger.info(s)
+    #logger.info(s)
     ele = tab.ele('css=#imageCode')
 
     ele.input(s)
@@ -2455,7 +2445,7 @@ def i8(tab, browser):
             return slide_track
 
         distance = result["target"][0] + 12
-        logger.info(distance)
+        #logger.info(distance)
         tab.actions.hold(ele)
         temp_track = 0
         temp_time = 0
@@ -3547,7 +3537,7 @@ def b10(tab, browser):
       s = ""
       for i in result['probability']:
           s += result['charsets'][i.index(max(i))]
-      logger.info(s)
+      #logger.info(s)
       inputele.clear()
       inputele.input(s)
       sendele.click()
@@ -3618,7 +3608,7 @@ def c10(tab, browser):
       s = ""
       for i in result['probability']:
           s += result['charsets'][i.index(max(i))]
-      logger.info(s)
+      #logger.info(s)
       inputele.clear()
       inputele.input(s)
       sendele.click()
@@ -3790,9 +3780,9 @@ def e10(tab, browser):
             now_track = track[0] - temp_track
             now_time = track[2] - temp_time
             tab.actions.move(offset_x=now_track, offset_y=0, duration=now_time / 1000)
-            # print("now_track:", now_track)
+            # logger.info("now_track:", now_track)
             # time.sleep(track[2]/1000)
-            # print("now_time:", now_time / 1000)
+            # logger.info("now_time:", now_time / 1000)
             temp_track = track[0]
             temp_time = track[2]
         tab.actions.move(offset_x=5, offset_y=round(random.uniform(1.0, 3.0), 0), duration=.1)
@@ -3813,7 +3803,7 @@ def e10(tab, browser):
     tab.listen.start(targets='/sms')
     time.sleep(1)
     ele = tab.ele('css=#root > div > div > new-root > div > div > div.main-wrap > div.card-wrap > div > main > div.loginCardForm__3jjSi > div.sc-eIcdZJ.btipml > div.sc-gweoQa.ilXARf.form.form1-show > div > div > div.input-item.show-input-item > div > div > span > span')
-    print(ele)
+    #logger.info(ele)
     ele.click()
     
     time.sleep(1)
@@ -3825,9 +3815,9 @@ def e10(tab, browser):
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        print(f'----及时设计----：{res}')
+        logger.info(f'----及时设计----：{res}')
     except:
-        print('及时设计注册失败')
+        logger.info('及时设计注册失败')
         res = {'msg': '-1'}
 
 
@@ -4027,7 +4017,7 @@ def h10(tab, browser):
       s = ""
       for i in result['probability']:
           s += result['charsets'][i.index(max(i))]
-      logger.info(s)
+      #logger.info(s)
       inputele.clear()
       inputele.input(s)
       sendele.click()
@@ -4498,9 +4488,9 @@ def i11(tab, browser):
     try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
     except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
     browser.quit()  # 关闭浏览器
 
@@ -4831,7 +4821,7 @@ def d12(tab, browser):
         s = ""
         for i in result['probability']:
             s += result['charsets'][i.index(max(i))]
-        #print(s)
+        #logger.info(s)
         inputele.clear()
         inputele.input(s)
         sendele.click(by_js=True)
@@ -4847,14 +4837,14 @@ def d12(tab, browser):
     try:
         res = tab.listen.wait(timeout=10).response
         res = res.body
-        print(f'----{name}{masked_phone}----：{res}')
+        logger.info(f'----{name}{masked_phone}----：{res}')
         try:
             if res['msg'] == '验证码有误':
                 res[resleft] = False
         except:
             pass
     except:
-        print(f'{name}注册失败')
+        logger.info(f'{name}注册失败')
         res[resleft] = False
     
     
@@ -4868,18 +4858,18 @@ def d12(tab, browser):
         try:
             res = tab.listen.wait(timeout=10).response
             res = res.body
-            print(f'----{name}{masked_phone}----：{res}')
+            logger.info(f'----{name}{masked_phone}----：{res}')
             try:
                 if res['msg'] == '验证码有误':
                     res[resleft] = False
             except:
                 pass
         except:
-            print(f'{name}注册失败')
+            logger.info(f'{name}注册失败')
             res = {"result": False}
         attempts += 1
         if attempts == 5:
-            print(f'{name}5次错误')
+            logger.info(f'{name}5次错误')
             break
 
     browser.quit()  # 关闭浏览器
@@ -5364,9 +5354,9 @@ def a13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
   browser.quit()  # 关闭浏览器
 
@@ -5390,9 +5380,9 @@ def b13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
 
   browser.quit()  # 关闭浏览器
@@ -5417,9 +5407,9 @@ def c13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
 
   browser.quit()  # 关闭浏览器
@@ -5442,9 +5432,9 @@ def d13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
 
   browser.quit()  # 关闭浏览器
@@ -5463,6 +5453,7 @@ def e13(tab, browser):
   ele = tab.ele('css=#loginWin > div > div.register-btn')
   ele.click()
   ele = tab.ele(phoneele)
+  ele.click()
   ele.input(phonenum)
   ele = tab.ele(sendele)
   tab.listen.start(targets=target)
@@ -5471,9 +5462,9 @@ def e13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
 
   browser.quit()  # 关闭浏览器
@@ -5496,9 +5487,9 @@ def f13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
 
   browser.quit()  # 关闭浏览器
@@ -5521,9 +5512,9 @@ def g13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
 
 
@@ -5547,9 +5538,9 @@ def h13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
   browser.quit()  # 关闭浏览器
 
@@ -5571,9 +5562,9 @@ def i13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
   browser.quit()  # 关闭浏览器
 
@@ -5597,9 +5588,9 @@ def j13(tab, browser):
   try:
       res = tab.listen.wait(timeout=10).response
       res = res.body
-      print(f'----{name}{masked_phone}----：{res}')
+      logger.info(f'----{name}{masked_phone}----：{res}')
   except:
-      print(f'{name}注册失败')
+      logger.info(f'{name}注册失败')
       res = {"statusCode": -1}
       res = {"statusCode": -1}
   browser.quit()  # 关闭浏览器
@@ -5612,37 +5603,44 @@ def create_browser():
     browser = Chromium(addr_or_opts=co)
     return browser
   
+class BeijingFormatter(logging.Formatter):
+    """ 自定义 Formatter，强制使用北京时间 """
+    def formatTime(self, record, datefmt=None):
+        beijing_tz = pytz.timezone("Asia/Shanghai")
+        dt = datetime.fromtimestamp(record.created, beijing_tz)
+        return dt.strftime(datefmt or "%Y-%m-%d %H:%M:%S")
+
 def setup_logger(log_filename=log_filename, log_level=logging.DEBUG):
     """
-    设置日志记录器，支持输出到控制台和文件，确保中文字符正常显示。
-
-    :param log_filename: 日志文件的文件名 (默认 'app.log')
-    :param log_level: 日志级别，默认 DEBUG
-    :return: logger 对象
+    设置日志记录器，支持输出到控制台和文件，确保中文字符正常显示，时间强制使用北京时间。
     """
-    # 确保 Python 输出到控制台的编码为 UTF-8 (适用于 Python 3.7+)
+    # 确保 logs 目录存在
+    os.makedirs(os.path.dirname(log_filename), exist_ok=True)
+
+    # 重新配置 sys.stdout 确保 UTF-8 支持
     sys.stdout.reconfigure(encoding="utf-8")
-    
-    # 创建自定义 Logger
+
+    # 避免 logger 重复创建多个处理器
     logger = logging.getLogger('my_logger')
+    if logger.hasHandlers():
+        return logger  # 如果已经设置了 handler，直接返回
+
     logger.setLevel(log_level)
 
-    # 创建控制台处理器，显式设置编码为 UTF-8
+    # 创建控制台处理器
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(log_level)
 
-    # 创建文件处理器，显式设置编码为 UTF-8
-    file_handler = logging.FileHandler(log_filename, encoding='utf-8')
+    # 创建文件处理器（追加模式）
+    file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
     file_handler.setLevel(log_level)
 
-    # 创建日志格式器
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-
-    # 设置格式器
+    # 设置日志格式
+    formatter = BeijingFormatter('%(asctime)s - %(levelname)s - %(message)s')
     console_handler.setFormatter(formatter)
     file_handler.setFormatter(formatter)
 
-    # 将处理器添加到 logger
+    # 绑定处理器
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
 
@@ -5678,133 +5676,133 @@ if __name__ == '__main__':
     logger = setup_logger()
     sys.stdout.reconfigure(encoding="utf-8")
     safe_execute(aliyun)
-    # safe_execute(baidu)
-    # safe_execute(fenghuang)
-    # safe_execute(ltyp)
-    # safe_execute(tyyp)
-    # safe_execute(xueqiu)
-    # safe_execute(juliang)
-    # safe_execute(tuxi)
-    # safe_execute(shuidichou)
-    # safe_execute(xhs)
-    # safe_execute(doubao)
-    # safe_execute(kye)
-    # safe_execute(yiche)
-    # safe_execute(ydyp)
-    # safe_execute(nfby)
-    # safe_execute(mita)
-    # safe_execute(kzxy)
-    # safe_execute(juren)
-    # safe_execute(huoshanyq)
-    # safe_execute(webcsdn)
-    # safe_execute(leyuan233)
-    # safe_execute(qyiliao)
-    # safe_execute(lmt)
-    # safe_execute(sd)
-    # safe_execute(sftc)
-    # safe_execute(znz)
-    # safe_execute(yun88)
-    # safe_execute(wjs)
-    # safe_execute(ycy)
-    # safe_execute(wyyyx)
-    # safe_execute(a4)
-    # safe_execute(b4)
-    # safe_execute(c4)
-    # safe_execute(d4)
-    # safe_execute(e4)
-    # safe_execute(f4)
-    # safe_execute(g4)
-    # safe_execute(h4)
-    # safe_execute(i4)
-    # safe_execute(j4)
-    # safe_execute(a5)
-    # safe_execute(b5)
-    # safe_execute(c5)
-    # safe_execute(d5)
-    # safe_execute(e5)
-    # safe_execute(f5)
-    # safe_execute(g5)
-    # safe_execute(h5)
-    # safe_execute(i5)
-    # safe_execute(j5)
-    # safe_execute(a6)
-    # safe_execute(b6)
-    # safe_execute(c6)
-    # safe_execute(d6)
-    # safe_execute(e6)
-    # safe_execute(f6)
-    # safe_execute(g6)
-    # safe_execute(h6)
-    # safe_execute(i6)
-    # safe_execute(j6)
-    # safe_execute(a7)
-    # safe_execute(b7)
-    # safe_execute(c7)
-    # safe_execute(d7)
-    # safe_execute(e7)
-    # safe_execute(f7)
-    # safe_execute(g7)
-    # safe_execute(h7)
-    # safe_execute(i7)
-    # safe_execute(j7)
-    # safe_execute(a8)
-    # safe_execute(b8)
-    # safe_execute(c8)
-    # safe_execute(d8)
-    # safe_execute(e8)
-    # safe_execute(f8)
-    # safe_execute(g8)
-    # safe_execute(h8)
-    # safe_execute(i8)
-    # safe_execute(j8)
-    # safe_execute(a9)
-    # safe_execute(b9)
-    # safe_execute(c9)
-    # safe_execute(d9)
-    # safe_execute(e9)
-    # safe_execute(f9)
-    # safe_execute(g9)
-    # safe_execute(h9)
-    # safe_execute(i9)
-    # safe_execute(j9)
-    # safe_execute(a10)
-    # safe_execute(b10)
-    # safe_execute(c10)
-    # safe_execute(d10)
-    # safe_execute(e10)
-    # safe_execute(f10)
-    # safe_execute(g10)
-    # safe_execute(h10)
-    # safe_execute(i10)
-    # safe_execute(j10)
-    # safe_execute(a11)
-    # safe_execute(b11)
-    # safe_execute(c11)
-    # safe_execute(d11)
-    # safe_execute(e11)
-    # safe_execute(f11)
-    # safe_execute(g11)
-    # safe_execute(h11)
-    # safe_execute(i11)
-    # safe_execute(j11)
-    # safe_execute(a12)
-    # safe_execute(b12)
-    # safe_execute(c12)
-    # safe_execute(d12)
-    # safe_execute(e12)
-    # safe_execute(f12)
-    # safe_execute(g12)
-    # safe_execute(h12)
-    # safe_execute(i12)
-    # safe_execute(j12)
-    # safe_execute(a13)
-    # safe_execute(b13)
-    # safe_execute(c13)
-    # safe_execute(d13)
-    # safe_execute(e13)
-    # safe_execute(f13)
-    # safe_execute(g13)
-    # safe_execute(h13)
-    # safe_execute(i13)
-    # safe_execute(j13)
+    safe_execute(baidu)
+    safe_execute(fenghuang)
+    safe_execute(ltyp)
+    safe_execute(tyyp)
+    safe_execute(xueqiu)
+    safe_execute(juliang)
+    safe_execute(tuxi)
+    safe_execute(shuidichou)
+    safe_execute(xhs)
+    safe_execute(doubao)
+    safe_execute(kye)
+    safe_execute(yiche)
+    safe_execute(ydyp)
+    safe_execute(nfby)
+    safe_execute(mita)
+    safe_execute(kzxy)
+    safe_execute(juren)
+    safe_execute(huoshanyq)
+    safe_execute(webcsdn)
+    safe_execute(leyuan233)
+    safe_execute(qyiliao)
+    safe_execute(lmt)
+    safe_execute(sd)
+    safe_execute(sftc)
+    safe_execute(znz)
+    safe_execute(yun88)
+    safe_execute(wjs)
+    safe_execute(ycy)
+    safe_execute(wyyyx)
+    safe_execute(a4)
+    safe_execute(b4)
+    safe_execute(c4)
+    safe_execute(d4)
+    safe_execute(e4)
+    safe_execute(f4)
+    safe_execute(g4)
+    safe_execute(h4)
+    safe_execute(i4)
+    safe_execute(j4)
+    safe_execute(a5)
+    safe_execute(b5)
+    safe_execute(c5)
+    safe_execute(d5)
+    safe_execute(e5)
+    safe_execute(f5)
+    safe_execute(g5)
+    safe_execute(h5)
+    safe_execute(i5)
+    safe_execute(j5)
+    safe_execute(a6)
+    safe_execute(b6)
+    safe_execute(c6)
+    safe_execute(d6)
+    safe_execute(e6)
+    safe_execute(f6)
+    safe_execute(g6)
+    safe_execute(h6)
+    safe_execute(i6)
+    safe_execute(j6)
+    safe_execute(a7)
+    safe_execute(b7)
+    safe_execute(c7)
+    safe_execute(d7)
+    safe_execute(e7)
+    safe_execute(f7)
+    safe_execute(g7)
+    safe_execute(h7)
+    safe_execute(i7)
+    safe_execute(j7)
+    safe_execute(a8)
+    safe_execute(b8)
+    safe_execute(c8)
+    safe_execute(d8)
+    safe_execute(e8)
+    safe_execute(f8)
+    safe_execute(g8)
+    safe_execute(h8)
+    safe_execute(i8)
+    safe_execute(j8)
+    safe_execute(a9)
+    safe_execute(b9)
+    safe_execute(c9)
+    safe_execute(d9)
+    safe_execute(e9)
+    safe_execute(f9)
+    safe_execute(g9)
+    safe_execute(h9)
+    safe_execute(i9)
+    safe_execute(j9)
+    safe_execute(a10)
+    safe_execute(b10)
+    safe_execute(c10)
+    safe_execute(d10)
+    safe_execute(e10)
+    safe_execute(f10)
+    safe_execute(g10)
+    safe_execute(h10)
+    safe_execute(i10)
+    safe_execute(j10)
+    safe_execute(a11)
+    safe_execute(b11)
+    safe_execute(c11)
+    safe_execute(d11)
+    safe_execute(e11)
+    safe_execute(f11)
+    safe_execute(g11)
+    safe_execute(h11)
+    safe_execute(i11)
+    safe_execute(j11)
+    safe_execute(a12)
+    safe_execute(b12)
+    safe_execute(c12)
+    safe_execute(d12)
+    safe_execute(e12)
+    safe_execute(f12)
+    safe_execute(g12)
+    safe_execute(h12)
+    safe_execute(i12)
+    safe_execute(j12)
+    safe_execute(a13)
+    safe_execute(b13)
+    safe_execute(c13)
+    safe_execute(d13)
+    safe_execute(e13)
+    safe_execute(f13)
+    safe_execute(g13)
+    safe_execute(h13)
+    safe_execute(i13)
+    safe_execute(j13)
     clear()
