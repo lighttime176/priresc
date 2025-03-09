@@ -29,22 +29,29 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Run Python script
-      run: python abcd/py/a3012.py
-      env:
-        APP_ID: ${{ secrets.APP_ID }}
-        ydyp: ${{ secrets.ydyp }}
-
     - name: Create logs directory
       run: |
         if (!(Test-Path "logs")) {
           New-Item -ItemType Directory -Path "logs"
         }
 
-    - name: Collect workflow logs
+    - name: Run Python script
+      run: python abcd/py/a3012.py
+      env:
+        APP_ID: ${{ secrets.APP_ID }}
+        ydyp: ${{ secrets.ydyp }}
+
+    - name: Wait for log file
+      run: Start-Sleep -Seconds 5
+
+    - name: Debug logs
       run: |
-        Get-Content $env:GITHUB_WORKSPACE\abcd\py\a3012.log | Out-File -FilePath logs/a3012.log -Encoding utf8
-      continue-on-error: true  # 避免日志文件不存在时出错
+        Get-ChildItem -Path logs -Recurse
+        if (Test-Path logs/a3012.log) {
+          Get-Content logs/a3012.log
+        } else {
+          echo "Log file not found."
+        }
 
     - name: Upload logs as artifact (optional)
       uses: actions/upload-artifact@v4
@@ -59,4 +66,4 @@ jobs:
         git add logs/a3012.log
         git commit -m "Save workflow logs"
         git push
-      continue-on-error: true  # 避免 push 失败时报错
+      continue-on-error: true
