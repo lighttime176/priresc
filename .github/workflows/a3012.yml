@@ -1,7 +1,13 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
 name: a3012
 
 on:
-  workflow_dispatch:  # 允许手动触发
+  #schedule:
+    # 设置启动时间，为 UTC 时间, UTC23点 对应北京时间早7点
+    #- cron : '0 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,76 +18,34 @@ permissions:
 
 jobs:
   build:
+
     runs-on: windows-latest
     env:
       TZ: Asia/Shanghai
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Setup Python
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: '3.12'
-        cache: 'pip'
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: Create logs directory
+        cache: 'pip' # caching pip dependencies
+    - run: pip install -r requirements.txt
+    - name: Run python code
       run: |
-        if (!(Test-Path "logs")) {
-          New-Item -ItemType Directory -Path "logs"
-        }
-
-    - name: Run Python script
-      run: python abcd/py/a3012.py
+        python abcd/py/a3012.py
       env:
         APP_ID: ${{ secrets.APP_ID }}
         ydyp: ${{ secrets.ydyp }}
-
-    - name: Wait for log file
-      run: Start-Sleep -Seconds 5
-
-    - name: Debug logs
+    - name: commit files
       run: |
-        Get-ChildItem -Path logs -Recurse
-        if (Test-Path logs/a3012.log) {
-          Get-Content logs/a3012.log
-        } else {
-          echo "Log file not found."
-        }
-
-    - name: Upload logs as artifact (optional)
-      uses: actions/upload-artifact@v4
-      with:
-        name: logs
-        path: logs/a3012.log
-
-    - name: Commit and push logs
-      shell: pwsh
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+          
+    - name: push changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-    
-        git pull --rebase origin main || git reset --hard origin/main
-        git add logs/
-        git commit -m "Save workflow logs" || echo "No changes to commit"
-    
-        # PowerShell 版本的重试逻辑
-        $maxRetries = 3
-        $count = 0
-        while ($count -lt $maxRetries) {
-            try {
-                git push origin main
-                break
-            } catch {
-                $count++
-                Write-Host "Push failed, retrying in 10 seconds... (Attempt $count)"
-                Start-Sleep -Seconds 10
-            }
-        }
-      continue-on-error: true
-
-
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff-index --quiet HEAD || git commit -a -m "updated logs" --allow-empty
+        git push --force origin main  # **强制推送**
