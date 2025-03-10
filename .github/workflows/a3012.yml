@@ -59,11 +59,18 @@ jobs:
         name: logs
         path: logs/a3012.log
 
-    - name: Commit and push logs to repo
+    - name: Commit and push logs
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add logs/a3012.log
-        git commit -m "Save workflow logs"
-        git push
+    
+        git pull --rebase origin main || git reset --hard origin/main
+        git add logs/
+        git commit -m "Save workflow logs" || echo "No changes to commit"
+    
+        # 允许最多 3 次尝试推送
+        for i in {1..3}; do
+          git push origin main && break || sleep 10
+        done
       continue-on-error: true
+
