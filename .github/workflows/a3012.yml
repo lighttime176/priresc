@@ -60,6 +60,7 @@ jobs:
         path: logs/a3012.log
 
     - name: Commit and push logs
+      shell: pwsh
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -68,9 +69,19 @@ jobs:
         git add logs/
         git commit -m "Save workflow logs" || echo "No changes to commit"
     
-        # 允许最多 3 次尝试推送
-        for i in {1..3}; do
-          git push origin main && break || sleep 10
-        done
+        # PowerShell 版本的重试逻辑
+        $maxRetries = 3
+        $count = 0
+        while ($count -lt $maxRetries) {
+            try {
+                git push origin main
+                break
+            } catch {
+                $count++
+                Write-Host "Push failed, retrying in 10 seconds... (Attempt $count)"
+                Start-Sleep -Seconds 10
+            }
+        }
       continue-on-error: true
+
 
